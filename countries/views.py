@@ -4,10 +4,9 @@ from countries.queries.remote import get_list_of_countries, filter_list_of_count
 
 
 def index(request):
-    countries = get_list_of_countries()
-    return render(request, 'index.html', {'countries': countries})
+    return render(request, 'index.html')
 
 
 def search(request, keyword):
     countries = filter_list_of_countries(keyword)
-    return render(request, 'index.html', {'countries': countries})
+    return render(request, 'search.html', {'countries': countries})

@@ -11,5 +11,15 @@
                 <input id="search" class="form-control"  type="search" name="search" placeholder="Nama Negara">
             </form>
         </div>
+        <div>
+            <h2>Hasil Pencarian</h2>
+            <div>
+                {% for country in countries %}
+                    <ul>
+                        <li>{{ country }}</li>
+                    </ul>
+                {% endfor %}
+            </div>
+        </div>
     </div>
 {% endblock %}
