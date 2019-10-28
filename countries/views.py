@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from countries.queries.remote import get_list_of_countries, filter_list_of_countries
+from countries.queries.remote import filter_list_of_countries
 
 
 def index(request):
