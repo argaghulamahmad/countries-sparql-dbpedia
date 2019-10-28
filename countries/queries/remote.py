@@ -21,10 +21,10 @@ def get_list_of_countries():
         ORDER BY ASC(?country_name)
     """)
     sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
+    results = sparql.query().convert()["results"]["bindings"]
 
     list_of_countries = []
-    for result in results["results"]["bindings"]:
-        list_of_countries.append(result["country"]["value"])
+    for result in results:
+        list_of_countries.append(result['country_name']['value'])
 
     return list_of_countries
