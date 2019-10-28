@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Countries</title>
-</head>
-<body>
-<div>
+{% extends "base/base.html" %}
+
+{% block content %}
     {% for country in countries %}
         <p>{{ country }}</p>
     {% endfor %}
-</div>
-</body>
-</html>
+{% endblock %}

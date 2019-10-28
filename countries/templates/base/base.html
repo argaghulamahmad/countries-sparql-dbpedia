@@ -1,0 +1,53 @@
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {# variabel title custom untuk setiap app, usahakan return dari fungsi index #}
+    <title>
+        {% block title %} {{ title }}{% endblock %}
+    </title>
+    {# meta tags #}
+    <meta name="Description" content="E Canteen - Tugas Akhir RPL Kelompok C1 Tahun 2018">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {# stylesheets #}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    {# tambahin disini stylesheet per app #}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}"/>
+    {# import required links #}
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type='text/css'>
+    <link rel="shortcut icon" type="image/ico" href="/countries/static/img/logo/ecanteen.ico"/>
+
+</head>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<header>
+    {% include "partials/navbar.html" %}
+</header>
+<body>
+<div class="container-fluid">
+    {% block content %}
+        <!-- content goes here -->
+    {% endblock %}
+</div>
+</body>
+<footer>
+    {% block footer %}
+        {% include "partials/footer.html" %}
+    {% endblock %}
+</footer>
+<script type="application/javascript">
+    {# jika ingin nambahin script js yang bekerja secara global, silahkan letakkan disini kodenya #}
+</script>
