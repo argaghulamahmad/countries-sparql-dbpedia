@@ -24,7 +24,7 @@ SECRET_KEY = '3q^c%sj15bw=du7%+c9or_whne=k=vs5u@h$4e(s%rwd8y(16f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '111.222.333.444', 'web4betterworld.herokuapp.com']
 
 # Application definition
 

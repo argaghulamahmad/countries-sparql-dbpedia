@@ -1,5 +1,6 @@
 Click==7.0
 Django==2.2.6
+gunicorn==19.9.0
 isodate==0.6.0
 itsdangerous==1.1.0
 MarkupSafe==1.1.1
@@ -11,3 +12,4 @@ SPARQLWrapper==1.8.4
 sqlparse==0.3.0
 urllib3==1.25.6
 Werkzeug==0.16.0
+whitenoise==4.1.4
