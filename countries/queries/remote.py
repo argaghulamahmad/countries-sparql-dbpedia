@@ -6,13 +6,19 @@ def get_list_of_countries():
     sparql.setQuery("""
         PREFIX dbo: <http://dbpedia.org/ontology/>
         PREFIX dbr: <http://dbpedia.org/resource/>
-
-        SELECT ?country ?capital
+        
+        SELECT distinct ?country_name ?country_capital
         WHERE {
          ?country a dbo:Country.
+         ?country rdfs:label ?country_name.
          ?country dbo:capital ?capital.
-         FILTER NOT EXISTS { ?country dbo:dissolutionYear ?yearEnd }
+         ?capital rdfs:label ?country_capital.
+         FILTER NOT EXISTS { ?country dbo:dissolutionYear ?yearEnd }.
+         FILTER (langMatches(lang(?country_name), "EN")).
+         FILTER (langMatches(lang(?country_capital), "EN")).
+         FILTER (regex(?country_name, "indonesia", "i" )).
         }
+        ORDER BY ASC(?country_name)
     """)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
