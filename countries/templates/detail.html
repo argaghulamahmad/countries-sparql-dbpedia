@@ -2,35 +2,66 @@
 
 {% block content %}
     <div class="container">
-        <div class="container">
-            <h1>{{ country_info.0.0 }}</h1>
-            <p>{{ country_info.2.0 }}</p>
+        <div class="container" id="summary-container">
+            <div class="card text-center">
+                <div class="card-header">
+                    Summary
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        {{ country_info.0.0 }}</h5>
+                    <p class="card-text">{{ country_info.2.0 }}</p>
+                </div>
+            </div>
         </div>
-        <div class="container">
-            <div>
-                <h2>Languages</h2>
-                <ul>
-                    {% for lang in country_info.3 %}
-                        <li>{{ lang }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <div>
-                <h2>Capital</h2>
-                <ul>
-                    {% for capital in country_info.1 %}
-                        <li>{{ capital }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <div>
-                <h2>Currency</h2>
-                <ul>
-                    {% for currency in country_info.4 %}
-                        <li>{{ currency }}</li>
-                    {% endfor %}
-                </ul>
+        <div class="container" id="info1-container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Languages</h5>
+                            <p class="card-text">Languages that use in this country.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            {% for lang in country_info.3 %}
+                                <li class="list-group-item">{{ lang }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Capitals</h5>
+                            <p class="card-text">Capitals of this country.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            {% for capital in country_info.1 %}
+                                <li class="list-group-item">{{ capital }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Currencies</h5>
+                            <p class="card-text">CapiCurrencies that use in this country.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            {% for currency in country_info.4 %}
+                                <li class="list-group-item">{{ currency }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <style>
+        div#summary-container, div#info1-container {
+            padding: 2%
+        }
+    </style>
 {% endblock %}
