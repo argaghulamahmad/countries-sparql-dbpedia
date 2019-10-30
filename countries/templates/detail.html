@@ -3,38 +3,34 @@
 {% block content %}
     <div class="container">
         <div class="container">
-            <h1>Indonesia</h1>
-            <p>Indonesia (/ˌɪndəˈniːʒə/ IN-də-NEE-zhə or /ˌɪndoʊˈniːziə/ IN-doh-NEE-zee-ə; Indonesian: [ɪndonesia]),
-                officially the Republic of Indonesia (Indonesian: Republik Indonesia [rɛpublik ɪndonesia]), is a
-                sovereign
-                transcontinental country located mainly in Southeast Asia with some territories in Oceania. Situated
-                between
-                the Indian and Pacific oceans, it is the world's largest island country, with more than thirteen
-                thousand
-                islands. It has an estimated population of over 260 million people (September 2016) and is the world's
-                fourth most populous country, the most populous Austronesian nation, as well as the most populous
-                Muslim-majority country. The world's most populous island of Java contains more than half of the
-                country's
-                population.
-            </p>
+            <h1>{{ country_info.0.0 }}</h1>
+            <p>{{ country_info.2.0 }}</p>
         </div>
         <div class="container">
-            <table class="table">
-                <tbody>
-                <tr>
-                    <td>Official Language</td>
-                    <td>Indonesian</td>
-                </tr>
-                <tr>
-                    <td>Capital</td>
-                    <td>Jakarta</td>
-                </tr>
-                <tr>
-                    <td>Dialing Code</td>
-                    <td>+62</td>
-                </tr>
-                </tbody>
-            </table>
+            <div>
+                <h2>Official Language</h2>
+                <ul>
+                    {% for lang in country_info.3 %}
+                        <li>{{ lang }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div>
+                <h2>Capital</h2>
+                <ul>
+                    {% for capital in country_info.1 %}
+                        <li>{{ capital }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div>
+                <h2>Currency</h2>
+                <ul>
+                    {% for currency in country_info.4 %}
+                        <li>{{ currency }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 {% endblock %}
