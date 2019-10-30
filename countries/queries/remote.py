@@ -46,3 +46,31 @@ def filter_list_of_countries(keyword):
         list_of_countries.append(result['country_name']['value'])
 
     return list_of_countries
+
+
+def information_of_a_country(keyword):
+    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+    sparql.setQuery(
+        "\n"
+        "        PREFIX dbo: <http://dbpedia.org/ontology/>\n"
+        "        PREFIX dbr: <http://dbpedia.org/resource/>\n"
+        "        \n"
+        "        SELECT distinct ?country_name ?country_capital ?country_abstract\n"
+        "        WHERE {\n"
+        "         ?country a dbo:Country.\n"
+        "         ?country rdfs:label ?country_name.\n"
+        "         ?country dbo:capital ?capital.\n"
+        "         ?capital rdfs:label ?country_capital.\n"
+        "         ?capital dbo:abstract ?country_abstract.\n"
+        "         FILTER NOT EXISTS { ?country dbo:dissolutionYear ?yearEnd }.\n"
+        "         FILTER (langMatches(lang(?country_name), \"EN\")).\n"
+        "         FILTER (langMatches(lang(?country_capital), \"EN\")).\n"
+        "         FILTER (langMatches(lang(?country_abstract), \"EN\")).\n"
+        "         FILTER (regex(?country_name, \"" + keyword + "\", \"i\")).\n"
+                                                               "        }\n"
+                                                               "        ORDER BY ASC(?country_name)\n"
+                                                               "        "
+    )
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()["results"]["bindings"]
+    return results

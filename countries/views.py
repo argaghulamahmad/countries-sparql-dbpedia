@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from countries.queries.remote import filter_list_of_countries
+from countries.queries.remote import filter_list_of_countries, information_of_a_country
 
 
 def index(request):
@@ -13,4 +13,5 @@ def search(request, keyword):
 
 
 def detail(request, keyword):
-    return render(request, 'detail.html', {'name': keyword})
+    country_info = information_of_a_country(keyword)
+    return render(request, 'detail.html', {'country_info': country_info})
