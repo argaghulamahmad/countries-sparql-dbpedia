@@ -61,7 +61,7 @@ def information_of_a_country(keyword):
         "         ?country rdfs:label ?country_name.\n"
         "         ?country dbo:capital ?capital.\n"
         "         ?capital rdfs:label ?country_capital.\n"
-        "         ?capital dbo:abstract ?country_abstract.\n"
+        "         ?country dbo:abstract ?country_abstract.\n"
         "         FILTER NOT EXISTS { ?country dbo:dissolutionYear ?yearEnd }.\n"
         "         FILTER (langMatches(lang(?country_name), \"EN\")).\n"
         "         FILTER (langMatches(lang(?country_capital), \"EN\")).\n"

@@ -14,4 +14,5 @@ def search(request, keyword):
 
 def detail(request, keyword):
     country_info = information_of_a_country(keyword)
+    print(country_info)
     return render(request, 'detail.html', {'country_info': country_info})

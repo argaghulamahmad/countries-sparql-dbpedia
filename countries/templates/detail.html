@@ -4,8 +4,8 @@
     <div class="container">
     {% for info in country_info %}
         <h1>{{ info.country_name.value }}</h1>
-        <h1>{{ info.country_capital.value }}</h1>
-        <h1>{{ info.country_abstract.value }}</h1>
+        <h2>{{ info.country_capital.value }}</h2>
+        <p>{{ info.country_abstract.value }}</p>
     {% endfor %}
     </div>
 {% endblock %}
