@@ -9,16 +9,20 @@
         <div id="searchbox">
             <h1 id="brand">Countries</h1>
             <form onsubmit="window.location = '/' + search.value; return false;">
-                <input id="search" class="form-control" type="search" name="search" placeholder="Nama Negara">
+                <input id="search" class="form-control" type="search" name="search" placeholder="Name of Country">
             </form>
         </div>
         <div id="resultbox">
             <div>
-                {% for country in countries %}
-                    <ul>
-                        <li><a href="/detail/{{ country }}">{{ country }}</a></li>
-                    </ul>
-                {% endfor %}
+                <table class="table">
+                    <tbody>
+                    {% for country in countries %}
+                        <tr>
+                            <td><a href="/detail/{{ country }}">{{ country }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
