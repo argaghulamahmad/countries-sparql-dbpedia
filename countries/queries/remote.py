@@ -30,11 +30,21 @@ def get_list_of_countries():
 def filter_list_of_countries(keyword):
     sparql = SPARQLWrapper("http://dbpedia.org/sparql")
     sparql.setQuery(
-        "PREFIX dbo: <http://dbpedia.org/ontology/>PREFIX dbr: <http://dbpedia.org/resource/>SELECT distinct "
-        "?country_name ?country_capitalWHERE {?country a dbo:Country.?country rdfs:label ?country_name.?country "
-        "dbo:capital ?capital.?capital rdfs:label ?country_capital.FILTER NOT EXISTS { ?country dbo:dissolutionYear "
-        "?yearEnd }.FILTER (langMatches(lang(?country_name), \"EN\")).FILTER (langMatches(lang(?country_capital), "
-        "\"EN\")).FILTER (regex(?country_name, \"" + keyword + "\", \"i\" )).}ORDER BY ASC(?country_name) "
+        "\n"
+        "            PREFIX dbo: <http://dbpedia.org/ontology/>\n"
+        "            PREFIX dbr: <http://dbpedia.org/resource/>\n"
+        "            SELECT distinct ?country_name\n"
+        "            WHERE {\n"
+        "                ?country a dbo:Country.\n"
+        "                ?country rdfs:label ?country_name.\n"
+        "                FILTER NOT EXISTS {\n"
+        "                    ?country dbo:dissolutionYear ?yearEnd\n"
+        "                }.\n"
+        "                FILTER (langMatches(lang(?country_name), \"EN\")).\n"
+        "                FILTER (regex(?country_name, \"" + keyword + "\", \"i\" )).\n"
+        "            }\n"
+        "            ORDER BY ASC(?country_name)\n"
+        "        "
     )
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()["results"]["bindings"]
