@@ -2,14 +2,23 @@
 
 {% block content %}
     <div class="container">
-        <h1>Countries</h1>
-        <div>
-            <h2>
-                Cari
-            </h2>
+        <h1 id="brand">Countries</h1>
+        <div id="searchbox">
             <form onsubmit="window.location = '/' + search.value; return false;">
-                <input id="search" class="form-control"  type="search" name="search" placeholder="Nama Negara">
+                <input id="search" class="form-control" type="search" name="search" placeholder="Nama Negara">
             </form>
         </div>
     </div>
+
+    <style>
+        h1#brand {
+            margin: 10% 10% 5% 10%;
+            text-align: center;
+            font-size: 72px;
+        }
+
+        input#search {
+            font-size: 1.5rem;
+        }
+    </style>
 {% endblock %}
