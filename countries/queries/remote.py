@@ -36,15 +36,16 @@ def filter_list_of_countries(keyword):
         "            SELECT distinct ?country_name\n"
         "            WHERE {\n"
         "                ?country a dbo:Country.\n"
+        "                ?country dbo:capital ?capital.\n"
         "                ?country rdfs:label ?country_name.\n"
         "                FILTER NOT EXISTS {\n"
         "                    ?country dbo:dissolutionYear ?yearEnd\n"
         "                }.\n"
         "                FILTER (langMatches(lang(?country_name), \"EN\")).\n"
         "                FILTER (regex(?country_name, \"" + keyword + "\", \"i\" )).\n"
-        "            }\n"
-        "            ORDER BY ASC(?country_name)\n"
-        "        "
+                                                                      "            }\n"
+                                                                      "            ORDER BY ASC(?country_name)\n"
+                                                                      "        "
     )
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()["results"]["bindings"]
