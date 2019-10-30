@@ -8,7 +8,7 @@
                 Cari
             </h2>
             <form onsubmit="window.location = '/' + search.value; return false;">
-                <input id="search" class="form-control"  type="search" name="search" placeholder="Nama Negara">
+                <input id="search" class="form-control" type="search" name="search" placeholder="Nama Negara">
             </form>
         </div>
         <div>
@@ -16,7 +16,7 @@
             <div>
                 {% for country in countries %}
                     <ul>
-                        <li>{{ country }}</li>
+                        <li><a href="/detail/{{ country }}">{{ country }}</a></li>
                     </ul>
                 {% endfor %}
             </div>

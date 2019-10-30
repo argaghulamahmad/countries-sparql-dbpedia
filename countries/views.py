@@ -10,3 +10,7 @@ def index(request):
 def search(request, keyword):
     countries = filter_list_of_countries(keyword)
     return render(request, 'search.html', {'countries': countries})
+
+
+def detail(request, keyword):
+    return render(request, 'detail.html', {'name': keyword})
