@@ -29,7 +29,6 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', '111.222.333.444', 'web4betterworld.h
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -117,6 +116,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     'countries/static'
 ]
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+)
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
