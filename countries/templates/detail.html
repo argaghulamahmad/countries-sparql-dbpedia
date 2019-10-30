@@ -2,10 +2,39 @@
 
 {% block content %}
     <div class="container">
-    {% for info in country_info %}
-        <h1>{{ info.country_name.value }}</h1>
-        <h2>{{ info.country_capital.value }}</h2>
-        <p>{{ info.country_abstract.value }}</p>
-    {% endfor %}
+        <div class="container">
+            <h1>Indonesia</h1>
+            <p>Indonesia (/ˌɪndəˈniːʒə/ IN-də-NEE-zhə or /ˌɪndoʊˈniːziə/ IN-doh-NEE-zee-ə; Indonesian: [ɪndonesia]),
+                officially the Republic of Indonesia (Indonesian: Republik Indonesia [rɛpublik ɪndonesia]), is a
+                sovereign
+                transcontinental country located mainly in Southeast Asia with some territories in Oceania. Situated
+                between
+                the Indian and Pacific oceans, it is the world's largest island country, with more than thirteen
+                thousand
+                islands. It has an estimated population of over 260 million people (September 2016) and is the world's
+                fourth most populous country, the most populous Austronesian nation, as well as the most populous
+                Muslim-majority country. The world's most populous island of Java contains more than half of the
+                country's
+                population.
+            </p>
+        </div>
+        <div class="container">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td>Official Language</td>
+                    <td>Indonesian</td>
+                </tr>
+                <tr>
+                    <td>Capital</td>
+                    <td>Jakarta</td>
+                </tr>
+                <tr>
+                    <td>Dialing Code</td>
+                    <td>+62</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 {% endblock %}
