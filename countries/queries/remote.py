@@ -1,5 +1,6 @@
+import rdflib
+import rdfextras
 from SPARQLWrapper import SPARQLWrapper, JSON
-
 
 def get_list_of_countries():
     sparql = SPARQLWrapper("http://dbpedia.org/sparql")
@@ -104,5 +105,30 @@ def information_of_a_country(keyword):
 
     country_info = [list(country_name), list(country_capital), list(country_abstract), list(country_language),
                     list(country_currency)]
-    print(country_info)
+
+    # print(country_info)
+    check_local_store(keyword)
+
+    # TODO: combine data here
     return country_info
+
+def check_local_store(keyword):
+    filename = "local-schema.ttl"
+    rdfextras.registerplugins()
+
+    local_graph = rdflib.Graph()
+    local_graph.parse(filename, format='n3')
+
+    # TODO: Handle regex query
+    results = local_graph.query("""
+        SELECT ?p ?o
+        WHERE {
+        ?%s ?p ?o.
+        }
+        """ % keyword)
+
+    # How to get results data
+    # for row in results:
+    #     print(row[0]) # ?p
+    #     print(row[1]) # ?o
+    return results
