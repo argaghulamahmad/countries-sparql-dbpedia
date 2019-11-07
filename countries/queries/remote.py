@@ -103,16 +103,21 @@ def information_of_a_country(keyword):
         country_language.add(country["country_language"]["value"])
         country_currency.add(country["country_currency"]["value"])
 
+    local_dict = check_local_store(keyword)
+    # converts data from local store to list of tuples
+    local_tuples = list(local_dict.items())
+
     country_info = [list(country_name), list(country_capital), list(country_abstract), list(country_language),
                     list(country_currency)]
 
-    # print(country_info)
-    check_local_store(keyword)
+    # append data from local store to country_info
+    country_info.append(local_tuples)
+    print(country_info)
 
-    # TODO: combine data here
     return country_info
 
 def check_local_store(keyword):
+    keyword2 = "dbr:" + keyword.replace(" ", "_")
     filename = "local-schema.ttl"
     rdfextras.registerplugins()
 
@@ -123,12 +128,10 @@ def check_local_store(keyword):
     results = local_graph.query("""
         SELECT ?p ?o
         WHERE {
-        ?%s ?p ?o.
+        %s ?p ?o.
         }
-        """ % keyword)
+        """ % keyword2)
 
     # How to get results data
-    # for row in results:
-    #     print(row[0]) # ?p
-    #     print(row[1]) # ?o
-    return results
+    local_dict = {str(k[len('http://example.org/data/'):]):str(v) for k,v in results}
+    return local_dict
