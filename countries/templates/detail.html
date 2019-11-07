@@ -21,7 +21,7 @@
         <div class="container" id="info1-container">
             <div class="row">
                 <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem; margin-top: 2rem;">
                         <div class="card-body text-white bg-info">
                             <h5 class="card-title">Languages</h5>
                             <p class="card-text">Languages that use in this country.</p>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem; margin-top: 2rem;">
                         <div class="card-body text-white bg-info">
                             <h5 class="card-title">Capitals</h5>
                             <p class="card-text">Capitals of this country.</p>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem; margin-top: 2rem;">
                         <div class="card-body text-white bg-info">
                             <h5 class="card-title">Currencies</h5>
                             <p class="card-text">Currencies that use in this country.</p>
@@ -59,6 +59,21 @@
                         </ul>
                     </div>
                 </div>
+                {% if country_info.5 %}
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem; margin-top: 2rem;">
+                            <div class="card-body text-white bg-info">
+                                <h5 class="card-title">Statistics detail</h5>
+                                <p class="card-text">Additional details about this country.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                {% for property, value in country_info.5 %}
+                                    <li class="list-group-item"><strong>{{ property }}:</strong> {{value|urlize}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
