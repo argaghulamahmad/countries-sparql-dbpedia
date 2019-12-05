@@ -80,7 +80,7 @@ def information_of_a_country(keyword):
         "        PREFIX dbo: <http://dbpedia.org/ontology/>\n"
         "        PREFIX dbr: <http://dbpedia.org/resource/>\n"
         "        \n"
-        "        SELECT distinct ?country_name ?country_capital ?country_abstract ?country_language ?country_currency\n"
+        "        SELECT distinct ?country_name ?capital ?country_capital ?country_abstract ?language ?country_language ?currency ?country_currency\n"
         "        WHERE {\n"
         "         ?country a dbo:Country.\n"
         "         ?country rdfs:label ?country_name.\n"
@@ -105,18 +105,49 @@ def information_of_a_country(keyword):
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()["results"]["bindings"]
 
-    country_name = set()
-    country_capital = set()
-    country_abstract = set()
-    country_language = set()
-    country_currency = set()
+    country_name = []
+    country_capital = []
+    country_abstract = []
+    country_language = []
+    country_currency = []
 
     for country in results:
-        country_name.add(country["country_name"]["value"])
-        country_capital.add(country["country_capital"]["value"])
-        country_abstract.add(country["country_abstract"]["value"])
-        country_language.add(country["country_language"]["value"])
-        country_currency.add(country["country_currency"]["value"])
+        country_name.append(country["country_name"]["value"])
+
+        is_exist_country_capital = False
+        is_exist_country_language = False
+        is_exist_country_currency = False
+
+        for i in range(len(max(
+            country_capital,country_language,country_currency))):
+            try:
+                if country["capital"]["value"] == country_capital[i][1]:
+                    is_exist_country_capital = True
+            except: continue
+
+            try:
+                if country["language"]["value"] == country_language[i][1]:
+                    is_exist_country_language = True
+            except: continue
+
+            try:
+                if country["currency"]["value"] == country_currency[i][1]:
+                    is_exist_country_currency = True
+            except: continue
+
+        if not is_exist_country_capital:
+            country_capital.append([country["country_capital"]["value"],
+            country["capital"]["value"]])
+        
+        country_abstract.append(country["country_abstract"]["value"])
+
+        if not is_exist_country_language:
+            country_language.append([country["country_language"]["value"],
+            country["language"]["value"]])
+
+        if not is_exist_country_currency:
+            country_currency.append([country["country_currency"]["value"],
+            country["currency"]["value"]])
 
     local_dict = check_local_store(keyword)
 

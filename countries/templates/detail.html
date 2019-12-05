@@ -7,14 +7,19 @@
 {% block content %}
     <div class="container">
         <div class="container" id="summary-container">
-            <div class="card text-white bg-success text-center">
+            <div class="card text-white bg-dark text-center">
                 <div class="card-header">
                     Summary
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">
-                        {{ country_info.0.0 }}</h5>
-                    <p class="card-text">{{ country_info.2.0 }}</p>
+                        <a href="http://dbpedia.org/resource/{{ country_info.0.0 }}">
+                            {{ country_info.0.0 }}
+                        </a>
+                    </h5>
+                    <p align="justify" class="card-text">
+                        {{ country_info.2.0 }}
+                    </p>
                 </div>
             </div>
         </div>
@@ -32,7 +37,11 @@
                         </div>
                         <ul class="list-group list-group-flush">
                             {% for lang in country_info.3 %}
-                                <li class="list-group-item">{{ lang }}</li>
+                                <a href="{{ lang.1 }}">
+                                    <li class="list-group-item">
+                                        {{ lang.0 }}
+                                    </li>
+                                </a>
                             {% endfor %}
                         </ul>
                     </div>
@@ -49,7 +58,11 @@
                         </div>
                         <ul class="list-group list-group-flush">
                             {% for capital in country_info.1 %}
-                                <li class="list-group-item">{{ capital }}</li>
+                                <a href="{{ capital.1 }}">
+                                    <li class="list-group-item">
+                                        {{ capital.0 }}
+                                    </li>
+                                </a>
                             {% endfor %}
                         </ul>
                     </div>
@@ -66,7 +79,11 @@
                         </div>
                         <ul class="list-group list-group-flush">
                             {% for currency in country_info.4 %}
-                                <li class="list-group-item">{{ currency }}</li>
+                                <a href="{{ currency.1 }}">
+                                    <li class="list-group-item">
+                                        {{ currency.0 }}
+                                    </li>
+                                </a>
                             {% endfor %}
                         </ul>
                     </div>
