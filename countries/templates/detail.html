@@ -67,8 +67,13 @@
                                 <p class="card-text">Additional details about this country.</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                {% for property, value in country_info.5 %}
-                                    <li class="list-group-item"><strong>{{ property }}:</strong> {{value|urlize}}</li>
+                                {% for local_country_info in country_info.5 %}
+                                    <li class="list-group-item">
+                                        <a href="{{local_country_info.0}}">
+                                            <strong>{{ local_country_info.1 }}:</strong>
+                                        </a>
+                                        {{local_country_info.2|urlize}}
+                                    </li>
                                 {% endfor %}
                             </ul>
                         </div>

@@ -2,6 +2,21 @@ import rdflib
 import rdfextras
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+prefix_dict = {
+    "ex": "http://example.org/data/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dbr": "http://dbpedia.org/resource/",
+    "dbp": "http://dbpedia.org/property/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "dct": "http://purl.org/dc/terms/",
+    "dbc": "http://dbpedia.org/page/Category:",
+}
+
+
 def get_list_of_countries():
     sparql = SPARQLWrapper("http://dbpedia.org/sparql")
     sparql.setQuery("\n"
@@ -104,15 +119,26 @@ def information_of_a_country(keyword):
         country_currency.add(country["country_currency"]["value"])
 
     local_dict = check_local_store(keyword)
+
     # converts data from local store to list of tuples
-    local_tuples = list(local_dict.items())
+    local_url = []
+    new_local_dict = {}
+    for key, value in local_dict:
+        local_url.append(key)
+
+        key_split = key.split("/")
+        new_local_dict[key_split[-1]] = value
+
+    local_tuples = list(new_local_dict.items())
+
+    for i in range(len(local_tuples)):
+        local_tuples[i] = [local_url[i], local_tuples[i][0], local_tuples[i][1]]
 
     country_info = [list(country_name), list(country_capital), list(country_abstract), list(country_language),
                     list(country_currency)]
 
     # append data from local store to country_info
     country_info.append(local_tuples)
-    # print(country_info)
 
     return country_info
 
@@ -132,10 +158,4 @@ def check_local_store(keyword):
         }
         """ % keyword2)
 
-    # How to get results data
-    local_dict = {}
-    for key, value in results:
-        key_split = key.split("/")
-        local_dict[key_split[-1]] = value
-
-    return local_dict
+    return results
