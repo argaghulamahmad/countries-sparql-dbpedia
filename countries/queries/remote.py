@@ -112,7 +112,7 @@ def information_of_a_country(keyword):
 
     # append data from local store to country_info
     country_info.append(local_tuples)
-    print(country_info)
+    # print(country_info)
 
     return country_info
 
