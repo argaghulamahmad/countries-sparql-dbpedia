@@ -59,7 +59,7 @@ ex:percentOfServiceSector rdf:type rdf:Property .
 ex:percentOfServiceSector rdfs:domain dbo:Country .
 ex:percentOfServiceSector rdfs:range xsd:double .
 
-dbr:Afghanistan dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Afghanistan dbo:isPartOf dbr:Asia .
 dbr:Afghanistan dbp:populationEstimate "31056997"^^xsd:double .
 dbr:Afghanistan dbp:areaTotalSqMi "647500"^^xsd:double .
 dbr:Afghanistan dbp:populationDensitySqMi "48,0"^^xsd:double .
@@ -78,7 +78,7 @@ dbr:Afghanistan ex:mortalityRate "20,34"^^xsd:double .
 dbr:Afghanistan ex:percentOfAgricultureSector "0,38"^^xsd:double .
 dbr:Afghanistan ex:percentOfIndustrySector "0,24"^^xsd:double .
 dbr:Afghanistan ex:percentOfServiceSector "0,38"^^xsd:double .
-dbr:Albania dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Albania dbo:isPartOf dbr:Eastern_Europe .
 dbr:Albania dbp:populationEstimate "3581655"^^xsd:double .
 dbr:Albania dbp:areaTotalSqMi "28748"^^xsd:double .
 dbr:Albania dbp:populationDensitySqMi "124,6"^^xsd:double .
@@ -97,7 +97,7 @@ dbr:Albania ex:mortalityRate "5,22"^^xsd:double .
 dbr:Albania ex:percentOfAgricultureSector "0,232"^^xsd:double .
 dbr:Albania ex:percentOfIndustrySector "0,188"^^xsd:double .
 dbr:Albania ex:percentOfServiceSector "0,579"^^xsd:double .
-dbr:Algeria dbo:isPartOf ex:NORTHERN_AFRICA .
+dbr:Algeria dbo:isPartOf dbr:North_Africa .
 dbr:Algeria dbp:populationEstimate "32930091"^^xsd:double .
 dbr:Algeria dbp:areaTotalSqMi "2381740"^^xsd:double .
 dbr:Algeria dbp:populationDensitySqMi "13,8"^^xsd:double .
@@ -116,7 +116,7 @@ dbr:Algeria ex:mortalityRate "4,61"^^xsd:double .
 dbr:Algeria ex:percentOfAgricultureSector "0,101"^^xsd:double .
 dbr:Algeria ex:percentOfIndustrySector "0,6"^^xsd:double .
 dbr:Algeria ex:percentOfServiceSector "0,298"^^xsd:double .
-dbr:American_Samoa dbo:isPartOf ex:OCEANIA .
+dbr:American_Samoa dbo:isPartOf dbr:Oceania .
 dbr:American_Samoa dbp:populationEstimate "57794"^^xsd:double .
 dbr:American_Samoa dbp:areaTotalSqMi "199"^^xsd:double .
 dbr:American_Samoa dbp:populationDensitySqMi "290,4"^^xsd:double .
@@ -135,7 +135,7 @@ dbr:American_Samoa ex:mortalityRate "3,279"^^xsd:double .
 dbr:American_Samoa ex:percentOfAgricultureSector "9"^^xsd:double .
 dbr:American_Samoa ex:percentOfIndustrySector "9"^^xsd:double .
 dbr:American_Samoa ex:percentOfServiceSector "9"^^xsd:double .
-dbr:Andorra dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Andorra dbo:isPartOf dbr:Western_Europe .
 dbr:Andorra dbp:populationEstimate "71201"^^xsd:double .
 dbr:Andorra dbp:areaTotalSqMi "468"^^xsd:double .
 dbr:Andorra dbp:populationDensitySqMi "152,1"^^xsd:double .
@@ -154,7 +154,7 @@ dbr:Andorra ex:mortalityRate "6,25"^^xsd:double .
 # dbr:Andorra ex:percentOfAgricultureSector ""^^xsd:double .
 # dbr:Andorra ex:percentOfIndustrySector ""^^xsd:double .
 # dbr:Andorra ex:percentOfServiceSector ""^^xsd:double .
-dbr:Angola dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Angola dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Angola dbp:populationEstimate "12127071"^^xsd:double .
 dbr:Angola dbp:areaTotalSqMi "1246700"^^xsd:double .
 dbr:Angola dbp:populationDensitySqMi "9,7"^^xsd:double .
@@ -173,7 +173,7 @@ dbr:Angola ex:mortalityRate "24,2"^^xsd:double .
 dbr:Angola ex:percentOfAgricultureSector "0,096"^^xsd:double .
 dbr:Angola ex:percentOfIndustrySector "0,658"^^xsd:double .
 dbr:Angola ex:percentOfServiceSector "0,246"^^xsd:double .
-dbr:Anguilla dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Anguilla dbo:isPartOf dbr:Latin_America .
 dbr:Anguilla dbp:populationEstimate "13477"^^xsd:double .
 dbr:Anguilla dbp:areaTotalSqMi "102"^^xsd:double .
 dbr:Anguilla dbp:populationDensitySqMi "132,1"^^xsd:double .
@@ -192,7 +192,7 @@ dbr:Anguilla ex:mortalityRate "5,340"^^xsd:double .
 dbr:Anguilla ex:percentOfAgricultureSector "0,040"^^xsd:double .
 dbr:Anguilla ex:percentOfIndustrySector "0,180"^^xsd:double .
 dbr:Anguilla ex:percentOfServiceSector "0,780"^^xsd:double .
-dbr:Antigua_Barbuda dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Antigua_Barbuda dbo:isPartOf dbr:Latin_America .
 dbr:Antigua_Barbuda dbp:populationEstimate "69108"^^xsd:double .
 dbr:Antigua_Barbuda dbp:areaTotalSqMi "443"^^xsd:double .
 dbr:Antigua_Barbuda dbp:populationDensitySqMi "156,0"^^xsd:double .
@@ -211,7 +211,7 @@ dbr:Antigua_Barbuda ex:mortalityRate "5,37"^^xsd:double .
 dbr:Antigua_Barbuda ex:percentOfAgricultureSector "0,038"^^xsd:double .
 dbr:Antigua_Barbuda ex:percentOfIndustrySector "0,22"^^xsd:double .
 dbr:Antigua_Barbuda ex:percentOfServiceSector "0,743"^^xsd:double .
-dbr:Argentina dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Argentina dbo:isPartOf dbr:Latin_America .
 dbr:Argentina dbp:populationEstimate "39921833"^^xsd:double .
 dbr:Argentina dbp:areaTotalSqMi "2766890"^^xsd:double .
 dbr:Argentina dbp:populationDensitySqMi "14,4"^^xsd:double .
@@ -230,7 +230,7 @@ dbr:Argentina ex:mortalityRate "7,55"^^xsd:double .
 dbr:Argentina ex:percentOfAgricultureSector "0,095"^^xsd:double .
 dbr:Argentina ex:percentOfIndustrySector "0,358"^^xsd:double .
 dbr:Argentina ex:percentOfServiceSector "0,547"^^xsd:double .
-dbr:Armenia dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Armenia dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Armenia dbp:populationEstimate "2976372"^^xsd:double .
 dbr:Armenia dbp:areaTotalSqMi "29800"^^xsd:double .
 dbr:Armenia dbp:populationDensitySqMi "99,9"^^xsd:double .
@@ -249,7 +249,7 @@ dbr:Armenia ex:mortalityRate "8,23"^^xsd:double .
 dbr:Armenia ex:percentOfAgricultureSector "0,239"^^xsd:double .
 dbr:Armenia ex:percentOfIndustrySector "0,343"^^xsd:double .
 dbr:Armenia ex:percentOfServiceSector "0,418"^^xsd:double .
-dbr:Aruba dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Aruba dbo:isPartOf dbr:Latin_America .
 dbr:Aruba dbp:populationEstimate "71891"^^xsd:double .
 dbr:Aruba dbp:areaTotalSqMi "193"^^xsd:double .
 dbr:Aruba dbp:populationDensitySqMi "372,5"^^xsd:double .
@@ -268,7 +268,7 @@ dbr:Aruba ex:mortalityRate "6,689"^^xsd:double .
 dbr:Aruba ex:percentOfAgricultureSector "0,0049"^^xsd:double .
 dbr:Aruba ex:percentOfIndustrySector "0,3339"^^xsd:double .
 dbr:Aruba ex:percentOfServiceSector "0,6639"^^xsd:double .
-dbr:Australia dbo:isPartOf ex:OCEANIA .
+dbr:Australia dbo:isPartOf dbr:Oceania .
 dbr:Australia dbp:populationEstimate "20264082"^^xsd:double .
 dbr:Australia dbp:areaTotalSqMi "7686850"^^xsd:double .
 dbr:Australia dbp:populationDensitySqMi "2,6"^^xsd:double .
@@ -287,7 +287,7 @@ dbr:Australia ex:mortalityRate "7,51"^^xsd:double .
 dbr:Australia ex:percentOfAgricultureSector "0,038"^^xsd:double .
 dbr:Australia ex:percentOfIndustrySector "0,262"^^xsd:double .
 dbr:Australia ex:percentOfServiceSector "0,7"^^xsd:double .
-dbr:Austria dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Austria dbo:isPartOf dbr:Western_Europe .
 dbr:Austria dbp:populationEstimate "8192880"^^xsd:double .
 dbr:Austria dbp:areaTotalSqMi "83870"^^xsd:double .
 dbr:Austria dbp:populationDensitySqMi "97,7"^^xsd:double .
@@ -306,7 +306,7 @@ dbr:Austria ex:mortalityRate "9,76"^^xsd:double .
 dbr:Austria ex:percentOfAgricultureSector "0,018"^^xsd:double .
 dbr:Austria ex:percentOfIndustrySector "0,304"^^xsd:double .
 dbr:Austria ex:percentOfServiceSector "0,678"^^xsd:double .
-dbr:Azerbaijan dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Azerbaijan dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Azerbaijan dbp:populationEstimate "7961619"^^xsd:double .
 dbr:Azerbaijan dbp:areaTotalSqMi "86600"^^xsd:double .
 dbr:Azerbaijan dbp:populationDensitySqMi "91,9"^^xsd:double .
@@ -325,7 +325,7 @@ dbr:Azerbaijan ex:mortalityRate "9,75"^^xsd:double .
 dbr:Azerbaijan ex:percentOfAgricultureSector "0,141"^^xsd:double .
 dbr:Azerbaijan ex:percentOfIndustrySector "0,457"^^xsd:double .
 dbr:Azerbaijan ex:percentOfServiceSector "0,402"^^xsd:double .
-dbr:Bahamas_The dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Bahamas_The dbo:isPartOf dbr:Latin_America .
 dbr:Bahamas_The dbp:populationEstimate "303770"^^xsd:double .
 dbr:Bahamas_The dbp:areaTotalSqMi "13940"^^xsd:double .
 dbr:Bahamas_The dbp:populationDensitySqMi "21,8"^^xsd:double .
@@ -344,7 +344,7 @@ dbr:Bahamas_The ex:mortalityRate "9,05"^^xsd:double .
 dbr:Bahamas_The ex:percentOfAgricultureSector "0,03"^^xsd:double .
 dbr:Bahamas_The ex:percentOfIndustrySector "0,07"^^xsd:double .
 dbr:Bahamas_The ex:percentOfServiceSector "0,9"^^xsd:double .
-dbr:Bahrain dbo:isPartOf ex:NEAR_EAST .
+dbr:Bahrain dbo:isPartOf dbr:Middle_East .
 dbr:Bahrain dbp:populationEstimate "698585"^^xsd:double .
 dbr:Bahrain dbp:areaTotalSqMi "665"^^xsd:double .
 dbr:Bahrain dbp:populationDensitySqMi "1050,5"^^xsd:double .
@@ -363,7 +363,7 @@ dbr:Bahrain ex:mortalityRate "4,141"^^xsd:double .
 dbr:Bahrain ex:percentOfAgricultureSector "0,0051"^^xsd:double .
 dbr:Bahrain ex:percentOfIndustrySector "0,3871"^^xsd:double .
 dbr:Bahrain ex:percentOfServiceSector "0,6081"^^xsd:double .
-dbr:Bangladesh dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Bangladesh dbo:isPartOf dbr:Asia .
 dbr:Bangladesh dbp:populationEstimate "147365352"^^xsd:double .
 dbr:Bangladesh dbp:areaTotalSqMi "144000"^^xsd:double .
 dbr:Bangladesh dbp:populationDensitySqMi "1023,4"^^xsd:double .
@@ -382,7 +382,7 @@ dbr:Bangladesh ex:mortalityRate "8,27"^^xsd:double .
 dbr:Bangladesh ex:percentOfAgricultureSector "0,199"^^xsd:double .
 dbr:Bangladesh ex:percentOfIndustrySector "0,198"^^xsd:double .
 dbr:Bangladesh ex:percentOfServiceSector "0,603"^^xsd:double .
-dbr:Barbados dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Barbados dbo:isPartOf dbr:Latin_America .
 dbr:Barbados dbp:populationEstimate "279912"^^xsd:double .
 dbr:Barbados dbp:areaTotalSqMi "431"^^xsd:double .
 dbr:Barbados dbp:populationDensitySqMi "649,5"^^xsd:double .
@@ -401,7 +401,7 @@ dbr:Barbados ex:mortalityRate "8,671"^^xsd:double .
 dbr:Barbados ex:percentOfAgricultureSector "0,061"^^xsd:double .
 dbr:Barbados ex:percentOfIndustrySector "0,161"^^xsd:double .
 dbr:Barbados ex:percentOfServiceSector "0,781"^^xsd:double .
-dbr:Belarus dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Belarus dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Belarus dbp:populationEstimate "10293011"^^xsd:double .
 dbr:Belarus dbp:areaTotalSqMi "207600"^^xsd:double .
 dbr:Belarus dbp:populationDensitySqMi "49,6"^^xsd:double .
@@ -420,7 +420,7 @@ dbr:Belarus ex:mortalityRate "14,02"^^xsd:double .
 dbr:Belarus ex:percentOfAgricultureSector "0,093"^^xsd:double .
 dbr:Belarus ex:percentOfIndustrySector "0,316"^^xsd:double .
 dbr:Belarus ex:percentOfServiceSector "0,591"^^xsd:double .
-dbr:Belgium dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Belgium dbo:isPartOf dbr:Western_Europe .
 dbr:Belgium dbp:populationEstimate "10379067"^^xsd:double .
 dbr:Belgium dbp:areaTotalSqMi "30528"^^xsd:double .
 dbr:Belgium dbp:populationDensitySqMi "340,0"^^xsd:double .
@@ -439,7 +439,7 @@ dbr:Belgium ex:mortalityRate "10,27"^^xsd:double .
 dbr:Belgium ex:percentOfAgricultureSector "0,01"^^xsd:double .
 dbr:Belgium ex:percentOfIndustrySector "0,24"^^xsd:double .
 dbr:Belgium ex:percentOfServiceSector "0,749"^^xsd:double .
-dbr:Belize dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Belize dbo:isPartOf dbr:Latin_America .
 dbr:Belize dbp:populationEstimate "287730"^^xsd:double .
 dbr:Belize dbp:areaTotalSqMi "22966"^^xsd:double .
 dbr:Belize dbp:populationDensitySqMi "12,5"^^xsd:double .
@@ -458,7 +458,7 @@ dbr:Belize ex:mortalityRate "5,72"^^xsd:double .
 dbr:Belize ex:percentOfAgricultureSector "0,142"^^xsd:double .
 dbr:Belize ex:percentOfIndustrySector "0,152"^^xsd:double .
 dbr:Belize ex:percentOfServiceSector "0,612"^^xsd:double .
-dbr:Benin dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Benin dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Benin dbp:populationEstimate "7862944"^^xsd:double .
 dbr:Benin dbp:areaTotalSqMi "112620"^^xsd:double .
 dbr:Benin dbp:populationDensitySqMi "69,8"^^xsd:double .
@@ -477,7 +477,7 @@ dbr:Benin ex:mortalityRate "12,22"^^xsd:double .
 dbr:Benin ex:percentOfAgricultureSector "0,316"^^xsd:double .
 dbr:Benin ex:percentOfIndustrySector "0,138"^^xsd:double .
 dbr:Benin ex:percentOfServiceSector "0,546"^^xsd:double .
-dbr:Bermuda dbo:isPartOf ex:NORTHERN_AMERICA .
+dbr:Bermuda dbo:isPartOf dbr:North_America .
 dbr:Bermuda dbp:populationEstimate "65773"^^xsd:double .
 dbr:Bermuda dbp:areaTotalSqMi "53"^^xsd:double .
 dbr:Bermuda dbp:populationDensitySqMi "1241,0"^^xsd:double .
@@ -496,7 +496,7 @@ dbr:Bermuda ex:mortalityRate "7,7434"^^xsd:double .
 dbr:Bermuda ex:percentOfAgricultureSector "0,0134"^^xsd:double .
 dbr:Bermuda ex:percentOfIndustrySector "0,134"^^xsd:double .
 dbr:Bermuda ex:percentOfServiceSector "0,8934"^^xsd:double .
-dbr:Bhutan dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Bhutan dbo:isPartOf dbr:Asia .
 dbr:Bhutan dbp:populationEstimate "2279723"^^xsd:double .
 dbr:Bhutan dbp:areaTotalSqMi "47000"^^xsd:double .
 dbr:Bhutan dbp:populationDensitySqMi "48,5"^^xsd:double .
@@ -515,7 +515,7 @@ dbr:Bhutan ex:mortalityRate "12,7"^^xsd:double .
 dbr:Bhutan ex:percentOfAgricultureSector "0,258"^^xsd:double .
 dbr:Bhutan ex:percentOfIndustrySector "0,379"^^xsd:double .
 dbr:Bhutan ex:percentOfServiceSector "0,363"^^xsd:double .
-dbr:Bolivia dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Bolivia dbo:isPartOf dbr:Latin_America .
 dbr:Bolivia dbp:populationEstimate "8989046"^^xsd:double .
 dbr:Bolivia dbp:areaTotalSqMi "1098580"^^xsd:double .
 dbr:Bolivia dbp:populationDensitySqMi "8,2"^^xsd:double .
@@ -534,7 +534,7 @@ dbr:Bolivia ex:mortalityRate "7,53"^^xsd:double .
 dbr:Bolivia ex:percentOfAgricultureSector "0,128"^^xsd:double .
 dbr:Bolivia ex:percentOfIndustrySector "0,352"^^xsd:double .
 dbr:Bolivia ex:percentOfServiceSector "0,52"^^xsd:double .
-dbr:Bosnia_Herzegovina dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Bosnia_Herzegovina dbo:isPartOf dbr:Eastern_Europe .
 dbr:Bosnia_Herzegovina dbp:populationEstimate "4498976"^^xsd:double .
 dbr:Bosnia_Herzegovina dbp:areaTotalSqMi "51129"^^xsd:double .
 dbr:Bosnia_Herzegovina dbp:populationDensitySqMi "88,0"^^xsd:double .
@@ -553,7 +553,7 @@ dbr:Bosnia_Herzegovina ex:mortalityRate "8,27"^^xsd:double .
 dbr:Bosnia_Herzegovina ex:percentOfAgricultureSector "0,142"^^xsd:double .
 dbr:Bosnia_Herzegovina ex:percentOfIndustrySector "0,308"^^xsd:double .
 dbr:Bosnia_Herzegovina ex:percentOfServiceSector "0,55"^^xsd:double .
-dbr:Botswana dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Botswana dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Botswana dbp:populationEstimate "1639833"^^xsd:double .
 dbr:Botswana dbp:areaTotalSqMi "600370"^^xsd:double .
 dbr:Botswana dbp:populationDensitySqMi "2,7"^^xsd:double .
@@ -572,7 +572,7 @@ dbr:Botswana ex:mortalityRate "29,5"^^xsd:double .
 dbr:Botswana ex:percentOfAgricultureSector "0,024"^^xsd:double .
 dbr:Botswana ex:percentOfIndustrySector "0,469"^^xsd:double .
 dbr:Botswana ex:percentOfServiceSector "0,507"^^xsd:double .
-dbr:Brazil dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Brazil dbo:isPartOf dbr:Latin_America .
 dbr:Brazil dbp:populationEstimate "188078227"^^xsd:double .
 dbr:Brazil dbp:areaTotalSqMi "8511965"^^xsd:double .
 dbr:Brazil dbp:populationDensitySqMi "22,1"^^xsd:double .
@@ -591,7 +591,7 @@ dbr:Brazil ex:mortalityRate "6,17"^^xsd:double .
 dbr:Brazil ex:percentOfAgricultureSector "0,084"^^xsd:double .
 dbr:Brazil ex:percentOfIndustrySector "0,4"^^xsd:double .
 dbr:Brazil ex:percentOfServiceSector "0,516"^^xsd:double .
-dbr:British_Virgin_Is dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:British_Virgin_Is dbo:isPartOf dbr:Latin_America .
 dbr:British_Virgin_Is dbp:populationEstimate "23098"^^xsd:double .
 dbr:British_Virgin_Is dbp:areaTotalSqMi "153"^^xsd:double .
 dbr:British_Virgin_Is dbp:populationDensitySqMi "151,0"^^xsd:double .
@@ -610,7 +610,7 @@ dbr:British_Virgin_Is ex:mortalityRate "4,42"^^xsd:double .
 dbr:British_Virgin_Is ex:percentOfAgricultureSector "0,018"^^xsd:double .
 dbr:British_Virgin_Is ex:percentOfIndustrySector "0,062"^^xsd:double .
 dbr:British_Virgin_Is ex:percentOfServiceSector "0,92"^^xsd:double .
-dbr:Brunei dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Brunei dbo:isPartOf dbr:Asia .
 dbr:Brunei dbp:populationEstimate "379444"^^xsd:double .
 dbr:Brunei dbp:areaTotalSqMi "5770"^^xsd:double .
 dbr:Brunei dbp:populationDensitySqMi "65,8"^^xsd:double .
@@ -629,7 +629,7 @@ dbr:Brunei ex:mortalityRate "3,45"^^xsd:double .
 dbr:Brunei ex:percentOfAgricultureSector "0,036"^^xsd:double .
 dbr:Brunei ex:percentOfIndustrySector "0,561"^^xsd:double .
 dbr:Brunei ex:percentOfServiceSector "0,403"^^xsd:double .
-dbr:Bulgaria dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Bulgaria dbo:isPartOf dbr:Eastern_Europe .
 dbr:Bulgaria dbp:populationEstimate "7385367"^^xsd:double .
 dbr:Bulgaria dbp:areaTotalSqMi "110910"^^xsd:double .
 dbr:Bulgaria dbp:populationDensitySqMi "66,6"^^xsd:double .
@@ -648,7 +648,7 @@ dbr:Bulgaria ex:mortalityRate "14,27"^^xsd:double .
 dbr:Bulgaria ex:percentOfAgricultureSector "0,093"^^xsd:double .
 dbr:Bulgaria ex:percentOfIndustrySector "0,304"^^xsd:double .
 dbr:Bulgaria ex:percentOfServiceSector "0,603"^^xsd:double .
-dbr:Burkina_Faso dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Burkina_Faso dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Burkina_Faso dbp:populationEstimate "13902972"^^xsd:double .
 dbr:Burkina_Faso dbp:areaTotalSqMi "274200"^^xsd:double .
 dbr:Burkina_Faso dbp:populationDensitySqMi "50,7"^^xsd:double .
@@ -667,7 +667,7 @@ dbr:Burkina_Faso ex:mortalityRate "15,6"^^xsd:double .
 dbr:Burkina_Faso ex:percentOfAgricultureSector "0,322"^^xsd:double .
 dbr:Burkina_Faso ex:percentOfIndustrySector "0,196"^^xsd:double .
 dbr:Burkina_Faso ex:percentOfServiceSector "0,482"^^xsd:double .
-dbr:Burma dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Burma dbo:isPartOf dbr:Asia .
 dbr:Burma dbp:populationEstimate "47382633"^^xsd:double .
 dbr:Burma dbp:areaTotalSqMi "678500"^^xsd:double .
 dbr:Burma dbp:populationDensitySqMi "69,8"^^xsd:double .
@@ -686,7 +686,7 @@ dbr:Burma ex:mortalityRate "9,83"^^xsd:double .
 dbr:Burma ex:percentOfAgricultureSector "0,564"^^xsd:double .
 dbr:Burma ex:percentOfIndustrySector "0,082"^^xsd:double .
 dbr:Burma ex:percentOfServiceSector "0,353"^^xsd:double .
-dbr:Burundi dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Burundi dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Burundi dbp:populationEstimate "8090068"^^xsd:double .
 dbr:Burundi dbp:areaTotalSqMi "27830"^^xsd:double .
 dbr:Burundi dbp:populationDensitySqMi "290,7"^^xsd:double .
@@ -705,7 +705,7 @@ dbr:Burundi ex:mortalityRate "13,46"^^xsd:double .
 dbr:Burundi ex:percentOfAgricultureSector "0,463"^^xsd:double .
 dbr:Burundi ex:percentOfIndustrySector "0,203"^^xsd:double .
 dbr:Burundi ex:percentOfServiceSector "0,334"^^xsd:double .
-dbr:Cambodia dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Cambodia dbo:isPartOf dbr:Asia .
 dbr:Cambodia dbp:populationEstimate "13881427"^^xsd:double .
 dbr:Cambodia dbp:areaTotalSqMi "181040"^^xsd:double .
 dbr:Cambodia dbp:populationDensitySqMi "76,7"^^xsd:double .
@@ -724,7 +724,7 @@ dbr:Cambodia ex:mortalityRate "9,06"^^xsd:double .
 dbr:Cambodia ex:percentOfAgricultureSector "0,35"^^xsd:double .
 dbr:Cambodia ex:percentOfIndustrySector "0,3"^^xsd:double .
 dbr:Cambodia ex:percentOfServiceSector "0,35"^^xsd:double .
-dbr:Cameroon dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Cameroon dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Cameroon dbp:populationEstimate "17340702"^^xsd:double .
 dbr:Cameroon dbp:areaTotalSqMi "475440"^^xsd:double .
 dbr:Cameroon dbp:populationDensitySqMi "36,5"^^xsd:double .
@@ -743,7 +743,7 @@ dbr:Cameroon ex:mortalityRate "13,47"^^xsd:double .
 dbr:Cameroon ex:percentOfAgricultureSector "0,448"^^xsd:double .
 dbr:Cameroon ex:percentOfIndustrySector "0,17"^^xsd:double .
 dbr:Cameroon ex:percentOfServiceSector "0,382"^^xsd:double .
-dbr:Canada dbo:isPartOf ex:NORTHERN_AMERICA .
+dbr:Canada dbo:isPartOf dbr:North_America .
 dbr:Canada dbp:populationEstimate "33098932"^^xsd:double .
 dbr:Canada dbp:areaTotalSqMi "9984670"^^xsd:double .
 dbr:Canada dbp:populationDensitySqMi "3,3"^^xsd:double .
@@ -762,7 +762,7 @@ dbr:Canada ex:mortalityRate "7,8"^^xsd:double .
 dbr:Canada ex:percentOfAgricultureSector "0,022"^^xsd:double .
 dbr:Canada ex:percentOfIndustrySector "0,294"^^xsd:double .
 dbr:Canada ex:percentOfServiceSector "0,684"^^xsd:double .
-dbr:Cape_Verde dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Cape_Verde dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Cape_Verde dbp:populationEstimate "420979"^^xsd:double .
 dbr:Cape_Verde dbp:areaTotalSqMi "4033"^^xsd:double .
 dbr:Cape_Verde dbp:populationDensitySqMi "104,4"^^xsd:double .
@@ -781,7 +781,7 @@ dbr:Cape_Verde ex:mortalityRate "6,553"^^xsd:double .
 dbr:Cape_Verde ex:percentOfAgricultureSector "0,1213"^^xsd:double .
 dbr:Cape_Verde ex:percentOfIndustrySector "0,2193"^^xsd:double .
 dbr:Cape_Verde ex:percentOfServiceSector "0,663"^^xsd:double .
-dbr:Cayman_Islands dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Cayman_Islands dbo:isPartOf dbr:Latin_America .
 dbr:Cayman_Islands dbp:populationEstimate "45436"^^xsd:double .
 dbr:Cayman_Islands dbp:areaTotalSqMi "262"^^xsd:double .
 dbr:Cayman_Islands dbp:populationDensitySqMi "173,4"^^xsd:double .
@@ -800,7 +800,7 @@ dbr:Cayman_Islands ex:mortalityRate "4,897"^^xsd:double .
 dbr:Cayman_Islands ex:percentOfAgricultureSector "0,0147"^^xsd:double .
 dbr:Cayman_Islands ex:percentOfIndustrySector "0,0327"^^xsd:double .
 dbr:Cayman_Islands ex:percentOfServiceSector "0,9547"^^xsd:double .
-dbr:Central_African_Rep dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Central_African_Rep dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Central_African_Rep dbp:populationEstimate "4303356"^^xsd:double .
 dbr:Central_African_Rep dbp:areaTotalSqMi "622984"^^xsd:double .
 dbr:Central_African_Rep dbp:populationDensitySqMi "6,9"^^xsd:double .
@@ -819,7 +819,7 @@ dbr:Central_African_Rep ex:mortalityRate "18,65"^^xsd:double .
 dbr:Central_African_Rep ex:percentOfAgricultureSector "0,55"^^xsd:double .
 dbr:Central_African_Rep ex:percentOfIndustrySector "0,2"^^xsd:double .
 dbr:Central_African_Rep ex:percentOfServiceSector "0,25"^^xsd:double .
-dbr:Chad dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Chad dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Chad dbp:populationEstimate "9944201"^^xsd:double .
 dbr:Chad dbp:areaTotalSqMi "1284000"^^xsd:double .
 dbr:Chad dbp:populationDensitySqMi "7,7"^^xsd:double .
@@ -838,7 +838,7 @@ dbr:Chad ex:mortalityRate "16,38"^^xsd:double .
 dbr:Chad ex:percentOfAgricultureSector "0,335"^^xsd:double .
 dbr:Chad ex:percentOfIndustrySector "0,259"^^xsd:double .
 dbr:Chad ex:percentOfServiceSector "0,406"^^xsd:double .
-dbr:Chile dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Chile dbo:isPartOf dbr:Latin_America .
 dbr:Chile dbp:populationEstimate "16134219"^^xsd:double .
 dbr:Chile dbp:areaTotalSqMi "756950"^^xsd:double .
 dbr:Chile dbp:populationDensitySqMi "21,3"^^xsd:double .
@@ -857,7 +857,7 @@ dbr:Chile ex:mortalityRate "5,81"^^xsd:double .
 dbr:Chile ex:percentOfAgricultureSector "0,06"^^xsd:double .
 dbr:Chile ex:percentOfIndustrySector "0,493"^^xsd:double .
 dbr:Chile ex:percentOfServiceSector "0,447"^^xsd:double .
-dbr:China dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:China dbo:isPartOf dbr:Asia .
 dbr:China dbp:populationEstimate "1313973713"^^xsd:double .
 dbr:China dbp:areaTotalSqMi "9596960"^^xsd:double .
 dbr:China dbp:populationDensitySqMi "136,9"^^xsd:double .
@@ -876,7 +876,7 @@ dbr:China ex:mortalityRate "6,97"^^xsd:double .
 dbr:China ex:percentOfAgricultureSector "0,125"^^xsd:double .
 dbr:China ex:percentOfIndustrySector "0,473"^^xsd:double .
 dbr:China ex:percentOfServiceSector "0,403"^^xsd:double .
-dbr:Colombia dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Colombia dbo:isPartOf dbr:Latin_America .
 dbr:Colombia dbp:populationEstimate "43593035"^^xsd:double .
 dbr:Colombia dbp:areaTotalSqMi "1138910"^^xsd:double .
 dbr:Colombia dbp:populationDensitySqMi "38,3"^^xsd:double .
@@ -895,7 +895,7 @@ dbr:Colombia ex:mortalityRate "5,58"^^xsd:double .
 dbr:Colombia ex:percentOfAgricultureSector "0,125"^^xsd:double .
 dbr:Colombia ex:percentOfIndustrySector "0,342"^^xsd:double .
 dbr:Colombia ex:percentOfServiceSector "0,533"^^xsd:double .
-dbr:Comoros dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Comoros dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Comoros dbp:populationEstimate "690948"^^xsd:double .
 dbr:Comoros dbp:areaTotalSqMi "2170"^^xsd:double .
 dbr:Comoros dbp:populationDensitySqMi "318,4"^^xsd:double .
@@ -914,7 +914,7 @@ dbr:Comoros ex:mortalityRate "8,27"^^xsd:double .
 dbr:Comoros ex:percentOfAgricultureSector "0,47"^^xsd:double .
 dbr:Comoros ex:percentOfIndustrySector "0,047"^^xsd:double .
 dbr:Comoros ex:percentOfServiceSector "0,567"^^xsd:double .
-dbr:Congo_Dem_Rep dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Congo_Dem_Rep dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Congo_Dem_Rep dbp:populationEstimate "62660551"^^xsd:double .
 dbr:Congo_Dem_Rep dbp:areaTotalSqMi "2345410"^^xsd:double .
 dbr:Congo_Dem_Rep dbp:populationDensitySqMi "26,7"^^xsd:double .
@@ -933,7 +933,7 @@ dbr:Congo_Dem_Rep ex:mortalityRate "13,27"^^xsd:double .
 dbr:Congo_Dem_Rep ex:percentOfAgricultureSector "0,55"^^xsd:double .
 dbr:Congo_Dem_Rep ex:percentOfIndustrySector "0,11"^^xsd:double .
 dbr:Congo_Dem_Rep ex:percentOfServiceSector "0,34"^^xsd:double .
-dbr:Congo_Repub_of_the dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Congo_Repub_of_the dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Congo_Repub_of_the dbp:populationEstimate "3702314"^^xsd:double .
 dbr:Congo_Repub_of_the dbp:areaTotalSqMi "342000"^^xsd:double .
 dbr:Congo_Repub_of_the dbp:populationDensitySqMi "10,8"^^xsd:double .
@@ -952,7 +952,7 @@ dbr:Congo_Repub_of_the ex:mortalityRate "12,93"^^xsd:double .
 dbr:Congo_Repub_of_the ex:percentOfAgricultureSector "0,062"^^xsd:double .
 dbr:Congo_Repub_of_the ex:percentOfIndustrySector "0,57"^^xsd:double .
 dbr:Congo_Repub_of_the ex:percentOfServiceSector "0,369"^^xsd:double .
-dbr:Cook_Islands dbo:isPartOf ex:OCEANIA .
+dbr:Cook_Islands dbo:isPartOf dbr:Oceania .
 dbr:Cook_Islands dbp:populationEstimate "21388"^^xsd:double .
 dbr:Cook_Islands dbp:areaTotalSqMi "240"^^xsd:double .
 dbr:Cook_Islands dbp:populationDensitySqMi "89,1"^^xsd:double .
@@ -971,7 +971,7 @@ dbr:Cook_Islands ex:mortalityRate "0"^^xsd:double .
 dbr:Cook_Islands ex:percentOfAgricultureSector "0,1510"^^xsd:double .
 dbr:Cook_Islands ex:percentOfIndustrySector "0,0960"^^xsd:double .
 dbr:Cook_Islands ex:percentOfServiceSector "0,7530"^^xsd:double .
-dbr:Costa_Rica dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Costa_Rica dbo:isPartOf dbr:Latin_America .
 dbr:Costa_Rica dbp:populationEstimate "4075261"^^xsd:double .
 dbr:Costa_Rica dbp:areaTotalSqMi "51100"^^xsd:double .
 dbr:Costa_Rica dbp:populationDensitySqMi "79,8"^^xsd:double .
@@ -990,7 +990,7 @@ dbr:Costa_Rica ex:mortalityRate "4,36"^^xsd:double .
 dbr:Costa_Rica ex:percentOfAgricultureSector "0,088"^^xsd:double .
 dbr:Costa_Rica ex:percentOfIndustrySector "0,299"^^xsd:double .
 dbr:Costa_Rica ex:percentOfServiceSector "0,614"^^xsd:double .
-dbr:Cote_dIvoire dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Cote_dIvoire dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Cote_dIvoire dbp:populationEstimate "17654843"^^xsd:double .
 dbr:Cote_dIvoire dbp:areaTotalSqMi "322460"^^xsd:double .
 dbr:Cote_dIvoire dbp:populationDensitySqMi "54,8"^^xsd:double .
@@ -1009,7 +1009,7 @@ dbr:Cote_dIvoire ex:mortalityRate "14,84"^^xsd:double .
 dbr:Cote_dIvoire ex:percentOfAgricultureSector "0,279"^^xsd:double .
 dbr:Cote_dIvoire ex:percentOfIndustrySector "0,171"^^xsd:double .
 dbr:Cote_dIvoire ex:percentOfServiceSector "0,55"^^xsd:double .
-dbr:Croatia dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Croatia dbo:isPartOf dbr:Eastern_Europe .
 dbr:Croatia dbp:populationEstimate "4494749"^^xsd:double .
 dbr:Croatia dbp:areaTotalSqMi "56542"^^xsd:double .
 dbr:Croatia dbp:populationDensitySqMi "79,5"^^xsd:double .
@@ -1028,7 +1028,7 @@ dbr:Croatia ex:mortalityRate "11,482"^^xsd:double .
 dbr:Croatia ex:percentOfAgricultureSector "0,072"^^xsd:double .
 dbr:Croatia ex:percentOfIndustrySector "0,3082"^^xsd:double .
 dbr:Croatia ex:percentOfServiceSector "0,6222"^^xsd:double .
-dbr:Cuba dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Cuba dbo:isPartOf dbr:Latin_America .
 dbr:Cuba dbp:populationEstimate "11382820"^^xsd:double .
 dbr:Cuba dbp:areaTotalSqMi "110860"^^xsd:double .
 dbr:Cuba dbp:populationDensitySqMi "102,7"^^xsd:double .
@@ -1047,7 +1047,7 @@ dbr:Cuba ex:mortalityRate "7,22"^^xsd:double .
 dbr:Cuba ex:percentOfAgricultureSector "0,055"^^xsd:double .
 dbr:Cuba ex:percentOfIndustrySector "0,261"^^xsd:double .
 dbr:Cuba ex:percentOfServiceSector "0,684"^^xsd:double .
-dbr:Cyprus dbo:isPartOf ex:NEAR_EAST .
+dbr:Cyprus dbo:isPartOf dbr:Middle_East .
 dbr:Cyprus dbp:populationEstimate "784301"^^xsd:double .
 dbr:Cyprus dbp:areaTotalSqMi "9250"^^xsd:double .
 dbr:Cyprus dbp:populationDensitySqMi "84,8"^^xsd:double .
@@ -1066,7 +1066,7 @@ dbr:Cyprus ex:mortalityRate "7,68"^^xsd:double .
 dbr:Cyprus ex:percentOfAgricultureSector "0,037"^^xsd:double .
 dbr:Cyprus ex:percentOfIndustrySector "0,198"^^xsd:double .
 dbr:Cyprus ex:percentOfServiceSector "0,765"^^xsd:double .
-dbr:Czech_Republic dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Czech_Republic dbo:isPartOf dbr:Eastern_Europe .
 dbr:Czech_Republic dbp:populationEstimate "10235455"^^xsd:double .
 dbr:Czech_Republic dbp:areaTotalSqMi "78866"^^xsd:double .
 dbr:Czech_Republic dbp:populationDensitySqMi "129,8"^^xsd:double .
@@ -1085,7 +1085,7 @@ dbr:Czech_Republic ex:mortalityRate "10,59"^^xsd:double .
 dbr:Czech_Republic ex:percentOfAgricultureSector "0,034"^^xsd:double .
 dbr:Czech_Republic ex:percentOfIndustrySector "0,393"^^xsd:double .
 dbr:Czech_Republic ex:percentOfServiceSector "0,573"^^xsd:double .
-dbr:Denmark dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Denmark dbo:isPartOf dbr:Western_Europe .
 dbr:Denmark dbp:populationEstimate "5450661"^^xsd:double .
 dbr:Denmark dbp:areaTotalSqMi "43094"^^xsd:double .
 dbr:Denmark dbp:populationDensitySqMi "126,5"^^xsd:double .
@@ -1104,7 +1104,7 @@ dbr:Denmark ex:mortalityRate "10,367"^^xsd:double .
 dbr:Denmark ex:percentOfAgricultureSector "0,0187"^^xsd:double .
 dbr:Denmark ex:percentOfIndustrySector "0,2467"^^xsd:double .
 dbr:Denmark ex:percentOfServiceSector "0,7357"^^xsd:double .
-dbr:Djibouti dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Djibouti dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Djibouti dbp:populationEstimate "486530"^^xsd:double .
 dbr:Djibouti dbp:areaTotalSqMi "23000"^^xsd:double .
 dbr:Djibouti dbp:populationDensitySqMi "21,2"^^xsd:double .
@@ -1123,7 +1123,7 @@ dbr:Djibouti ex:mortalityRate "19,31"^^xsd:double .
 dbr:Djibouti ex:percentOfAgricultureSector "0,179"^^xsd:double .
 dbr:Djibouti ex:percentOfIndustrySector "0,225"^^xsd:double .
 dbr:Djibouti ex:percentOfServiceSector "0,596"^^xsd:double .
-dbr:Dominica dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Dominica dbo:isPartOf dbr:Latin_America .
 dbr:Dominica dbp:populationEstimate "68910"^^xsd:double .
 dbr:Dominica dbp:areaTotalSqMi "754"^^xsd:double .
 dbr:Dominica dbp:populationDensitySqMi "91,4"^^xsd:double .
@@ -1142,7 +1142,7 @@ dbr:Dominica ex:mortalityRate "6,733"^^xsd:double .
 dbr:Dominica ex:percentOfAgricultureSector "0,1773"^^xsd:double .
 dbr:Dominica ex:percentOfIndustrySector "0,3283"^^xsd:double .
 dbr:Dominica ex:percentOfServiceSector "0,4953"^^xsd:double .
-dbr:Dominican_Republic dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Dominican_Republic dbo:isPartOf dbr:Latin_America .
 dbr:Dominican_Republic dbp:populationEstimate "9183984"^^xsd:double .
 dbr:Dominican_Republic dbp:areaTotalSqMi "48730"^^xsd:double .
 dbr:Dominican_Republic dbp:populationDensitySqMi "188,5"^^xsd:double .
@@ -1161,7 +1161,7 @@ dbr:Dominican_Republic ex:mortalityRate "5,73"^^xsd:double .
 dbr:Dominican_Republic ex:percentOfAgricultureSector "0,112"^^xsd:double .
 dbr:Dominican_Republic ex:percentOfIndustrySector "0,306"^^xsd:double .
 dbr:Dominican_Republic ex:percentOfServiceSector "0,582"^^xsd:double .
-dbr:East_Timor dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:East_Timor dbo:isPartOf dbr:Asia .
 dbr:East_Timor dbp:populationEstimate "1062777"^^xsd:double .
 dbr:East_Timor dbp:areaTotalSqMi "15007"^^xsd:double .
 dbr:East_Timor dbp:populationDensitySqMi "70,8"^^xsd:double .
@@ -1180,7 +1180,7 @@ dbr:East_Timor ex:mortalityRate "6,24"^^xsd:double .
 dbr:East_Timor ex:percentOfAgricultureSector "0,085"^^xsd:double .
 dbr:East_Timor ex:percentOfIndustrySector "0,231"^^xsd:double .
 dbr:East_Timor ex:percentOfServiceSector "0,684"^^xsd:double .
-dbr:Ecuador dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Ecuador dbo:isPartOf dbr:Latin_America .
 dbr:Ecuador dbp:populationEstimate "13547510"^^xsd:double .
 dbr:Ecuador dbp:areaTotalSqMi "283560"^^xsd:double .
 dbr:Ecuador dbp:populationDensitySqMi "47,8"^^xsd:double .
@@ -1199,7 +1199,7 @@ dbr:Ecuador ex:mortalityRate "4,23"^^xsd:double .
 dbr:Ecuador ex:percentOfAgricultureSector "0,07"^^xsd:double .
 dbr:Ecuador ex:percentOfIndustrySector "0,312"^^xsd:double .
 dbr:Ecuador ex:percentOfServiceSector "0,618"^^xsd:double .
-dbr:Egypt dbo:isPartOf ex:NORTHERN_AFRICA .
+dbr:Egypt dbo:isPartOf dbr:North_Africa .
 dbr:Egypt dbp:populationEstimate "78887007"^^xsd:double .
 dbr:Egypt dbp:areaTotalSqMi "1001450"^^xsd:double .
 dbr:Egypt dbp:populationDensitySqMi "78,8"^^xsd:double .
@@ -1218,7 +1218,7 @@ dbr:Egypt ex:mortalityRate "5,23"^^xsd:double .
 dbr:Egypt ex:percentOfAgricultureSector "0,149"^^xsd:double .
 dbr:Egypt ex:percentOfIndustrySector "0,357"^^xsd:double .
 dbr:Egypt ex:percentOfServiceSector "0,493"^^xsd:double .
-dbr:El_Salvador dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:El_Salvador dbo:isPartOf dbr:Latin_America .
 dbr:El_Salvador dbp:populationEstimate "6822378"^^xsd:double .
 dbr:El_Salvador dbp:areaTotalSqMi "21040"^^xsd:double .
 dbr:El_Salvador dbp:populationDensitySqMi "324,3"^^xsd:double .
@@ -1237,7 +1237,7 @@ dbr:El_Salvador ex:mortalityRate "5,78"^^xsd:double .
 dbr:El_Salvador ex:percentOfAgricultureSector "0,099"^^xsd:double .
 dbr:El_Salvador ex:percentOfIndustrySector "0,302"^^xsd:double .
 dbr:El_Salvador ex:percentOfServiceSector "0,599"^^xsd:double .
-dbr:Equatorial_Guinea dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Equatorial_Guinea dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Equatorial_Guinea dbp:populationEstimate "540109"^^xsd:double .
 dbr:Equatorial_Guinea dbp:areaTotalSqMi "28051"^^xsd:double .
 dbr:Equatorial_Guinea dbp:populationDensitySqMi "19,3"^^xsd:double .
@@ -1256,7 +1256,7 @@ dbr:Equatorial_Guinea ex:mortalityRate "15,06"^^xsd:double .
 dbr:Equatorial_Guinea ex:percentOfAgricultureSector "0,03"^^xsd:double .
 dbr:Equatorial_Guinea ex:percentOfIndustrySector "0,906"^^xsd:double .
 dbr:Equatorial_Guinea ex:percentOfServiceSector "0,062"^^xsd:double .
-dbr:Eritrea dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Eritrea dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Eritrea dbp:populationEstimate "4786994"^^xsd:double .
 dbr:Eritrea dbp:areaTotalSqMi "121320"^^xsd:double .
 dbr:Eritrea dbp:populationDensitySqMi "39,5"^^xsd:double .
@@ -1275,7 +1275,7 @@ dbr:Eritrea ex:mortalityRate "9,6"^^xsd:double .
 dbr:Eritrea ex:percentOfAgricultureSector "0,102"^^xsd:double .
 dbr:Eritrea ex:percentOfIndustrySector "0,254"^^xsd:double .
 dbr:Eritrea ex:percentOfServiceSector "0,643"^^xsd:double .
-dbr:Estonia dbo:isPartOf ex:BALTICS .
+dbr:Estonia dbo:isPartOf dbr:Baltic_Sea .
 dbr:Estonia dbp:populationEstimate "1324333"^^xsd:double .
 dbr:Estonia dbp:areaTotalSqMi "45226"^^xsd:double .
 dbr:Estonia dbp:populationDensitySqMi "29,3"^^xsd:double .
@@ -1294,7 +1294,7 @@ dbr:Estonia ex:mortalityRate "13,25"^^xsd:double .
 dbr:Estonia ex:percentOfAgricultureSector "0,04"^^xsd:double .
 dbr:Estonia ex:percentOfIndustrySector "0,294"^^xsd:double .
 dbr:Estonia ex:percentOfServiceSector "0,666"^^xsd:double .
-dbr:Ethiopia dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Ethiopia dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Ethiopia dbp:populationEstimate "74777981"^^xsd:double .
 dbr:Ethiopia dbp:areaTotalSqMi "1127127"^^xsd:double .
 dbr:Ethiopia dbp:populationDensitySqMi "66,3"^^xsd:double .
@@ -1313,7 +1313,7 @@ dbr:Ethiopia ex:mortalityRate "14,86"^^xsd:double .
 dbr:Ethiopia ex:percentOfAgricultureSector "0,475"^^xsd:double .
 dbr:Ethiopia ex:percentOfIndustrySector "0,099"^^xsd:double .
 dbr:Ethiopia ex:percentOfServiceSector "0,426"^^xsd:double .
-dbr:Faroe_Islands dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Faroe_Islands dbo:isPartOf dbr:Western_Europe .
 dbr:Faroe_Islands dbp:populationEstimate "47246"^^xsd:double .
 dbr:Faroe_Islands dbp:areaTotalSqMi "1399"^^xsd:double .
 dbr:Faroe_Islands dbp:populationDensitySqMi "33,8"^^xsd:double .
@@ -1332,7 +1332,7 @@ dbr:Faroe_Islands ex:mortalityRate "8,74"^^xsd:double .
 dbr:Faroe_Islands ex:percentOfAgricultureSector "0,274"^^xsd:double .
 dbr:Faroe_Islands ex:percentOfIndustrySector "0,114"^^xsd:double .
 dbr:Faroe_Islands ex:percentOfServiceSector "0,624"^^xsd:double .
-dbr:Fiji dbo:isPartOf ex:OCEANIA .
+dbr:Fiji dbo:isPartOf dbr:Oceania .
 dbr:Fiji dbp:populationEstimate "905949"^^xsd:double .
 dbr:Fiji dbp:areaTotalSqMi "18270"^^xsd:double .
 dbr:Fiji dbp:populationDensitySqMi "49,6"^^xsd:double .
@@ -1351,7 +1351,7 @@ dbr:Fiji ex:mortalityRate "5,65"^^xsd:double .
 dbr:Fiji ex:percentOfAgricultureSector "0,089"^^xsd:double .
 dbr:Fiji ex:percentOfIndustrySector "0,135"^^xsd:double .
 dbr:Fiji ex:percentOfServiceSector "0,776"^^xsd:double .
-dbr:Finland dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Finland dbo:isPartOf dbr:Western_Europe .
 dbr:Finland dbp:populationEstimate "5231372"^^xsd:double .
 dbr:Finland dbp:areaTotalSqMi "338145"^^xsd:double .
 dbr:Finland dbp:populationDensitySqMi "15,5"^^xsd:double .
@@ -1370,7 +1370,7 @@ dbr:Finland ex:mortalityRate "9,86"^^xsd:double .
 dbr:Finland ex:percentOfAgricultureSector "0,028"^^xsd:double .
 dbr:Finland ex:percentOfIndustrySector "0,295"^^xsd:double .
 dbr:Finland ex:percentOfServiceSector "0,676"^^xsd:double .
-dbr:France dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:France dbo:isPartOf dbr:Western_Europe .
 dbr:France dbp:populationEstimate "60876136"^^xsd:double .
 dbr:France dbp:areaTotalSqMi "547030"^^xsd:double .
 dbr:France dbp:populationDensitySqMi "111,3"^^xsd:double .
@@ -1389,7 +1389,7 @@ dbr:France ex:mortalityRate "9,14"^^xsd:double .
 dbr:France ex:percentOfAgricultureSector "0,022"^^xsd:double .
 dbr:France ex:percentOfIndustrySector "0,214"^^xsd:double .
 dbr:France ex:percentOfServiceSector "0,764"^^xsd:double .
-dbr:French_Guiana dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:French_Guiana dbo:isPartOf dbr:Latin_America .
 dbr:French_Guiana dbp:populationEstimate "199509"^^xsd:double .
 dbr:French_Guiana dbp:areaTotalSqMi "91000"^^xsd:double .
 dbr:French_Guiana dbp:populationDensitySqMi "2,2"^^xsd:double .
@@ -1408,7 +1408,7 @@ dbr:French_Guiana ex:mortalityRate "4,88"^^xsd:double .
 dbr:French_Guiana ex:percentOfAgricultureSector "0,066"^^xsd:double .
 dbr:French_Guiana ex:percentOfIndustrySector "0,156"^^xsd:double .
 dbr:French_Guiana ex:percentOfServiceSector "0,778"^^xsd:double .
-dbr:French_Polynesia dbo:isPartOf ex:OCEANIA .
+dbr:French_Polynesia dbo:isPartOf dbr:Oceania .
 dbr:French_Polynesia dbp:populationEstimate "274578"^^xsd:double .
 dbr:French_Polynesia dbp:areaTotalSqMi "4167"^^xsd:double .
 dbr:French_Polynesia dbp:populationDensitySqMi "65,9"^^xsd:double .
@@ -1427,7 +1427,7 @@ dbr:French_Polynesia ex:mortalityRate "4,690"^^xsd:double .
 dbr:French_Polynesia ex:percentOfAgricultureSector "0,0310"^^xsd:double .
 dbr:French_Polynesia ex:percentOfIndustrySector "0,190"^^xsd:double .
 dbr:French_Polynesia ex:percentOfServiceSector "0,7690"^^xsd:double .
-dbr:Gabon dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Gabon dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Gabon dbp:populationEstimate "1424906"^^xsd:double .
 dbr:Gabon dbp:areaTotalSqMi "267667"^^xsd:double .
 dbr:Gabon dbp:populationDensitySqMi "5,3"^^xsd:double .
@@ -1446,7 +1446,7 @@ dbr:Gabon ex:mortalityRate "12,25"^^xsd:double .
 dbr:Gabon ex:percentOfAgricultureSector "0,061"^^xsd:double .
 dbr:Gabon ex:percentOfIndustrySector "0,592"^^xsd:double .
 dbr:Gabon ex:percentOfServiceSector "0,348"^^xsd:double .
-dbr:Gambia_The dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Gambia_The dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Gambia_The dbp:populationEstimate "1641564"^^xsd:double .
 dbr:Gambia_The dbp:areaTotalSqMi "11300"^^xsd:double .
 dbr:Gambia_The dbp:populationDensitySqMi "145,3"^^xsd:double .
@@ -1465,7 +1465,7 @@ dbr:Gambia_The ex:mortalityRate "12,25"^^xsd:double .
 dbr:Gambia_The ex:percentOfAgricultureSector "0,308"^^xsd:double .
 dbr:Gambia_The ex:percentOfIndustrySector "0,142"^^xsd:double .
 dbr:Gambia_The ex:percentOfServiceSector "0,549"^^xsd:double .
-dbr:Gaza_Strip dbo:isPartOf ex:NEAR_EAST .
+dbr:Gaza_Strip dbo:isPartOf dbr:Middle_East .
 dbr:Gaza_Strip dbp:populationEstimate "1428757"^^xsd:double .
 dbr:Gaza_Strip dbp:areaTotalSqMi "360"^^xsd:double .
 dbr:Gaza_Strip dbp:populationDensitySqMi "3968,8"^^xsd:double .
@@ -1484,7 +1484,7 @@ dbr:Gaza_Strip ex:mortalityRate "3,81"^^xsd:double .
 dbr:Gaza_Strip ex:percentOfAgricultureSector "0,031"^^xsd:double .
 dbr:Gaza_Strip ex:percentOfIndustrySector "0,2831"^^xsd:double .
 dbr:Gaza_Strip ex:percentOfServiceSector "0,6871"^^xsd:double .
-dbr:Georgia dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Georgia dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Georgia dbp:populationEstimate "4661473"^^xsd:double .
 dbr:Georgia dbp:areaTotalSqMi "69700"^^xsd:double .
 dbr:Georgia dbp:populationDensitySqMi "66,9"^^xsd:double .
@@ -1503,7 +1503,7 @@ dbr:Georgia ex:mortalityRate "9,23"^^xsd:double .
 dbr:Georgia ex:percentOfAgricultureSector "0,172"^^xsd:double .
 dbr:Georgia ex:percentOfIndustrySector "0,275"^^xsd:double .
 dbr:Georgia ex:percentOfServiceSector "0,553"^^xsd:double .
-dbr:Germany dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Germany dbo:isPartOf dbr:Western_Europe .
 dbr:Germany dbp:populationEstimate "82422299"^^xsd:double .
 dbr:Germany dbp:areaTotalSqMi "357021"^^xsd:double .
 dbr:Germany dbp:populationDensitySqMi "230,9"^^xsd:double .
@@ -1522,7 +1522,7 @@ dbr:Germany ex:mortalityRate "10,62"^^xsd:double .
 dbr:Germany ex:percentOfAgricultureSector "0,009"^^xsd:double .
 dbr:Germany ex:percentOfIndustrySector "0,296"^^xsd:double .
 dbr:Germany ex:percentOfServiceSector "0,695"^^xsd:double .
-dbr:Ghana dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Ghana dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Ghana dbp:populationEstimate "22409572"^^xsd:double .
 dbr:Ghana dbp:areaTotalSqMi "239460"^^xsd:double .
 dbr:Ghana dbp:populationDensitySqMi "93,6"^^xsd:double .
@@ -1541,7 +1541,7 @@ dbr:Ghana ex:mortalityRate "9,72"^^xsd:double .
 dbr:Ghana ex:percentOfAgricultureSector "0,366"^^xsd:double .
 dbr:Ghana ex:percentOfIndustrySector "0,246"^^xsd:double .
 dbr:Ghana ex:percentOfServiceSector "0,387"^^xsd:double .
-dbr:Gibraltar dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Gibraltar dbo:isPartOf dbr:Western_Europe .
 dbr:Gibraltar dbp:populationEstimate "27928"^^xsd:double .
 dbr:Gibraltar dbp:areaTotalSqMi "7"^^xsd:double .
 dbr:Gibraltar dbp:populationDensitySqMi "3989,7"^^xsd:double .
@@ -1560,7 +1560,7 @@ dbr:Gibraltar ex:mortalityRate "9,3143"^^xsd:double .
 dbr:Gibraltar ex:percentOfAgricultureSector "43"^^xsd:double .
 dbr:Gibraltar ex:percentOfIndustrySector "43"^^xsd:double .
 dbr:Gibraltar ex:percentOfServiceSector "43"^^xsd:double .
-dbr:Greece dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Greece dbo:isPartOf dbr:Western_Europe .
 dbr:Greece dbp:populationEstimate "10688058"^^xsd:double .
 dbr:Greece dbp:areaTotalSqMi "131940"^^xsd:double .
 dbr:Greece dbp:populationDensitySqMi "81,0"^^xsd:double .
@@ -1579,7 +1579,7 @@ dbr:Greece ex:mortalityRate "10,247"^^xsd:double .
 dbr:Greece ex:percentOfAgricultureSector "0,0547"^^xsd:double .
 dbr:Greece ex:percentOfIndustrySector "0,2137"^^xsd:double .
 dbr:Greece ex:percentOfServiceSector "0,7337"^^xsd:double .
-dbr:Greenland dbo:isPartOf ex:NORTHERN_AMERICA .
+dbr:Greenland dbo:isPartOf dbr:North_America .
 dbr:Greenland dbp:populationEstimate "56361"^^xsd:double .
 dbr:Greenland dbp:areaTotalSqMi "2166086"^^xsd:double .
 dbr:Greenland dbp:populationDensitySqMi "0,0"^^xsd:double .
@@ -1598,7 +1598,7 @@ dbr:Greenland ex:mortalityRate "7,84"^^xsd:double .
 # dbr:Greenland ex:percentOfAgricultureSector ""^^xsd:double .
 # dbr:Greenland ex:percentOfIndustrySector ""^^xsd:double .
 # dbr:Greenland ex:percentOfServiceSector ""^^xsd:double .
-dbr:Grenada dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Grenada dbo:isPartOf dbr:Latin_America .
 dbr:Grenada dbp:populationEstimate "89703"^^xsd:double .
 dbr:Grenada dbp:areaTotalSqMi "344"^^xsd:double .
 dbr:Grenada dbp:populationDensitySqMi "260,8"^^xsd:double .
@@ -1617,7 +1617,7 @@ dbr:Grenada ex:mortalityRate "6,887"^^xsd:double .
 dbr:Grenada ex:percentOfAgricultureSector "0,0547"^^xsd:double .
 dbr:Grenada ex:percentOfIndustrySector "0,187"^^xsd:double .
 dbr:Grenada ex:percentOfServiceSector "0,7667"^^xsd:double .
-dbr:Guadeloupe dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Guadeloupe dbo:isPartOf dbr:Latin_America .
 dbr:Guadeloupe dbp:populationEstimate "452776"^^xsd:double .
 dbr:Guadeloupe dbp:areaTotalSqMi "1780"^^xsd:double .
 dbr:Guadeloupe dbp:populationDensitySqMi "254,4"^^xsd:double .
@@ -1636,7 +1636,7 @@ dbr:Guadeloupe ex:mortalityRate "6,099"^^xsd:double .
 dbr:Guadeloupe ex:percentOfAgricultureSector "0,159"^^xsd:double .
 dbr:Guadeloupe ex:percentOfIndustrySector "0,179"^^xsd:double .
 dbr:Guadeloupe ex:percentOfServiceSector "0,689"^^xsd:double .
-dbr:Guam dbo:isPartOf ex:OCEANIA .
+dbr:Guam dbo:isPartOf dbr:Oceania .
 dbr:Guam dbp:populationEstimate "171019"^^xsd:double .
 dbr:Guam dbp:areaTotalSqMi "541"^^xsd:double .
 dbr:Guam dbp:populationDensitySqMi "316,1"^^xsd:double .
@@ -1655,7 +1655,7 @@ dbr:Guam ex:mortalityRate "4,480"^^xsd:double .
 dbr:Guam ex:percentOfAgricultureSector "0"^^xsd:double .
 dbr:Guam ex:percentOfIndustrySector "0"^^xsd:double .
 dbr:Guam ex:percentOfServiceSector "0"^^xsd:double .
-dbr:Guatemala dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Guatemala dbo:isPartOf dbr:Latin_America .
 dbr:Guatemala dbp:populationEstimate "12293545"^^xsd:double .
 dbr:Guatemala dbp:areaTotalSqMi "108890"^^xsd:double .
 dbr:Guatemala dbp:populationDensitySqMi "112,9"^^xsd:double .
@@ -1674,7 +1674,7 @@ dbr:Guatemala ex:mortalityRate "5,2"^^xsd:double .
 dbr:Guatemala ex:percentOfAgricultureSector "0,227"^^xsd:double .
 dbr:Guatemala ex:percentOfIndustrySector "0,188"^^xsd:double .
 dbr:Guatemala ex:percentOfServiceSector "0,585"^^xsd:double .
-dbr:Guernsey dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Guernsey dbo:isPartOf dbr:Western_Europe .
 dbr:Guernsey dbp:populationEstimate "65409"^^xsd:double .
 dbr:Guernsey dbp:areaTotalSqMi "78"^^xsd:double .
 dbr:Guernsey dbp:populationDensitySqMi "838,6"^^xsd:double .
@@ -1693,7 +1693,7 @@ dbr:Guernsey ex:mortalityRate "10,010"^^xsd:double .
 dbr:Guernsey ex:percentOfAgricultureSector "0,030"^^xsd:double .
 dbr:Guernsey ex:percentOfIndustrySector "0,10"^^xsd:double .
 dbr:Guernsey ex:percentOfServiceSector "0,870"^^xsd:double .
-dbr:Guinea dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Guinea dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Guinea dbp:populationEstimate "9690222"^^xsd:double .
 dbr:Guinea dbp:areaTotalSqMi "245857"^^xsd:double .
 dbr:Guinea dbp:populationDensitySqMi "39,4"^^xsd:double .
@@ -1712,7 +1712,7 @@ dbr:Guinea ex:mortalityRate "15,48"^^xsd:double .
 dbr:Guinea ex:percentOfAgricultureSector "0,237"^^xsd:double .
 dbr:Guinea ex:percentOfIndustrySector "0,362"^^xsd:double .
 dbr:Guinea ex:percentOfServiceSector "0,401"^^xsd:double .
-dbr:Guinea_Bissau dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Guinea_Bissau dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Guinea_Bissau dbp:populationEstimate "1442029"^^xsd:double .
 dbr:Guinea_Bissau dbp:areaTotalSqMi "36120"^^xsd:double .
 dbr:Guinea_Bissau dbp:populationDensitySqMi "39,9"^^xsd:double .
@@ -1731,7 +1731,7 @@ dbr:Guinea_Bissau ex:mortalityRate "16,53"^^xsd:double .
 dbr:Guinea_Bissau ex:percentOfAgricultureSector "0,62"^^xsd:double .
 dbr:Guinea_Bissau ex:percentOfIndustrySector "0,12"^^xsd:double .
 dbr:Guinea_Bissau ex:percentOfServiceSector "0,26"^^xsd:double .
-dbr:Guyana dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Guyana dbo:isPartOf dbr:Latin_America .
 dbr:Guyana dbp:populationEstimate "767245"^^xsd:double .
 dbr:Guyana dbp:areaTotalSqMi "214970"^^xsd:double .
 dbr:Guyana dbp:populationDensitySqMi "3,6"^^xsd:double .
@@ -1750,7 +1750,7 @@ dbr:Guyana ex:mortalityRate "8,28"^^xsd:double .
 dbr:Guyana ex:percentOfAgricultureSector "0,37"^^xsd:double .
 dbr:Guyana ex:percentOfIndustrySector "0,203"^^xsd:double .
 dbr:Guyana ex:percentOfServiceSector "0,427"^^xsd:double .
-dbr:Haiti dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Haiti dbo:isPartOf dbr:Latin_America .
 dbr:Haiti dbp:populationEstimate "8308504"^^xsd:double .
 dbr:Haiti dbp:areaTotalSqMi "27750"^^xsd:double .
 dbr:Haiti dbp:populationDensitySqMi "299,4"^^xsd:double .
@@ -1769,7 +1769,7 @@ dbr:Haiti ex:mortalityRate "12,17"^^xsd:double .
 dbr:Haiti ex:percentOfAgricultureSector "0,28"^^xsd:double .
 dbr:Haiti ex:percentOfIndustrySector "0,2"^^xsd:double .
 dbr:Haiti ex:percentOfServiceSector "0,52"^^xsd:double .
-dbr:Honduras dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Honduras dbo:isPartOf dbr:Latin_America .
 dbr:Honduras dbp:populationEstimate "7326496"^^xsd:double .
 dbr:Honduras dbp:areaTotalSqMi "112090"^^xsd:double .
 dbr:Honduras dbp:populationDensitySqMi "65,4"^^xsd:double .
@@ -1788,7 +1788,7 @@ dbr:Honduras ex:mortalityRate "5,28"^^xsd:double .
 dbr:Honduras ex:percentOfAgricultureSector "0,139"^^xsd:double .
 dbr:Honduras ex:percentOfIndustrySector "0,312"^^xsd:double .
 dbr:Honduras ex:percentOfServiceSector "0,549"^^xsd:double .
-dbr:Hong_Kong dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Hong_Kong dbo:isPartOf dbr:Asia .
 dbr:Hong_Kong dbp:populationEstimate "6940432"^^xsd:double .
 dbr:Hong_Kong dbp:areaTotalSqMi "1092"^^xsd:double .
 dbr:Hong_Kong dbp:populationDensitySqMi "6355,7"^^xsd:double .
@@ -1807,7 +1807,7 @@ dbr:Hong_Kong ex:mortalityRate "6,292"^^xsd:double .
 dbr:Hong_Kong ex:percentOfAgricultureSector "0,0012"^^xsd:double .
 dbr:Hong_Kong ex:percentOfIndustrySector "0,0922"^^xsd:double .
 dbr:Hong_Kong ex:percentOfServiceSector "0,9062"^^xsd:double .
-dbr:Hungary dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Hungary dbo:isPartOf dbr:Eastern_Europe .
 dbr:Hungary dbp:populationEstimate "9981334"^^xsd:double .
 dbr:Hungary dbp:areaTotalSqMi "93030"^^xsd:double .
 dbr:Hungary dbp:populationDensitySqMi "107,3"^^xsd:double .
@@ -1826,7 +1826,7 @@ dbr:Hungary ex:mortalityRate "13,11"^^xsd:double .
 dbr:Hungary ex:percentOfAgricultureSector "0,037"^^xsd:double .
 dbr:Hungary ex:percentOfIndustrySector "0,312"^^xsd:double .
 dbr:Hungary ex:percentOfServiceSector "0,651"^^xsd:double .
-dbr:Iceland dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Iceland dbo:isPartOf dbr:Western_Europe .
 dbr:Iceland dbp:populationEstimate "299388"^^xsd:double .
 dbr:Iceland dbp:areaTotalSqMi "103000"^^xsd:double .
 dbr:Iceland dbp:populationDensitySqMi "2,9"^^xsd:double .
@@ -1845,7 +1845,7 @@ dbr:Iceland ex:mortalityRate "6,72"^^xsd:double .
 dbr:Iceland ex:percentOfAgricultureSector "0,086"^^xsd:double .
 dbr:Iceland ex:percentOfIndustrySector "0,15"^^xsd:double .
 dbr:Iceland ex:percentOfServiceSector "0,765"^^xsd:double .
-dbr:India dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:India dbo:isPartOf dbr:Asia .
 dbr:India dbp:populationEstimate "1095351995"^^xsd:double .
 dbr:India dbp:areaTotalSqMi "3287590"^^xsd:double .
 dbr:India dbp:populationDensitySqMi "333,2"^^xsd:double .
@@ -1864,7 +1864,7 @@ dbr:India ex:mortalityRate "8,18"^^xsd:double .
 dbr:India ex:percentOfAgricultureSector "0,186"^^xsd:double .
 dbr:India ex:percentOfIndustrySector "0,276"^^xsd:double .
 dbr:India ex:percentOfServiceSector "0,538"^^xsd:double .
-dbr:Indonesia dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Indonesia dbo:isPartOf dbr:Asia .
 dbr:Indonesia dbp:populationEstimate "245452739"^^xsd:double .
 dbr:Indonesia dbp:areaTotalSqMi "1919440"^^xsd:double .
 dbr:Indonesia dbp:populationDensitySqMi "127,9"^^xsd:double .
@@ -1883,7 +1883,7 @@ dbr:Indonesia ex:mortalityRate "6,25"^^xsd:double .
 dbr:Indonesia ex:percentOfAgricultureSector "0,134"^^xsd:double .
 dbr:Indonesia ex:percentOfIndustrySector "0,458"^^xsd:double .
 dbr:Indonesia ex:percentOfServiceSector "0,408"^^xsd:double .
-dbr:Iran dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Iran dbo:isPartOf dbr:Asia .
 dbr:Iran dbp:populationEstimate "68688433"^^xsd:double .
 dbr:Iran dbp:areaTotalSqMi "1648000"^^xsd:double .
 dbr:Iran dbp:populationDensitySqMi "41,7"^^xsd:double .
@@ -1902,7 +1902,7 @@ dbr:Iran ex:mortalityRate "5,55"^^xsd:double .
 dbr:Iran ex:percentOfAgricultureSector "0,116"^^xsd:double .
 dbr:Iran ex:percentOfIndustrySector "0,424"^^xsd:double .
 dbr:Iran ex:percentOfServiceSector "0,46"^^xsd:double .
-dbr:Iraq dbo:isPartOf ex:NEAR_EAST .
+dbr:Iraq dbo:isPartOf dbr:Middle_East .
 dbr:Iraq dbp:populationEstimate "26783383"^^xsd:double .
 dbr:Iraq dbp:areaTotalSqMi "437072"^^xsd:double .
 dbr:Iraq dbp:populationDensitySqMi "61,3"^^xsd:double .
@@ -1921,7 +1921,7 @@ dbr:Iraq ex:mortalityRate "5,37"^^xsd:double .
 dbr:Iraq ex:percentOfAgricultureSector "0,073"^^xsd:double .
 dbr:Iraq ex:percentOfIndustrySector "0,666"^^xsd:double .
 dbr:Iraq ex:percentOfServiceSector "0,261"^^xsd:double .
-dbr:Ireland dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Ireland dbo:isPartOf dbr:Western_Europe .
 dbr:Ireland dbp:populationEstimate "4062235"^^xsd:double .
 dbr:Ireland dbp:areaTotalSqMi "70280"^^xsd:double .
 dbr:Ireland dbp:populationDensitySqMi "57,8"^^xsd:double .
@@ -1940,7 +1940,7 @@ dbr:Ireland ex:mortalityRate "7,82"^^xsd:double .
 dbr:Ireland ex:percentOfAgricultureSector "0,05"^^xsd:double .
 dbr:Ireland ex:percentOfIndustrySector "0,46"^^xsd:double .
 dbr:Ireland ex:percentOfServiceSector "0,49"^^xsd:double .
-dbr:Isle_of_Man dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Isle_of_Man dbo:isPartOf dbr:Western_Europe .
 dbr:Isle_of_Man dbp:populationEstimate "75441"^^xsd:double .
 dbr:Isle_of_Man dbp:areaTotalSqMi "572"^^xsd:double .
 dbr:Isle_of_Man dbp:populationDensitySqMi "131,9"^^xsd:double .
@@ -1959,7 +1959,7 @@ dbr:Isle_of_Man ex:mortalityRate "11,197"^^xsd:double .
 dbr:Isle_of_Man ex:percentOfAgricultureSector "0,017"^^xsd:double .
 dbr:Isle_of_Man ex:percentOfIndustrySector "0,137"^^xsd:double .
 dbr:Isle_of_Man ex:percentOfServiceSector "0,867"^^xsd:double .
-dbr:Israel dbo:isPartOf ex:NEAR_EAST .
+dbr:Israel dbo:isPartOf dbr:Middle_East .
 dbr:Israel dbp:populationEstimate "6352117"^^xsd:double .
 dbr:Israel dbp:areaTotalSqMi "20770"^^xsd:double .
 dbr:Israel dbp:populationDensitySqMi "305,8"^^xsd:double .
@@ -1978,7 +1978,7 @@ dbr:Israel ex:mortalityRate "6,18"^^xsd:double .
 dbr:Israel ex:percentOfAgricultureSector "0,026"^^xsd:double .
 dbr:Israel ex:percentOfIndustrySector "0,317"^^xsd:double .
 dbr:Israel ex:percentOfServiceSector "0,657"^^xsd:double .
-dbr:Italy dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Italy dbo:isPartOf dbr:Western_Europe .
 dbr:Italy dbp:populationEstimate "58133509"^^xsd:double .
 dbr:Italy dbp:areaTotalSqMi "301230"^^xsd:double .
 dbr:Italy dbp:populationDensitySqMi "193,0"^^xsd:double .
@@ -1997,7 +1997,7 @@ dbr:Italy ex:mortalityRate "10,4"^^xsd:double .
 dbr:Italy ex:percentOfAgricultureSector "0,021"^^xsd:double .
 dbr:Italy ex:percentOfIndustrySector "0,291"^^xsd:double .
 dbr:Italy ex:percentOfServiceSector "0,688"^^xsd:double .
-dbr:Jamaica dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Jamaica dbo:isPartOf dbr:Latin_America .
 dbr:Jamaica dbp:populationEstimate "2758124"^^xsd:double .
 dbr:Jamaica dbp:areaTotalSqMi "10991"^^xsd:double .
 dbr:Jamaica dbp:populationDensitySqMi "250,9"^^xsd:double .
@@ -2016,7 +2016,7 @@ dbr:Jamaica ex:mortalityRate "6,52"^^xsd:double .
 dbr:Jamaica ex:percentOfAgricultureSector "0,049"^^xsd:double .
 dbr:Jamaica ex:percentOfIndustrySector "0,337"^^xsd:double .
 dbr:Jamaica ex:percentOfServiceSector "0,615"^^xsd:double .
-dbr:Japan dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Japan dbo:isPartOf dbr:Asia .
 dbr:Japan dbp:populationEstimate "127463611"^^xsd:double .
 dbr:Japan dbp:areaTotalSqMi "377835"^^xsd:double .
 dbr:Japan dbp:populationDensitySqMi "337,4"^^xsd:double .
@@ -2035,7 +2035,7 @@ dbr:Japan ex:mortalityRate "9,16"^^xsd:double .
 dbr:Japan ex:percentOfAgricultureSector "0,017"^^xsd:double .
 dbr:Japan ex:percentOfIndustrySector "0,258"^^xsd:double .
 dbr:Japan ex:percentOfServiceSector "0,725"^^xsd:double .
-dbr:Jersey dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Jersey dbo:isPartOf dbr:Western_Europe .
 dbr:Jersey dbp:populationEstimate "91084"^^xsd:double .
 dbr:Jersey dbp:areaTotalSqMi "116"^^xsd:double .
 dbr:Jersey dbp:populationDensitySqMi "785,2"^^xsd:double .
@@ -2054,7 +2054,7 @@ dbr:Jersey ex:mortalityRate "9,284"^^xsd:double .
 dbr:Jersey ex:percentOfAgricultureSector "0,054"^^xsd:double .
 dbr:Jersey ex:percentOfIndustrySector "0,024"^^xsd:double .
 dbr:Jersey ex:percentOfServiceSector "0,934"^^xsd:double .
-dbr:Jordan dbo:isPartOf ex:NEAR_EAST .
+dbr:Jordan dbo:isPartOf dbr:Middle_East .
 dbr:Jordan dbp:populationEstimate "5906760"^^xsd:double .
 dbr:Jordan dbp:areaTotalSqMi "92300"^^xsd:double .
 dbr:Jordan dbp:populationDensitySqMi "64,0"^^xsd:double .
@@ -2073,7 +2073,7 @@ dbr:Jordan ex:mortalityRate "2,65"^^xsd:double .
 dbr:Jordan ex:percentOfAgricultureSector "0,033"^^xsd:double .
 dbr:Jordan ex:percentOfIndustrySector "0,287"^^xsd:double .
 dbr:Jordan ex:percentOfServiceSector "0,68"^^xsd:double .
-dbr:Kazakhstan dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Kazakhstan dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Kazakhstan dbp:populationEstimate "15233244"^^xsd:double .
 dbr:Kazakhstan dbp:areaTotalSqMi "2717300"^^xsd:double .
 dbr:Kazakhstan dbp:populationDensitySqMi "5,6"^^xsd:double .
@@ -2092,7 +2092,7 @@ dbr:Kazakhstan ex:mortalityRate "9,42"^^xsd:double .
 dbr:Kazakhstan ex:percentOfAgricultureSector "0,067"^^xsd:double .
 dbr:Kazakhstan ex:percentOfIndustrySector "0,386"^^xsd:double .
 dbr:Kazakhstan ex:percentOfServiceSector "0,547"^^xsd:double .
-dbr:Kenya dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Kenya dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Kenya dbp:populationEstimate "34707817"^^xsd:double .
 dbr:Kenya dbp:areaTotalSqMi "582650"^^xsd:double .
 dbr:Kenya dbp:populationDensitySqMi "59,6"^^xsd:double .
@@ -2111,7 +2111,7 @@ dbr:Kenya ex:mortalityRate "14,02"^^xsd:double .
 dbr:Kenya ex:percentOfAgricultureSector "0,163"^^xsd:double .
 dbr:Kenya ex:percentOfIndustrySector "0,188"^^xsd:double .
 dbr:Kenya ex:percentOfServiceSector "0,651"^^xsd:double .
-dbr:Kiribati dbo:isPartOf ex:OCEANIA .
+dbr:Kiribati dbo:isPartOf dbr:Oceania .
 dbr:Kiribati dbp:populationEstimate "105432"^^xsd:double .
 dbr:Kiribati dbp:areaTotalSqMi "811"^^xsd:double .
 dbr:Kiribati dbp:populationDensitySqMi "130,0"^^xsd:double .
@@ -2130,7 +2130,7 @@ dbr:Kiribati ex:mortalityRate "8,2694"^^xsd:double .
 dbr:Kiribati ex:percentOfAgricultureSector "0,08994"^^xsd:double .
 dbr:Kiribati ex:percentOfIndustrySector "0,24294"^^xsd:double .
 dbr:Kiribati ex:percentOfServiceSector "0,66894"^^xsd:double .
-dbr:Korea_North dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Korea_North dbo:isPartOf dbr:Asia .
 dbr:Korea_North dbp:populationEstimate "23113019"^^xsd:double .
 dbr:Korea_North dbp:areaTotalSqMi "120540"^^xsd:double .
 dbr:Korea_North dbp:populationDensitySqMi "191,8"^^xsd:double .
@@ -2149,7 +2149,7 @@ dbr:Korea_North ex:mortalityRate "7,13"^^xsd:double .
 dbr:Korea_North ex:percentOfAgricultureSector "0,3"^^xsd:double .
 dbr:Korea_North ex:percentOfIndustrySector "0,34"^^xsd:double .
 dbr:Korea_North ex:percentOfServiceSector "0,36"^^xsd:double .
-dbr:Korea_South dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Korea_South dbo:isPartOf dbr:Asia .
 dbr:Korea_South dbp:populationEstimate "48846823"^^xsd:double .
 dbr:Korea_South dbp:areaTotalSqMi "98480"^^xsd:double .
 dbr:Korea_South dbp:populationDensitySqMi "496,0"^^xsd:double .
@@ -2168,7 +2168,7 @@ dbr:Korea_South ex:mortalityRate "5,85"^^xsd:double .
 dbr:Korea_South ex:percentOfAgricultureSector "0,033"^^xsd:double .
 dbr:Korea_South ex:percentOfIndustrySector "0,403"^^xsd:double .
 dbr:Korea_South ex:percentOfServiceSector "0,563"^^xsd:double .
-dbr:Kuwait dbo:isPartOf ex:NEAR_EAST .
+dbr:Kuwait dbo:isPartOf dbr:Middle_East .
 dbr:Kuwait dbp:populationEstimate "2418393"^^xsd:double .
 dbr:Kuwait dbp:areaTotalSqMi "17820"^^xsd:double .
 dbr:Kuwait dbp:populationDensitySqMi "135,7"^^xsd:double .
@@ -2187,7 +2187,7 @@ dbr:Kuwait ex:mortalityRate "2,41"^^xsd:double .
 dbr:Kuwait ex:percentOfAgricultureSector "0,004"^^xsd:double .
 dbr:Kuwait ex:percentOfIndustrySector "0,479"^^xsd:double .
 dbr:Kuwait ex:percentOfServiceSector "0,516"^^xsd:double .
-dbr:Kyrgyzstan dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Kyrgyzstan dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Kyrgyzstan dbp:populationEstimate "5213898"^^xsd:double .
 dbr:Kyrgyzstan dbp:areaTotalSqMi "198500"^^xsd:double .
 dbr:Kyrgyzstan dbp:populationDensitySqMi "26,3"^^xsd:double .
@@ -2206,7 +2206,7 @@ dbr:Kyrgyzstan ex:mortalityRate "7,08"^^xsd:double .
 dbr:Kyrgyzstan ex:percentOfAgricultureSector "0,353"^^xsd:double .
 dbr:Kyrgyzstan ex:percentOfIndustrySector "0,208"^^xsd:double .
 dbr:Kyrgyzstan ex:percentOfServiceSector "0,439"^^xsd:double .
-dbr:Laos dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Laos dbo:isPartOf dbr:Asia .
 dbr:Laos dbp:populationEstimate "6368481"^^xsd:double .
 dbr:Laos dbp:areaTotalSqMi "236800"^^xsd:double .
 dbr:Laos dbp:populationDensitySqMi "26,9"^^xsd:double .
@@ -2225,7 +2225,7 @@ dbr:Laos ex:mortalityRate "11,55"^^xsd:double .
 dbr:Laos ex:percentOfAgricultureSector "0,455"^^xsd:double .
 dbr:Laos ex:percentOfIndustrySector "0,287"^^xsd:double .
 dbr:Laos ex:percentOfServiceSector "0,258"^^xsd:double .
-dbr:Latvia dbo:isPartOf ex:BALTICS .
+dbr:Latvia dbo:isPartOf dbr:Baltic_Sea .
 dbr:Latvia dbp:populationEstimate "2274735"^^xsd:double .
 dbr:Latvia dbp:areaTotalSqMi "64589"^^xsd:double .
 dbr:Latvia dbp:populationDensitySqMi "35,2"^^xsd:double .
@@ -2244,7 +2244,7 @@ dbr:Latvia ex:mortalityRate "13,66"^^xsd:double .
 dbr:Latvia ex:percentOfAgricultureSector "0,04"^^xsd:double .
 dbr:Latvia ex:percentOfIndustrySector "0,261"^^xsd:double .
 dbr:Latvia ex:percentOfServiceSector "0,699"^^xsd:double .
-dbr:Lebanon dbo:isPartOf ex:NEAR_EAST .
+dbr:Lebanon dbo:isPartOf dbr:Middle_East .
 dbr:Lebanon dbp:populationEstimate "3874050"^^xsd:double .
 dbr:Lebanon dbp:areaTotalSqMi "10400"^^xsd:double .
 dbr:Lebanon dbp:populationDensitySqMi "372,5"^^xsd:double .
@@ -2263,7 +2263,7 @@ dbr:Lebanon ex:mortalityRate "6,21"^^xsd:double .
 dbr:Lebanon ex:percentOfAgricultureSector "0,12"^^xsd:double .
 dbr:Lebanon ex:percentOfIndustrySector "0,21"^^xsd:double .
 dbr:Lebanon ex:percentOfServiceSector "0,67"^^xsd:double .
-dbr:Lesotho dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Lesotho dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Lesotho dbp:populationEstimate "2022331"^^xsd:double .
 dbr:Lesotho dbp:areaTotalSqMi "30355"^^xsd:double .
 dbr:Lesotho dbp:populationDensitySqMi "66,6"^^xsd:double .
@@ -2282,7 +2282,7 @@ dbr:Lesotho ex:mortalityRate "28,71"^^xsd:double .
 dbr:Lesotho ex:percentOfAgricultureSector "0,163"^^xsd:double .
 dbr:Lesotho ex:percentOfIndustrySector "0,443"^^xsd:double .
 dbr:Lesotho ex:percentOfServiceSector "0,394"^^xsd:double .
-dbr:Liberia dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Liberia dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Liberia dbp:populationEstimate "3042004"^^xsd:double .
 dbr:Liberia dbp:areaTotalSqMi "111370"^^xsd:double .
 dbr:Liberia dbp:populationDensitySqMi "27,3"^^xsd:double .
@@ -2301,7 +2301,7 @@ dbr:Liberia ex:mortalityRate "23,1"^^xsd:double .
 dbr:Liberia ex:percentOfAgricultureSector "0,769"^^xsd:double .
 dbr:Liberia ex:percentOfIndustrySector "0,054"^^xsd:double .
 dbr:Liberia ex:percentOfServiceSector "0,177"^^xsd:double .
-dbr:Libya dbo:isPartOf ex:NORTHERN_AFRICA .
+dbr:Libya dbo:isPartOf dbr:North_Africa .
 dbr:Libya dbp:populationEstimate "5900754"^^xsd:double .
 dbr:Libya dbp:areaTotalSqMi "1759540"^^xsd:double .
 dbr:Libya dbp:populationDensitySqMi "3,4"^^xsd:double .
@@ -2320,7 +2320,7 @@ dbr:Libya ex:mortalityRate "3,48"^^xsd:double .
 dbr:Libya ex:percentOfAgricultureSector "0,076"^^xsd:double .
 dbr:Libya ex:percentOfIndustrySector "0,499"^^xsd:double .
 dbr:Libya ex:percentOfServiceSector "0,425"^^xsd:double .
-dbr:Liechtenstein dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Liechtenstein dbo:isPartOf dbr:Western_Europe .
 dbr:Liechtenstein dbp:populationEstimate "33987"^^xsd:double .
 dbr:Liechtenstein dbp:areaTotalSqMi "160"^^xsd:double .
 dbr:Liechtenstein dbp:populationDensitySqMi "212,4"^^xsd:double .
@@ -2339,7 +2339,7 @@ dbr:Liechtenstein ex:mortalityRate "7,18"^^xsd:double .
 dbr:Liechtenstein ex:percentOfAgricultureSector "0,06"^^xsd:double .
 dbr:Liechtenstein ex:percentOfIndustrySector "0,39"^^xsd:double .
 dbr:Liechtenstein ex:percentOfServiceSector "0,55"^^xsd:double .
-dbr:Lithuania dbo:isPartOf ex:BALTICS .
+dbr:Lithuania dbo:isPartOf dbr:Baltic_Sea .
 dbr:Lithuania dbp:populationEstimate "3585906"^^xsd:double .
 dbr:Lithuania dbp:areaTotalSqMi "65200"^^xsd:double .
 dbr:Lithuania dbp:populationDensitySqMi "55,0"^^xsd:double .
@@ -2358,7 +2358,7 @@ dbr:Lithuania ex:mortalityRate "10,98"^^xsd:double .
 dbr:Lithuania ex:percentOfAgricultureSector "0,055"^^xsd:double .
 dbr:Lithuania ex:percentOfIndustrySector "0,325"^^xsd:double .
 dbr:Lithuania ex:percentOfServiceSector "0,62"^^xsd:double .
-dbr:Luxembourg dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Luxembourg dbo:isPartOf dbr:Western_Europe .
 dbr:Luxembourg dbp:populationEstimate "474413"^^xsd:double .
 dbr:Luxembourg dbp:areaTotalSqMi "2586"^^xsd:double .
 dbr:Luxembourg dbp:populationDensitySqMi "183,5"^^xsd:double .
@@ -2377,7 +2377,7 @@ dbr:Luxembourg ex:mortalityRate "8,41"^^xsd:double .
 dbr:Luxembourg ex:percentOfAgricultureSector "0,01"^^xsd:double .
 dbr:Luxembourg ex:percentOfIndustrySector "0,13"^^xsd:double .
 dbr:Luxembourg ex:percentOfServiceSector "0,86"^^xsd:double .
-dbr:Macau dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Macau dbo:isPartOf dbr:Asia .
 dbr:Macau dbp:populationEstimate "453125"^^xsd:double .
 dbr:Macau dbp:areaTotalSqMi "28"^^xsd:double .
 dbr:Macau dbp:populationDensitySqMi "16183,0"^^xsd:double .
@@ -2396,7 +2396,7 @@ dbr:Macau ex:mortalityRate "4,4743"^^xsd:double .
 dbr:Macau ex:percentOfAgricultureSector "0,00143"^^xsd:double .
 dbr:Macau ex:percentOfIndustrySector "0,07243"^^xsd:double .
 dbr:Macau ex:percentOfServiceSector "0,92743"^^xsd:double .
-dbr:Macedonia dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Macedonia dbo:isPartOf dbr:Eastern_Europe .
 dbr:Macedonia dbp:populationEstimate "2050554"^^xsd:double .
 dbr:Macedonia dbp:areaTotalSqMi "25333"^^xsd:double .
 dbr:Macedonia dbp:populationDensitySqMi "80,9"^^xsd:double .
@@ -2415,7 +2415,7 @@ dbr:Macedonia ex:mortalityRate "8,77"^^xsd:double .
 dbr:Macedonia ex:percentOfAgricultureSector "0,118"^^xsd:double .
 dbr:Macedonia ex:percentOfIndustrySector "0,319"^^xsd:double .
 dbr:Macedonia ex:percentOfServiceSector "0,563"^^xsd:double .
-dbr:Madagascar dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Madagascar dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Madagascar dbp:populationEstimate "18595469"^^xsd:double .
 dbr:Madagascar dbp:areaTotalSqMi "587040"^^xsd:double .
 dbr:Madagascar dbp:populationDensitySqMi "31,7"^^xsd:double .
@@ -2434,7 +2434,7 @@ dbr:Madagascar ex:mortalityRate "11,11"^^xsd:double .
 dbr:Madagascar ex:percentOfAgricultureSector "0,276"^^xsd:double .
 dbr:Madagascar ex:percentOfIndustrySector "0,165"^^xsd:double .
 dbr:Madagascar ex:percentOfServiceSector "0,559"^^xsd:double .
-dbr:Malawi dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Malawi dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Malawi dbp:populationEstimate "13013926"^^xsd:double .
 dbr:Malawi dbp:areaTotalSqMi "118480"^^xsd:double .
 dbr:Malawi dbp:populationDensitySqMi "109,8"^^xsd:double .
@@ -2453,7 +2453,7 @@ dbr:Malawi ex:mortalityRate "19,33"^^xsd:double .
 dbr:Malawi ex:percentOfAgricultureSector "0,342"^^xsd:double .
 dbr:Malawi ex:percentOfIndustrySector "0,158"^^xsd:double .
 dbr:Malawi ex:percentOfServiceSector "0,499"^^xsd:double .
-dbr:Malaysia dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Malaysia dbo:isPartOf dbr:Asia .
 dbr:Malaysia dbp:populationEstimate "24385858"^^xsd:double .
 dbr:Malaysia dbp:areaTotalSqMi "329750"^^xsd:double .
 dbr:Malaysia dbp:populationDensitySqMi "74,0"^^xsd:double .
@@ -2472,7 +2472,7 @@ dbr:Malaysia ex:mortalityRate "5,05"^^xsd:double .
 dbr:Malaysia ex:percentOfAgricultureSector "0,084"^^xsd:double .
 dbr:Malaysia ex:percentOfIndustrySector "0,48"^^xsd:double .
 dbr:Malaysia ex:percentOfServiceSector "0,436"^^xsd:double .
-dbr:Maldives dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Maldives dbo:isPartOf dbr:Asia .
 dbr:Maldives dbp:populationEstimate "359008"^^xsd:double .
 dbr:Maldives dbp:areaTotalSqMi "300"^^xsd:double .
 dbr:Maldives dbp:populationDensitySqMi "1196,7"^^xsd:double .
@@ -2491,7 +2491,7 @@ dbr:Maldives ex:mortalityRate "7,0667"^^xsd:double .
 dbr:Maldives ex:percentOfAgricultureSector "0,267"^^xsd:double .
 dbr:Maldives ex:percentOfIndustrySector "0,1867"^^xsd:double .
 dbr:Maldives ex:percentOfServiceSector "0,6267"^^xsd:double .
-dbr:Mali dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Mali dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Mali dbp:populationEstimate "11716829"^^xsd:double .
 dbr:Mali dbp:areaTotalSqMi "1240000"^^xsd:double .
 dbr:Mali dbp:populationDensitySqMi "9,5"^^xsd:double .
@@ -2510,7 +2510,7 @@ dbr:Mali ex:mortalityRate "16,89"^^xsd:double .
 dbr:Mali ex:percentOfAgricultureSector "0,45"^^xsd:double .
 dbr:Mali ex:percentOfIndustrySector "0,17"^^xsd:double .
 dbr:Mali ex:percentOfServiceSector "0,38"^^xsd:double .
-dbr:Malta dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Malta dbo:isPartOf dbr:Western_Europe .
 dbr:Malta dbp:populationEstimate "400214"^^xsd:double .
 dbr:Malta dbp:areaTotalSqMi "316"^^xsd:double .
 dbr:Malta dbp:populationDensitySqMi "1266,5"^^xsd:double .
@@ -2529,7 +2529,7 @@ dbr:Malta ex:mortalityRate "8,18"^^xsd:double .
 dbr:Malta ex:percentOfAgricultureSector "0,038"^^xsd:double .
 dbr:Malta ex:percentOfIndustrySector "0,238"^^xsd:double .
 dbr:Malta ex:percentOfServiceSector "0,748"^^xsd:double .
-dbr:Marshall_Islands dbo:isPartOf ex:OCEANIA .
+dbr:Marshall_Islands dbo:isPartOf dbr:Oceania .
 dbr:Marshall_Islands dbp:populationEstimate "60422"^^xsd:double .
 dbr:Marshall_Islands dbp:areaTotalSqMi "11854"^^xsd:double .
 dbr:Marshall_Islands dbp:populationDensitySqMi "5,1"^^xsd:double .
@@ -2548,7 +2548,7 @@ dbr:Marshall_Islands ex:mortalityRate "4,78"^^xsd:double .
 dbr:Marshall_Islands ex:percentOfAgricultureSector "0,317"^^xsd:double .
 dbr:Marshall_Islands ex:percentOfIndustrySector "0,149"^^xsd:double .
 dbr:Marshall_Islands ex:percentOfServiceSector "0,534"^^xsd:double .
-dbr:Martinique dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Martinique dbo:isPartOf dbr:Latin_America .
 dbr:Martinique dbp:populationEstimate "436131"^^xsd:double .
 dbr:Martinique dbp:areaTotalSqMi "1100"^^xsd:double .
 dbr:Martinique dbp:populationDensitySqMi "396,5"^^xsd:double .
@@ -2567,7 +2567,7 @@ dbr:Martinique ex:mortalityRate "6,482"^^xsd:double .
 dbr:Martinique ex:percentOfAgricultureSector "0,062"^^xsd:double .
 dbr:Martinique ex:percentOfIndustrySector "0,112"^^xsd:double .
 dbr:Martinique ex:percentOfServiceSector "0,832"^^xsd:double .
-dbr:Mauritania dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Mauritania dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Mauritania dbp:populationEstimate "3177388"^^xsd:double .
 dbr:Mauritania dbp:areaTotalSqMi "1030700"^^xsd:double .
 dbr:Mauritania dbp:populationDensitySqMi "3,1"^^xsd:double .
@@ -2586,7 +2586,7 @@ dbr:Mauritania ex:mortalityRate "12,16"^^xsd:double .
 dbr:Mauritania ex:percentOfAgricultureSector "0,25"^^xsd:double .
 dbr:Mauritania ex:percentOfIndustrySector "0,29"^^xsd:double .
 dbr:Mauritania ex:percentOfServiceSector "0,46"^^xsd:double .
-dbr:Mauritius dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Mauritius dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Mauritius dbp:populationEstimate "1240827"^^xsd:double .
 dbr:Mauritius dbp:areaTotalSqMi "2040"^^xsd:double .
 dbr:Mauritius dbp:populationDensitySqMi "608,3"^^xsd:double .
@@ -2605,7 +2605,7 @@ dbr:Mauritius ex:mortalityRate "6,86"^^xsd:double .
 dbr:Mauritius ex:percentOfAgricultureSector "0,059"^^xsd:double .
 dbr:Mauritius ex:percentOfIndustrySector "0,298"^^xsd:double .
 dbr:Mauritius ex:percentOfServiceSector "0,643"^^xsd:double .
-dbr:Mayotte dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Mayotte dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Mayotte dbp:populationEstimate "201234"^^xsd:double .
 dbr:Mayotte dbp:areaTotalSqMi "374"^^xsd:double .
 dbr:Mayotte dbp:populationDensitySqMi "538,1"^^xsd:double .
@@ -2624,7 +2624,7 @@ dbr:Mayotte ex:mortalityRate "7,72"^^xsd:double .
 dbr:Mayotte ex:percentOfAgricultureSector "2"^^xsd:double .
 dbr:Mayotte ex:percentOfIndustrySector "2"^^xsd:double .
 dbr:Mayotte ex:percentOfServiceSector "2"^^xsd:double .
-dbr:Mexico dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Mexico dbo:isPartOf dbr:Latin_America .
 dbr:Mexico dbp:populationEstimate "107449525"^^xsd:double .
 dbr:Mexico dbp:areaTotalSqMi "1972550"^^xsd:double .
 dbr:Mexico dbp:populationDensitySqMi "54,5"^^xsd:double .
@@ -2643,7 +2643,7 @@ dbr:Mexico ex:mortalityRate "4,74"^^xsd:double .
 dbr:Mexico ex:percentOfAgricultureSector "0,038"^^xsd:double .
 dbr:Mexico ex:percentOfIndustrySector "0,259"^^xsd:double .
 dbr:Mexico ex:percentOfServiceSector "0,702"^^xsd:double .
-dbr:Micronesia_Fed_St dbo:isPartOf ex:OCEANIA .
+dbr:Micronesia_Fed_St dbo:isPartOf dbr:Oceania .
 dbr:Micronesia_Fed_St dbp:populationEstimate "108004"^^xsd:double .
 dbr:Micronesia_Fed_St dbp:areaTotalSqMi "702"^^xsd:double .
 dbr:Micronesia_Fed_St dbp:populationDensitySqMi "153,9"^^xsd:double .
@@ -2662,7 +2662,7 @@ dbr:Micronesia_Fed_St ex:mortalityRate "4,75"^^xsd:double .
 dbr:Micronesia_Fed_St ex:percentOfAgricultureSector "0,289"^^xsd:double .
 dbr:Micronesia_Fed_St ex:percentOfIndustrySector "0,152"^^xsd:double .
 dbr:Micronesia_Fed_St ex:percentOfServiceSector "0,559"^^xsd:double .
-dbr:Moldova dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Moldova dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Moldova dbp:populationEstimate "4466706"^^xsd:double .
 dbr:Moldova dbp:areaTotalSqMi "33843"^^xsd:double .
 dbr:Moldova dbp:populationDensitySqMi "132,0"^^xsd:double .
@@ -2681,7 +2681,7 @@ dbr:Moldova ex:mortalityRate "12,64"^^xsd:double .
 dbr:Moldova ex:percentOfAgricultureSector "0,213"^^xsd:double .
 dbr:Moldova ex:percentOfIndustrySector "0,233"^^xsd:double .
 dbr:Moldova ex:percentOfServiceSector "0,555"^^xsd:double .
-dbr:Monaco dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Monaco dbo:isPartOf dbr:Western_Europe .
 dbr:Monaco dbp:populationEstimate "32543"^^xsd:double .
 dbr:Monaco dbp:areaTotalSqMi "2"^^xsd:double .
 dbr:Monaco dbp:populationDensitySqMi "16271,5"^^xsd:double .
@@ -2700,7 +2700,7 @@ dbr:Monaco ex:mortalityRate "12,9100"^^xsd:double .
 dbr:Monaco ex:percentOfAgricultureSector "0,1700"^^xsd:double .
 dbr:Monaco ex:percentOfIndustrySector "00"^^xsd:double .
 dbr:Monaco ex:percentOfServiceSector "00"^^xsd:double .
-dbr:Mongolia dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Mongolia dbo:isPartOf dbr:Asia .
 dbr:Mongolia dbp:populationEstimate "2832224"^^xsd:double .
 dbr:Mongolia dbp:areaTotalSqMi "1564116"^^xsd:double .
 dbr:Mongolia dbp:populationDensitySqMi "1,8"^^xsd:double .
@@ -2719,7 +2719,7 @@ dbr:Mongolia ex:mortalityRate "6,95"^^xsd:double .
 dbr:Mongolia ex:percentOfAgricultureSector "0,206"^^xsd:double .
 dbr:Mongolia ex:percentOfIndustrySector "0,214"^^xsd:double .
 dbr:Mongolia ex:percentOfServiceSector "0,58"^^xsd:double .
-dbr:Montserrat dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Montserrat dbo:isPartOf dbr:Latin_America .
 dbr:Montserrat dbp:populationEstimate "9439"^^xsd:double .
 dbr:Montserrat dbp:areaTotalSqMi "102"^^xsd:double .
 dbr:Montserrat dbp:populationDensitySqMi "92,5"^^xsd:double .
@@ -2738,7 +2738,7 @@ dbr:Montserrat ex:mortalityRate "7,12"^^xsd:double .
 dbr:Montserrat ex:percentOfAgricultureSector "2"^^xsd:double .
 dbr:Montserrat ex:percentOfIndustrySector "2"^^xsd:double .
 dbr:Montserrat ex:percentOfServiceSector "2"^^xsd:double .
-dbr:Morocco dbo:isPartOf ex:NORTHERN_AFRICA .
+dbr:Morocco dbo:isPartOf dbr:North_Africa .
 dbr:Morocco dbp:populationEstimate "33241259"^^xsd:double .
 dbr:Morocco dbp:areaTotalSqMi "446550"^^xsd:double .
 dbr:Morocco dbp:populationDensitySqMi "74,4"^^xsd:double .
@@ -2757,7 +2757,7 @@ dbr:Morocco ex:mortalityRate "5,58"^^xsd:double .
 dbr:Morocco ex:percentOfAgricultureSector "0,217"^^xsd:double .
 dbr:Morocco ex:percentOfIndustrySector "0,357"^^xsd:double .
 dbr:Morocco ex:percentOfServiceSector "0,426"^^xsd:double .
-dbr:Mozambique dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Mozambique dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Mozambique dbp:populationEstimate "19686505"^^xsd:double .
 dbr:Mozambique dbp:areaTotalSqMi "801590"^^xsd:double .
 dbr:Mozambique dbp:populationDensitySqMi "24,6"^^xsd:double .
@@ -2776,7 +2776,7 @@ dbr:Mozambique ex:mortalityRate "21,35"^^xsd:double .
 dbr:Mozambique ex:percentOfAgricultureSector "0,262"^^xsd:double .
 dbr:Mozambique ex:percentOfIndustrySector "0,348"^^xsd:double .
 dbr:Mozambique ex:percentOfServiceSector "0,39"^^xsd:double .
-dbr:Namibia dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Namibia dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Namibia dbp:populationEstimate "2044147"^^xsd:double .
 dbr:Namibia dbp:areaTotalSqMi "825418"^^xsd:double .
 dbr:Namibia dbp:populationDensitySqMi "2,5"^^xsd:double .
@@ -2795,7 +2795,7 @@ dbr:Namibia ex:mortalityRate "18,86"^^xsd:double .
 dbr:Namibia ex:percentOfAgricultureSector "0,097"^^xsd:double .
 dbr:Namibia ex:percentOfIndustrySector "0,315"^^xsd:double .
 dbr:Namibia ex:percentOfServiceSector "0,588"^^xsd:double .
-dbr:Nauru dbo:isPartOf ex:OCEANIA .
+dbr:Nauru dbo:isPartOf dbr:Oceania .
 dbr:Nauru dbp:populationEstimate "13287"^^xsd:double .
 dbr:Nauru dbp:areaTotalSqMi "21"^^xsd:double .
 dbr:Nauru dbp:populationDensitySqMi "632,7"^^xsd:double .
@@ -2814,7 +2814,7 @@ dbr:Nauru ex:mortalityRate "6,786"^^xsd:double .
 dbr:Nauru ex:percentOfAgricultureSector "86"^^xsd:double .
 dbr:Nauru ex:percentOfIndustrySector "86"^^xsd:double .
 dbr:Nauru ex:percentOfServiceSector "86"^^xsd:double .
-dbr:Nepal dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Nepal dbo:isPartOf dbr:Asia .
 dbr:Nepal dbp:populationEstimate "28287147"^^xsd:double .
 dbr:Nepal dbp:areaTotalSqMi "147181"^^xsd:double .
 dbr:Nepal dbp:populationDensitySqMi "192,2"^^xsd:double .
@@ -2833,7 +2833,7 @@ dbr:Nepal ex:mortalityRate "9,31"^^xsd:double .
 dbr:Nepal ex:percentOfAgricultureSector "0,38"^^xsd:double .
 dbr:Nepal ex:percentOfIndustrySector "0,21"^^xsd:double .
 dbr:Nepal ex:percentOfServiceSector "0,41"^^xsd:double .
-dbr:Netherlands dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Netherlands dbo:isPartOf dbr:Western_Europe .
 dbr:Netherlands dbp:populationEstimate "16491461"^^xsd:double .
 dbr:Netherlands dbp:areaTotalSqMi "41526"^^xsd:double .
 dbr:Netherlands dbp:populationDensitySqMi "397,1"^^xsd:double .
@@ -2852,7 +2852,7 @@ dbr:Netherlands ex:mortalityRate "8,68"^^xsd:double .
 dbr:Netherlands ex:percentOfAgricultureSector "0,021"^^xsd:double .
 dbr:Netherlands ex:percentOfIndustrySector "0,244"^^xsd:double .
 dbr:Netherlands ex:percentOfServiceSector "0,736"^^xsd:double .
-dbr:Netherlands_Antilles dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Netherlands_Antilles dbo:isPartOf dbr:Latin_America .
 dbr:Netherlands_Antilles dbp:populationEstimate "221736"^^xsd:double .
 dbr:Netherlands_Antilles dbp:areaTotalSqMi "960"^^xsd:double .
 dbr:Netherlands_Antilles dbp:populationDensitySqMi "231,0"^^xsd:double .
@@ -2871,7 +2871,7 @@ dbr:Netherlands_Antilles ex:mortalityRate "6,452"^^xsd:double .
 dbr:Netherlands_Antilles ex:percentOfAgricultureSector "0,012"^^xsd:double .
 dbr:Netherlands_Antilles ex:percentOfIndustrySector "0,152"^^xsd:double .
 dbr:Netherlands_Antilles ex:percentOfServiceSector "0,842"^^xsd:double .
-dbr:New_Caledonia dbo:isPartOf ex:OCEANIA .
+dbr:New_Caledonia dbo:isPartOf dbr:Oceania .
 dbr:New_Caledonia dbp:populationEstimate "219246"^^xsd:double .
 dbr:New_Caledonia dbp:areaTotalSqMi "19060"^^xsd:double .
 dbr:New_Caledonia dbp:populationDensitySqMi "11,5"^^xsd:double .
@@ -2890,7 +2890,7 @@ dbr:New_Caledonia ex:mortalityRate "5,693"^^xsd:double .
 dbr:New_Caledonia ex:percentOfAgricultureSector "0,153"^^xsd:double .
 dbr:New_Caledonia ex:percentOfIndustrySector "0,0883"^^xsd:double .
 dbr:New_Caledonia ex:percentOfServiceSector "0,7623"^^xsd:double .
-dbr:New_Zealand dbo:isPartOf ex:OCEANIA .
+dbr:New_Zealand dbo:isPartOf dbr:Oceania .
 dbr:New_Zealand dbp:populationEstimate "4076140"^^xsd:double .
 dbr:New_Zealand dbp:areaTotalSqMi "268680"^^xsd:double .
 dbr:New_Zealand dbp:populationDensitySqMi "15,2"^^xsd:double .
@@ -2909,7 +2909,7 @@ dbr:New_Zealand ex:mortalityRate "7,53"^^xsd:double .
 dbr:New_Zealand ex:percentOfAgricultureSector "0,043"^^xsd:double .
 dbr:New_Zealand ex:percentOfIndustrySector "0,273"^^xsd:double .
 dbr:New_Zealand ex:percentOfServiceSector "0,684"^^xsd:double .
-dbr:Nicaragua dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Nicaragua dbo:isPartOf dbr:Latin_America .
 dbr:Nicaragua dbp:populationEstimate "5570129"^^xsd:double .
 dbr:Nicaragua dbp:areaTotalSqMi "129494"^^xsd:double .
 dbr:Nicaragua dbp:populationDensitySqMi "43,0"^^xsd:double .
@@ -2928,7 +2928,7 @@ dbr:Nicaragua ex:mortalityRate "4,45"^^xsd:double .
 dbr:Nicaragua ex:percentOfAgricultureSector "0,165"^^xsd:double .
 dbr:Nicaragua ex:percentOfIndustrySector "0,275"^^xsd:double .
 dbr:Nicaragua ex:percentOfServiceSector "0,56"^^xsd:double .
-dbr:Niger dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Niger dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Niger dbp:populationEstimate "12525094"^^xsd:double .
 dbr:Niger dbp:areaTotalSqMi "1267000"^^xsd:double .
 dbr:Niger dbp:populationDensitySqMi "9,9"^^xsd:double .
@@ -2947,7 +2947,7 @@ dbr:Niger ex:mortalityRate "20,91"^^xsd:double .
 dbr:Niger ex:percentOfAgricultureSector "0,39"^^xsd:double .
 dbr:Niger ex:percentOfIndustrySector "0,17"^^xsd:double .
 dbr:Niger ex:percentOfServiceSector "0,44"^^xsd:double .
-dbr:Nigeria dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Nigeria dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Nigeria dbp:populationEstimate "131859731"^^xsd:double .
 dbr:Nigeria dbp:areaTotalSqMi "923768"^^xsd:double .
 dbr:Nigeria dbp:populationDensitySqMi "142,7"^^xsd:double .
@@ -2966,7 +2966,7 @@ dbr:Nigeria ex:mortalityRate "16,94"^^xsd:double .
 dbr:Nigeria ex:percentOfAgricultureSector "0,269"^^xsd:double .
 dbr:Nigeria ex:percentOfIndustrySector "0,487"^^xsd:double .
 dbr:Nigeria ex:percentOfServiceSector "0,244"^^xsd:double .
-dbr:N_Mariana_Islands dbo:isPartOf ex:OCEANIA .
+dbr:N_Mariana_Islands dbo:isPartOf dbr:Oceania .
 dbr:N_Mariana_Islands dbp:populationEstimate "82459"^^xsd:double .
 dbr:N_Mariana_Islands dbp:areaTotalSqMi "477"^^xsd:double .
 dbr:N_Mariana_Islands dbp:populationDensitySqMi "172,9"^^xsd:double .
@@ -2985,7 +2985,7 @@ dbr:N_Mariana_Islands ex:mortalityRate "2,29"^^xsd:double .
 # dbr:N_Mariana_Islands ex:percentOfAgricultureSector ""^^xsd:double .
 # dbr:N_Mariana_Islands ex:percentOfIndustrySector ""^^xsd:double .
 # dbr:N_Mariana_Islands ex:percentOfServiceSector ""^^xsd:double .
-dbr:Norway dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Norway dbo:isPartOf dbr:Western_Europe .
 dbr:Norway dbp:populationEstimate "4610820"^^xsd:double .
 dbr:Norway dbp:areaTotalSqMi "323802"^^xsd:double .
 dbr:Norway dbp:populationDensitySqMi "14,2"^^xsd:double .
@@ -3004,7 +3004,7 @@ dbr:Norway ex:mortalityRate "9,4"^^xsd:double .
 dbr:Norway ex:percentOfAgricultureSector "0,021"^^xsd:double .
 dbr:Norway ex:percentOfIndustrySector "0,415"^^xsd:double .
 dbr:Norway ex:percentOfServiceSector "0,564"^^xsd:double .
-dbr:Oman dbo:isPartOf ex:NEAR_EAST .
+dbr:Oman dbo:isPartOf dbr:Middle_East .
 dbr:Oman dbp:populationEstimate "3102229"^^xsd:double .
 dbr:Oman dbp:areaTotalSqMi "212460"^^xsd:double .
 dbr:Oman dbp:populationDensitySqMi "14,6"^^xsd:double .
@@ -3023,7 +3023,7 @@ dbr:Oman ex:mortalityRate "3,81"^^xsd:double .
 dbr:Oman ex:percentOfAgricultureSector "0,027"^^xsd:double .
 dbr:Oman ex:percentOfIndustrySector "0,39"^^xsd:double .
 dbr:Oman ex:percentOfServiceSector "0,583"^^xsd:double .
-dbr:Pakistan dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Pakistan dbo:isPartOf dbr:Asia .
 dbr:Pakistan dbp:populationEstimate "165803560"^^xsd:double .
 dbr:Pakistan dbp:areaTotalSqMi "803940"^^xsd:double .
 dbr:Pakistan dbp:populationDensitySqMi "206,2"^^xsd:double .
@@ -3042,7 +3042,7 @@ dbr:Pakistan ex:mortalityRate "8,23"^^xsd:double .
 dbr:Pakistan ex:percentOfAgricultureSector "0,216"^^xsd:double .
 dbr:Pakistan ex:percentOfIndustrySector "0,251"^^xsd:double .
 dbr:Pakistan ex:percentOfServiceSector "0,533"^^xsd:double .
-dbr:Palau dbo:isPartOf ex:OCEANIA .
+dbr:Palau dbo:isPartOf dbr:Oceania .
 dbr:Palau dbp:populationEstimate "20579"^^xsd:double .
 dbr:Palau dbp:areaTotalSqMi "458"^^xsd:double .
 dbr:Palau dbp:populationDensitySqMi "44,9"^^xsd:double .
@@ -3061,7 +3061,7 @@ dbr:Palau ex:mortalityRate "6,866"^^xsd:double .
 dbr:Palau ex:percentOfAgricultureSector "0,06266"^^xsd:double .
 dbr:Palau ex:percentOfIndustrySector "0,1266"^^xsd:double .
 dbr:Palau ex:percentOfServiceSector "0,81866"^^xsd:double .
-dbr:Panama dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Panama dbo:isPartOf dbr:Latin_America .
 dbr:Panama dbp:populationEstimate "3191319"^^xsd:double .
 dbr:Panama dbp:areaTotalSqMi "78200"^^xsd:double .
 dbr:Panama dbp:populationDensitySqMi "40,8"^^xsd:double .
@@ -3080,7 +3080,7 @@ dbr:Panama ex:mortalityRate "5,36"^^xsd:double .
 dbr:Panama ex:percentOfAgricultureSector "0,068"^^xsd:double .
 dbr:Panama ex:percentOfIndustrySector "0,156"^^xsd:double .
 dbr:Panama ex:percentOfServiceSector "0,776"^^xsd:double .
-dbr:Papua_New_Guinea dbo:isPartOf ex:OCEANIA .
+dbr:Papua_New_Guinea dbo:isPartOf dbr:Oceania .
 dbr:Papua_New_Guinea dbp:populationEstimate "5670544"^^xsd:double .
 dbr:Papua_New_Guinea dbp:areaTotalSqMi "462840"^^xsd:double .
 dbr:Papua_New_Guinea dbp:populationDensitySqMi "12,3"^^xsd:double .
@@ -3099,7 +3099,7 @@ dbr:Papua_New_Guinea ex:mortalityRate "7,25"^^xsd:double .
 dbr:Papua_New_Guinea ex:percentOfAgricultureSector "0,353"^^xsd:double .
 dbr:Papua_New_Guinea ex:percentOfIndustrySector "0,381"^^xsd:double .
 dbr:Papua_New_Guinea ex:percentOfServiceSector "0,266"^^xsd:double .
-dbr:Paraguay dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Paraguay dbo:isPartOf dbr:Latin_America .
 dbr:Paraguay dbp:populationEstimate "6506464"^^xsd:double .
 dbr:Paraguay dbp:areaTotalSqMi "406750"^^xsd:double .
 dbr:Paraguay dbp:populationDensitySqMi "16,0"^^xsd:double .
@@ -3118,7 +3118,7 @@ dbr:Paraguay ex:mortalityRate "4,49"^^xsd:double .
 dbr:Paraguay ex:percentOfAgricultureSector "0,224"^^xsd:double .
 dbr:Paraguay ex:percentOfIndustrySector "0,207"^^xsd:double .
 dbr:Paraguay ex:percentOfServiceSector "0,569"^^xsd:double .
-dbr:Peru dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Peru dbo:isPartOf dbr:Latin_America .
 dbr:Peru dbp:populationEstimate "28302603"^^xsd:double .
 dbr:Peru dbp:areaTotalSqMi "1285220"^^xsd:double .
 dbr:Peru dbp:populationDensitySqMi "22,0"^^xsd:double .
@@ -3137,7 +3137,7 @@ dbr:Peru ex:mortalityRate "6,23"^^xsd:double .
 dbr:Peru ex:percentOfAgricultureSector "0,08"^^xsd:double .
 dbr:Peru ex:percentOfIndustrySector "0,27"^^xsd:double .
 dbr:Peru ex:percentOfServiceSector "0,65"^^xsd:double .
-dbr:Philippines dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Philippines dbo:isPartOf dbr:Asia .
 dbr:Philippines dbp:populationEstimate "89468677"^^xsd:double .
 dbr:Philippines dbp:areaTotalSqMi "300000"^^xsd:double .
 dbr:Philippines dbp:populationDensitySqMi "298,2"^^xsd:double .
@@ -3156,7 +3156,7 @@ dbr:Philippines ex:mortalityRate "5,410"^^xsd:double .
 dbr:Philippines ex:percentOfAgricultureSector "0,1440"^^xsd:double .
 dbr:Philippines ex:percentOfIndustrySector "0,3260"^^xsd:double .
 dbr:Philippines ex:percentOfServiceSector "0,530"^^xsd:double .
-dbr:Poland dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Poland dbo:isPartOf dbr:Eastern_Europe .
 dbr:Poland dbp:populationEstimate "38536869"^^xsd:double .
 dbr:Poland dbp:areaTotalSqMi "312685"^^xsd:double .
 dbr:Poland dbp:populationDensitySqMi "123,3"^^xsd:double .
@@ -3175,7 +3175,7 @@ dbr:Poland ex:mortalityRate "9,89"^^xsd:double .
 dbr:Poland ex:percentOfAgricultureSector "0,05"^^xsd:double .
 dbr:Poland ex:percentOfIndustrySector "0,311"^^xsd:double .
 dbr:Poland ex:percentOfServiceSector "0,64"^^xsd:double .
-dbr:Portugal dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Portugal dbo:isPartOf dbr:Western_Europe .
 dbr:Portugal dbp:populationEstimate "10605870"^^xsd:double .
 dbr:Portugal dbp:areaTotalSqMi "92391"^^xsd:double .
 dbr:Portugal dbp:populationDensitySqMi "114,8"^^xsd:double .
@@ -3194,7 +3194,7 @@ dbr:Portugal ex:mortalityRate "10,5"^^xsd:double .
 dbr:Portugal ex:percentOfAgricultureSector "0,053"^^xsd:double .
 dbr:Portugal ex:percentOfIndustrySector "0,274"^^xsd:double .
 dbr:Portugal ex:percentOfServiceSector "0,673"^^xsd:double .
-dbr:Puerto_Rico dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Puerto_Rico dbo:isPartOf dbr:Latin_America .
 dbr:Puerto_Rico dbp:populationEstimate "3927188"^^xsd:double .
 dbr:Puerto_Rico dbp:areaTotalSqMi "13790"^^xsd:double .
 dbr:Puerto_Rico dbp:populationDensitySqMi "284,8"^^xsd:double .
@@ -3213,7 +3213,7 @@ dbr:Puerto_Rico ex:mortalityRate "7,65"^^xsd:double .
 dbr:Puerto_Rico ex:percentOfAgricultureSector "0,01"^^xsd:double .
 dbr:Puerto_Rico ex:percentOfIndustrySector "0,45"^^xsd:double .
 dbr:Puerto_Rico ex:percentOfServiceSector "0,54"^^xsd:double .
-dbr:Qatar dbo:isPartOf ex:NEAR_EAST .
+dbr:Qatar dbo:isPartOf dbr:Middle_East .
 dbr:Qatar dbp:populationEstimate "885359"^^xsd:double .
 dbr:Qatar dbp:areaTotalSqMi "11437"^^xsd:double .
 dbr:Qatar dbp:populationDensitySqMi "77,4"^^xsd:double .
@@ -3232,7 +3232,7 @@ dbr:Qatar ex:mortalityRate "4,72"^^xsd:double .
 dbr:Qatar ex:percentOfAgricultureSector "0,002"^^xsd:double .
 dbr:Qatar ex:percentOfIndustrySector "0,801"^^xsd:double .
 dbr:Qatar ex:percentOfServiceSector "0,197"^^xsd:double .
-dbr:Reunion dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Reunion dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Reunion dbp:populationEstimate "787584"^^xsd:double .
 dbr:Reunion dbp:areaTotalSqMi "2517"^^xsd:double .
 dbr:Reunion dbp:populationDensitySqMi "312,9"^^xsd:double .
@@ -3251,7 +3251,7 @@ dbr:Reunion ex:mortalityRate "5,49"^^xsd:double .
 dbr:Reunion ex:percentOfAgricultureSector "0,08"^^xsd:double .
 dbr:Reunion ex:percentOfIndustrySector "0,19"^^xsd:double .
 dbr:Reunion ex:percentOfServiceSector "0,73"^^xsd:double .
-dbr:Romania dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Romania dbo:isPartOf dbr:Eastern_Europe .
 dbr:Romania dbp:populationEstimate "22303552"^^xsd:double .
 dbr:Romania dbp:areaTotalSqMi "237500"^^xsd:double .
 dbr:Romania dbp:populationDensitySqMi "93,9"^^xsd:double .
@@ -3270,7 +3270,7 @@ dbr:Romania ex:mortalityRate "11,77"^^xsd:double .
 dbr:Romania ex:percentOfAgricultureSector "0,101"^^xsd:double .
 dbr:Romania ex:percentOfIndustrySector "0,35"^^xsd:double .
 dbr:Romania ex:percentOfServiceSector "0,549"^^xsd:double .
-dbr:Russia dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Russia dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Russia dbp:populationEstimate "142893540"^^xsd:double .
 dbr:Russia dbp:areaTotalSqMi "17075200"^^xsd:double .
 dbr:Russia dbp:populationDensitySqMi "8,4"^^xsd:double .
@@ -3289,7 +3289,7 @@ dbr:Russia ex:mortalityRate "14,65"^^xsd:double .
 dbr:Russia ex:percentOfAgricultureSector "0,054"^^xsd:double .
 dbr:Russia ex:percentOfIndustrySector "0,371"^^xsd:double .
 dbr:Russia ex:percentOfServiceSector "0,575"^^xsd:double .
-dbr:Rwanda dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Rwanda dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Rwanda dbp:populationEstimate "8648248"^^xsd:double .
 dbr:Rwanda dbp:areaTotalSqMi "26338"^^xsd:double .
 dbr:Rwanda dbp:populationDensitySqMi "328,4"^^xsd:double .
@@ -3308,7 +3308,7 @@ dbr:Rwanda ex:mortalityRate "16,09"^^xsd:double .
 dbr:Rwanda ex:percentOfAgricultureSector "0,401"^^xsd:double .
 dbr:Rwanda ex:percentOfIndustrySector "0,229"^^xsd:double .
 dbr:Rwanda ex:percentOfServiceSector "0,37"^^xsd:double .
-dbr:Saint_Helena dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Saint_Helena dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Saint_Helena dbp:populationEstimate "7502"^^xsd:double .
 dbr:Saint_Helena dbp:areaTotalSqMi "413"^^xsd:double .
 dbr:Saint_Helena dbp:populationDensitySqMi "18,2"^^xsd:double .
@@ -3327,7 +3327,7 @@ dbr:Saint_Helena ex:mortalityRate "6,533"^^xsd:double .
 dbr:Saint_Helena ex:percentOfAgricultureSector "3"^^xsd:double .
 dbr:Saint_Helena ex:percentOfIndustrySector "3"^^xsd:double .
 dbr:Saint_Helena ex:percentOfServiceSector "3"^^xsd:double .
-dbr:Saint_Kitts_Nevis dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Saint_Kitts_Nevis dbo:isPartOf dbr:Latin_America .
 dbr:Saint_Kitts_Nevis dbp:populationEstimate "39129"^^xsd:double .
 dbr:Saint_Kitts_Nevis dbp:areaTotalSqMi "261"^^xsd:double .
 dbr:Saint_Kitts_Nevis dbp:populationDensitySqMi "149,9"^^xsd:double .
@@ -3346,7 +3346,7 @@ dbr:Saint_Kitts_Nevis ex:mortalityRate "8,33"^^xsd:double .
 dbr:Saint_Kitts_Nevis ex:percentOfAgricultureSector "0,035"^^xsd:double .
 dbr:Saint_Kitts_Nevis ex:percentOfIndustrySector "0,258"^^xsd:double .
 dbr:Saint_Kitts_Nevis ex:percentOfServiceSector "0,707"^^xsd:double .
-dbr:Saint_Lucia dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Saint_Lucia dbo:isPartOf dbr:Latin_America .
 dbr:Saint_Lucia dbp:populationEstimate "168458"^^xsd:double .
 dbr:Saint_Lucia dbp:areaTotalSqMi "616"^^xsd:double .
 dbr:Saint_Lucia dbp:populationDensitySqMi "273,5"^^xsd:double .
@@ -3365,7 +3365,7 @@ dbr:Saint_Lucia ex:mortalityRate "5,085"^^xsd:double .
 dbr:Saint_Lucia ex:percentOfAgricultureSector "0,075"^^xsd:double .
 dbr:Saint_Lucia ex:percentOfIndustrySector "0,25"^^xsd:double .
 dbr:Saint_Lucia ex:percentOfServiceSector "0,735"^^xsd:double .
-dbr:St_Pierre_Miquelon dbo:isPartOf ex:NORTHERN_AMERICA .
+dbr:St_Pierre_Miquelon dbo:isPartOf dbr:North_America .
 dbr:St_Pierre_Miquelon dbp:populationEstimate "7026"^^xsd:double .
 dbr:St_Pierre_Miquelon dbp:areaTotalSqMi "242"^^xsd:double .
 dbr:St_Pierre_Miquelon dbp:populationDensitySqMi "29,0"^^xsd:double .
@@ -3384,7 +3384,7 @@ dbr:St_Pierre_Miquelon ex:mortalityRate "6,83"^^xsd:double .
 # dbr:St_Pierre_Miquelon ex:percentOfAgricultureSector ""^^xsd:double .
 # dbr:St_Pierre_Miquelon ex:percentOfIndustrySector ""^^xsd:double .
 # dbr:St_Pierre_Miquelon ex:percentOfServiceSector ""^^xsd:double .
-dbr:Saint_Vincent_and_the_Grenadines dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Saint_Vincent_and_the_Grenadines dbo:isPartOf dbr:Latin_America .
 dbr:Saint_Vincent_and_the_Grenadines dbp:populationEstimate "117848"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines dbp:areaTotalSqMi "389"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines dbp:populationDensitySqMi "303,0"^^xsd:double .
@@ -3403,7 +3403,7 @@ dbr:Saint_Vincent_and_the_Grenadines ex:mortalityRate "5,989"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines ex:percentOfAgricultureSector "0,19"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines ex:percentOfIndustrySector "0,269"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines ex:percentOfServiceSector "0,649"^^xsd:double .
-dbr:Samoa dbo:isPartOf ex:OCEANIA .
+dbr:Samoa dbo:isPartOf dbr:Oceania .
 dbr:Samoa dbp:populationEstimate "176908"^^xsd:double .
 dbr:Samoa dbp:areaTotalSqMi "2944"^^xsd:double .
 dbr:Samoa dbp:populationDensitySqMi "60,1"^^xsd:double .
@@ -3422,7 +3422,7 @@ dbr:Samoa ex:mortalityRate "6,629"^^xsd:double .
 dbr:Samoa ex:percentOfAgricultureSector "0,1149"^^xsd:double .
 dbr:Samoa ex:percentOfIndustrySector "0,5849"^^xsd:double .
 dbr:Samoa ex:percentOfServiceSector "0,3029"^^xsd:double .
-dbr:San_Marino dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:San_Marino dbo:isPartOf dbr:Western_Europe .
 dbr:San_Marino dbp:populationEstimate "29251"^^xsd:double .
 dbr:San_Marino dbp:areaTotalSqMi "61"^^xsd:double .
 dbr:San_Marino dbp:populationDensitySqMi "479,5"^^xsd:double .
@@ -3441,7 +3441,7 @@ dbr:San_Marino ex:mortalityRate "8,17"^^xsd:double .
 # dbr:San_Marino ex:percentOfAgricultureSector ""^^xsd:double .
 # dbr:San_Marino ex:percentOfIndustrySector ""^^xsd:double .
 # dbr:San_Marino ex:percentOfServiceSector ""^^xsd:double .
-dbr:Sao_Tome_Principe dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Sao_Tome_Principe dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Sao_Tome_Principe dbp:populationEstimate "193413"^^xsd:double .
 dbr:Sao_Tome_Principe dbp:areaTotalSqMi "1001"^^xsd:double .
 dbr:Sao_Tome_Principe dbp:populationDensitySqMi "193,2"^^xsd:double .
@@ -3460,7 +3460,7 @@ dbr:Sao_Tome_Principe ex:mortalityRate "6,47"^^xsd:double .
 dbr:Sao_Tome_Principe ex:percentOfAgricultureSector "0,167"^^xsd:double .
 dbr:Sao_Tome_Principe ex:percentOfIndustrySector "0,148"^^xsd:double .
 dbr:Sao_Tome_Principe ex:percentOfServiceSector "0,684"^^xsd:double .
-dbr:Saudi_Arabia dbo:isPartOf ex:NEAR_EAST .
+dbr:Saudi_Arabia dbo:isPartOf dbr:Middle_East .
 dbr:Saudi_Arabia dbp:populationEstimate "27019731"^^xsd:double .
 dbr:Saudi_Arabia dbp:areaTotalSqMi "1960582"^^xsd:double .
 dbr:Saudi_Arabia dbp:populationDensitySqMi "13,8"^^xsd:double .
@@ -3479,7 +3479,7 @@ dbr:Saudi_Arabia ex:mortalityRate "2,58"^^xsd:double .
 dbr:Saudi_Arabia ex:percentOfAgricultureSector "0,033"^^xsd:double .
 dbr:Saudi_Arabia ex:percentOfIndustrySector "0,613"^^xsd:double .
 dbr:Saudi_Arabia ex:percentOfServiceSector "0,354"^^xsd:double .
-dbr:Senegal dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Senegal dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Senegal dbp:populationEstimate "11987121"^^xsd:double .
 dbr:Senegal dbp:areaTotalSqMi "196190"^^xsd:double .
 dbr:Senegal dbp:populationDensitySqMi "61,1"^^xsd:double .
@@ -3498,7 +3498,7 @@ dbr:Senegal ex:mortalityRate "9,42"^^xsd:double .
 dbr:Senegal ex:percentOfAgricultureSector "0,172"^^xsd:double .
 dbr:Senegal ex:percentOfIndustrySector "0,209"^^xsd:double .
 dbr:Senegal ex:percentOfServiceSector "0,619"^^xsd:double .
-dbr:Serbia dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Serbia dbo:isPartOf dbr:Eastern_Europe .
 dbr:Serbia dbp:populationEstimate "9396411"^^xsd:double .
 dbr:Serbia dbp:areaTotalSqMi "88361"^^xsd:double .
 dbr:Serbia dbp:populationDensitySqMi "106,3"^^xsd:double .
@@ -3517,7 +3517,7 @@ dbr:Serbia ex:nonArableOrCropsLandPercentage "63,45"^^xsd:double .
 dbr:Serbia ex:percentOfAgricultureSector "0,166"^^xsd:double .
 dbr:Serbia ex:percentOfIndustrySector "0,255"^^xsd:double .
 dbr:Serbia ex:percentOfServiceSector "0,579"^^xsd:double .
-dbr:Seychelles dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Seychelles dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Seychelles dbp:populationEstimate "81541"^^xsd:double .
 dbr:Seychelles dbp:areaTotalSqMi "455"^^xsd:double .
 dbr:Seychelles dbp:populationDensitySqMi "179,2"^^xsd:double .
@@ -3536,7 +3536,7 @@ dbr:Seychelles ex:mortalityRate "6,2991"^^xsd:double .
 dbr:Seychelles ex:percentOfAgricultureSector "0,03291"^^xsd:double .
 dbr:Seychelles ex:percentOfIndustrySector "0,30491"^^xsd:double .
 dbr:Seychelles ex:percentOfServiceSector "0,66591"^^xsd:double .
-dbr:Sierra_Leone dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Sierra_Leone dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Sierra_Leone dbp:populationEstimate "6005250"^^xsd:double .
 dbr:Sierra_Leone dbp:areaTotalSqMi "71740"^^xsd:double .
 dbr:Sierra_Leone dbp:populationDensitySqMi "83,7"^^xsd:double .
@@ -3555,7 +3555,7 @@ dbr:Sierra_Leone ex:mortalityRate "23,03"^^xsd:double .
 dbr:Sierra_Leone ex:percentOfAgricultureSector "0,49"^^xsd:double .
 dbr:Sierra_Leone ex:percentOfIndustrySector "0,31"^^xsd:double .
 dbr:Sierra_Leone ex:percentOfServiceSector "0,21"^^xsd:double .
-dbr:Singapore dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Singapore dbo:isPartOf dbr:Asia .
 dbr:Singapore dbp:populationEstimate "4492150"^^xsd:double .
 dbr:Singapore dbp:areaTotalSqMi "693"^^xsd:double .
 dbr:Singapore dbp:populationDensitySqMi "6482,2"^^xsd:double .
@@ -3574,7 +3574,7 @@ dbr:Singapore ex:mortalityRate "4,285"^^xsd:double .
 dbr:Singapore ex:percentOfAgricultureSector "05"^^xsd:double .
 dbr:Singapore ex:percentOfIndustrySector "0,3395"^^xsd:double .
 dbr:Singapore ex:percentOfServiceSector "0,6615"^^xsd:double .
-dbr:Slovakia dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Slovakia dbo:isPartOf dbr:Eastern_Europe .
 dbr:Slovakia dbp:populationEstimate "5439448"^^xsd:double .
 dbr:Slovakia dbp:areaTotalSqMi "48845"^^xsd:double .
 dbr:Slovakia dbp:populationDensitySqMi "111,4"^^xsd:double .
@@ -3593,7 +3593,7 @@ dbr:Slovakia ex:mortalityRate "9,45"^^xsd:double .
 dbr:Slovakia ex:percentOfAgricultureSector "0,035"^^xsd:double .
 dbr:Slovakia ex:percentOfIndustrySector "0,294"^^xsd:double .
 dbr:Slovakia ex:percentOfServiceSector "0,672"^^xsd:double .
-dbr:Slovenia dbo:isPartOf ex:EASTERN_EUROPE .
+dbr:Slovenia dbo:isPartOf dbr:Eastern_Europe .
 dbr:Slovenia dbp:populationEstimate "2010347"^^xsd:double .
 dbr:Slovenia dbp:areaTotalSqMi "20273"^^xsd:double .
 dbr:Slovenia dbp:populationDensitySqMi "99,2"^^xsd:double .
@@ -3612,7 +3612,7 @@ dbr:Slovenia ex:mortalityRate "10,31"^^xsd:double .
 dbr:Slovenia ex:percentOfAgricultureSector "0,028"^^xsd:double .
 dbr:Slovenia ex:percentOfIndustrySector "0,369"^^xsd:double .
 dbr:Slovenia ex:percentOfServiceSector "0,603"^^xsd:double .
-dbr:Solomon_Islands dbo:isPartOf ex:OCEANIA .
+dbr:Solomon_Islands dbo:isPartOf dbr:Oceania .
 dbr:Solomon_Islands dbp:populationEstimate "552438"^^xsd:double .
 dbr:Solomon_Islands dbp:areaTotalSqMi "28450"^^xsd:double .
 dbr:Solomon_Islands dbp:populationDensitySqMi "19,4"^^xsd:double .
@@ -3631,7 +3631,7 @@ dbr:Solomon_Islands ex:mortalityRate "3,927"^^xsd:double .
 dbr:Solomon_Islands ex:percentOfAgricultureSector "0,427"^^xsd:double .
 dbr:Solomon_Islands ex:percentOfIndustrySector "0,117"^^xsd:double .
 dbr:Solomon_Islands ex:percentOfServiceSector "0,477"^^xsd:double .
-dbr:Somalia dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Somalia dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Somalia dbp:populationEstimate "8863338"^^xsd:double .
 dbr:Somalia dbp:areaTotalSqMi "637657"^^xsd:double .
 dbr:Somalia dbp:populationDensitySqMi "13,9"^^xsd:double .
@@ -3650,7 +3650,7 @@ dbr:Somalia ex:mortalityRate "16,63"^^xsd:double .
 dbr:Somalia ex:percentOfAgricultureSector "0,65"^^xsd:double .
 dbr:Somalia ex:percentOfIndustrySector "0,1"^^xsd:double .
 dbr:Somalia ex:percentOfServiceSector "0,25"^^xsd:double .
-dbr:South_Africa dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:South_Africa dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:South_Africa dbp:populationEstimate "44187637"^^xsd:double .
 dbr:South_Africa dbp:areaTotalSqMi "1219912"^^xsd:double .
 dbr:South_Africa dbp:populationDensitySqMi "36,2"^^xsd:double .
@@ -3669,7 +3669,7 @@ dbr:South_Africa ex:mortalityRate "22"^^xsd:double .
 dbr:South_Africa ex:percentOfAgricultureSector "0,025"^^xsd:double .
 dbr:South_Africa ex:percentOfIndustrySector "0,303"^^xsd:double .
 dbr:South_Africa ex:percentOfServiceSector "0,671"^^xsd:double .
-dbr:Spain dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Spain dbo:isPartOf dbr:Western_Europe .
 dbr:Spain dbp:populationEstimate "40397842"^^xsd:double .
 dbr:Spain dbp:areaTotalSqMi "504782"^^xsd:double .
 dbr:Spain dbp:populationDensitySqMi "80,0"^^xsd:double .
@@ -3688,7 +3688,7 @@ dbr:Spain ex:mortalityRate "9,72"^^xsd:double .
 dbr:Spain ex:percentOfAgricultureSector "0,04"^^xsd:double .
 dbr:Spain ex:percentOfIndustrySector "0,295"^^xsd:double .
 dbr:Spain ex:percentOfServiceSector "0,665"^^xsd:double .
-dbr:Sri_Lanka dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Sri_Lanka dbo:isPartOf dbr:Asia .
 dbr:Sri_Lanka dbp:populationEstimate "20222240"^^xsd:double .
 dbr:Sri_Lanka dbp:areaTotalSqMi "65610"^^xsd:double .
 dbr:Sri_Lanka dbp:populationDensitySqMi "308,2"^^xsd:double .
@@ -3707,7 +3707,7 @@ dbr:Sri_Lanka ex:mortalityRate "6,52"^^xsd:double .
 dbr:Sri_Lanka ex:percentOfAgricultureSector "0,178"^^xsd:double .
 dbr:Sri_Lanka ex:percentOfIndustrySector "0,276"^^xsd:double .
 dbr:Sri_Lanka ex:percentOfServiceSector "0,545"^^xsd:double .
-dbr:Sudan dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Sudan dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Sudan dbp:populationEstimate "41236378"^^xsd:double .
 dbr:Sudan dbp:areaTotalSqMi "2505810"^^xsd:double .
 dbr:Sudan dbp:populationDensitySqMi "16,5"^^xsd:double .
@@ -3726,7 +3726,7 @@ dbr:Sudan ex:mortalityRate "8,97"^^xsd:double .
 dbr:Sudan ex:percentOfAgricultureSector "0,387"^^xsd:double .
 dbr:Sudan ex:percentOfIndustrySector "0,203"^^xsd:double .
 dbr:Sudan ex:percentOfServiceSector "0,41"^^xsd:double .
-dbr:Suriname dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Suriname dbo:isPartOf dbr:Latin_America .
 dbr:Suriname dbp:populationEstimate "439117"^^xsd:double .
 dbr:Suriname dbp:areaTotalSqMi "163270"^^xsd:double .
 dbr:Suriname dbp:populationDensitySqMi "2,7"^^xsd:double .
@@ -3745,7 +3745,7 @@ dbr:Suriname ex:mortalityRate "7,27"^^xsd:double .
 dbr:Suriname ex:percentOfAgricultureSector "0,13"^^xsd:double .
 dbr:Suriname ex:percentOfIndustrySector "0,22"^^xsd:double .
 dbr:Suriname ex:percentOfServiceSector "0,65"^^xsd:double .
-dbr:Swaziland dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Swaziland dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Swaziland dbp:populationEstimate "1136334"^^xsd:double .
 dbr:Swaziland dbp:areaTotalSqMi "17363"^^xsd:double .
 dbr:Swaziland dbp:populationDensitySqMi "65,5"^^xsd:double .
@@ -3764,7 +3764,7 @@ dbr:Swaziland ex:mortalityRate "29,74"^^xsd:double .
 dbr:Swaziland ex:percentOfAgricultureSector "0,119"^^xsd:double .
 dbr:Swaziland ex:percentOfIndustrySector "0,515"^^xsd:double .
 dbr:Swaziland ex:percentOfServiceSector "0,366"^^xsd:double .
-dbr:Sweden dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Sweden dbo:isPartOf dbr:Western_Europe .
 dbr:Sweden dbp:populationEstimate "9016596"^^xsd:double .
 dbr:Sweden dbp:areaTotalSqMi "449964"^^xsd:double .
 dbr:Sweden dbp:populationDensitySqMi "20,0"^^xsd:double .
@@ -3783,7 +3783,7 @@ dbr:Sweden ex:mortalityRate "10,31"^^xsd:double .
 dbr:Sweden ex:percentOfAgricultureSector "0,011"^^xsd:double .
 dbr:Sweden ex:percentOfIndustrySector "0,282"^^xsd:double .
 dbr:Sweden ex:percentOfServiceSector "0,707"^^xsd:double .
-dbr:Switzerland dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:Switzerland dbo:isPartOf dbr:Western_Europe .
 dbr:Switzerland dbp:populationEstimate "7523934"^^xsd:double .
 dbr:Switzerland dbp:areaTotalSqMi "41290"^^xsd:double .
 dbr:Switzerland dbp:populationDensitySqMi "182,2"^^xsd:double .
@@ -3802,7 +3802,7 @@ dbr:Switzerland ex:mortalityRate "8,49"^^xsd:double .
 dbr:Switzerland ex:percentOfAgricultureSector "0,015"^^xsd:double .
 dbr:Switzerland ex:percentOfIndustrySector "0,34"^^xsd:double .
 dbr:Switzerland ex:percentOfServiceSector "0,645"^^xsd:double .
-dbr:Syria dbo:isPartOf ex:NEAR_EAST .
+dbr:Syria dbo:isPartOf dbr:Middle_East .
 dbr:Syria dbp:populationEstimate "18881361"^^xsd:double .
 dbr:Syria dbp:areaTotalSqMi "185180"^^xsd:double .
 dbr:Syria dbp:populationDensitySqMi "102,0"^^xsd:double .
@@ -3821,7 +3821,7 @@ dbr:Syria ex:mortalityRate "4,81"^^xsd:double .
 dbr:Syria ex:percentOfAgricultureSector "0,249"^^xsd:double .
 dbr:Syria ex:percentOfIndustrySector "0,23"^^xsd:double .
 dbr:Syria ex:percentOfServiceSector "0,519"^^xsd:double .
-dbr:Taiwan dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Taiwan dbo:isPartOf dbr:Asia .
 dbr:Taiwan dbp:populationEstimate "23036087"^^xsd:double .
 dbr:Taiwan dbp:areaTotalSqMi "35980"^^xsd:double .
 dbr:Taiwan dbp:populationDensitySqMi "640,3"^^xsd:double .
@@ -3840,7 +3840,7 @@ dbr:Taiwan ex:mortalityRate "6,48"^^xsd:double .
 dbr:Taiwan ex:percentOfAgricultureSector "0,018"^^xsd:double .
 dbr:Taiwan ex:percentOfIndustrySector "0,259"^^xsd:double .
 dbr:Taiwan ex:percentOfServiceSector "0,723"^^xsd:double .
-dbr:Tajikistan dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Tajikistan dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Tajikistan dbp:populationEstimate "7320815"^^xsd:double .
 dbr:Tajikistan dbp:areaTotalSqMi "143100"^^xsd:double .
 dbr:Tajikistan dbp:populationDensitySqMi "51,2"^^xsd:double .
@@ -3859,7 +3859,7 @@ dbr:Tajikistan ex:mortalityRate "8,25"^^xsd:double .
 dbr:Tajikistan ex:percentOfAgricultureSector "0,234"^^xsd:double .
 dbr:Tajikistan ex:percentOfIndustrySector "0,286"^^xsd:double .
 dbr:Tajikistan ex:percentOfServiceSector "0,48"^^xsd:double .
-dbr:Tanzania dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Tanzania dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Tanzania dbp:populationEstimate "37445392"^^xsd:double .
 dbr:Tanzania dbp:areaTotalSqMi "945087"^^xsd:double .
 dbr:Tanzania dbp:populationDensitySqMi "39,6"^^xsd:double .
@@ -3878,7 +3878,7 @@ dbr:Tanzania ex:mortalityRate "16,39"^^xsd:double .
 dbr:Tanzania ex:percentOfAgricultureSector "0,432"^^xsd:double .
 dbr:Tanzania ex:percentOfIndustrySector "0,172"^^xsd:double .
 dbr:Tanzania ex:percentOfServiceSector "0,396"^^xsd:double .
-dbr:Thailand dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Thailand dbo:isPartOf dbr:Asia .
 dbr:Thailand dbp:populationEstimate "64631595"^^xsd:double .
 dbr:Thailand dbp:areaTotalSqMi "514000"^^xsd:double .
 dbr:Thailand dbp:populationDensitySqMi "125,7"^^xsd:double .
@@ -3897,7 +3897,7 @@ dbr:Thailand ex:mortalityRate "7,04"^^xsd:double .
 dbr:Thailand ex:percentOfAgricultureSector "0,099"^^xsd:double .
 dbr:Thailand ex:percentOfIndustrySector "0,441"^^xsd:double .
 dbr:Thailand ex:percentOfServiceSector "0,46"^^xsd:double .
-dbr:Togo dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Togo dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Togo dbp:populationEstimate "5548702"^^xsd:double .
 dbr:Togo dbp:areaTotalSqMi "56785"^^xsd:double .
 dbr:Togo dbp:populationDensitySqMi "97,7"^^xsd:double .
@@ -3916,7 +3916,7 @@ dbr:Togo ex:mortalityRate "9,83"^^xsd:double .
 dbr:Togo ex:percentOfAgricultureSector "0,395"^^xsd:double .
 dbr:Togo ex:percentOfIndustrySector "0,204"^^xsd:double .
 dbr:Togo ex:percentOfServiceSector "0,401"^^xsd:double .
-dbr:Tonga dbo:isPartOf ex:OCEANIA .
+dbr:Tonga dbo:isPartOf dbr:Oceania .
 dbr:Tonga dbp:populationEstimate "114689"^^xsd:double .
 dbr:Tonga dbp:areaTotalSqMi "748"^^xsd:double .
 dbr:Tonga dbp:populationDensitySqMi "153,3"^^xsd:double .
@@ -3935,7 +3935,7 @@ dbr:Tonga ex:mortalityRate "5,282"^^xsd:double .
 dbr:Tonga ex:percentOfAgricultureSector "0,232"^^xsd:double .
 dbr:Tonga ex:percentOfIndustrySector "0,272"^^xsd:double .
 dbr:Tonga ex:percentOfServiceSector "0,52"^^xsd:double .
-dbr:Trinidad_Tobago dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Trinidad_Tobago dbo:isPartOf dbr:Latin_America .
 dbr:Trinidad_Tobago dbp:populationEstimate "1065842"^^xsd:double .
 dbr:Trinidad_Tobago dbp:areaTotalSqMi "5128"^^xsd:double .
 dbr:Trinidad_Tobago dbp:populationDensitySqMi "207,9"^^xsd:double .
@@ -3954,7 +3954,7 @@ dbr:Trinidad_Tobago ex:mortalityRate "10,57"^^xsd:double .
 dbr:Trinidad_Tobago ex:percentOfAgricultureSector "0,007"^^xsd:double .
 dbr:Trinidad_Tobago ex:percentOfIndustrySector "0,57"^^xsd:double .
 dbr:Trinidad_Tobago ex:percentOfServiceSector "0,423"^^xsd:double .
-dbr:Tunisia dbo:isPartOf ex:NORTHERN_AFRICA .
+dbr:Tunisia dbo:isPartOf dbr:North_Africa .
 dbr:Tunisia dbp:populationEstimate "10175014"^^xsd:double .
 dbr:Tunisia dbp:areaTotalSqMi "163610"^^xsd:double .
 dbr:Tunisia dbp:populationDensitySqMi "62,2"^^xsd:double .
@@ -3973,7 +3973,7 @@ dbr:Tunisia ex:mortalityRate "5,13"^^xsd:double .
 dbr:Tunisia ex:percentOfAgricultureSector "0,132"^^xsd:double .
 dbr:Tunisia ex:percentOfIndustrySector "0,318"^^xsd:double .
 dbr:Tunisia ex:percentOfServiceSector "0,55"^^xsd:double .
-dbr:Turkey dbo:isPartOf ex:NEAR_EAST .
+dbr:Turkey dbo:isPartOf dbr:Middle_East .
 dbr:Turkey dbp:populationEstimate "70413958"^^xsd:double .
 dbr:Turkey dbp:areaTotalSqMi "780580"^^xsd:double .
 dbr:Turkey dbp:populationDensitySqMi "90,2"^^xsd:double .
@@ -3992,7 +3992,7 @@ dbr:Turkey ex:mortalityRate "5,97"^^xsd:double .
 dbr:Turkey ex:percentOfAgricultureSector "0,117"^^xsd:double .
 dbr:Turkey ex:percentOfIndustrySector "0,298"^^xsd:double .
 dbr:Turkey ex:percentOfServiceSector "0,585"^^xsd:double .
-dbr:Turkmenistan dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Turkmenistan dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Turkmenistan dbp:populationEstimate "5042920"^^xsd:double .
 dbr:Turkmenistan dbp:areaTotalSqMi "488100"^^xsd:double .
 dbr:Turkmenistan dbp:populationDensitySqMi "10,3"^^xsd:double .
@@ -4011,7 +4011,7 @@ dbr:Turkmenistan ex:mortalityRate "8,6"^^xsd:double .
 dbr:Turkmenistan ex:percentOfAgricultureSector "0,209"^^xsd:double .
 dbr:Turkmenistan ex:percentOfIndustrySector "0,38"^^xsd:double .
 dbr:Turkmenistan ex:percentOfServiceSector "0,411"^^xsd:double .
-dbr:Turks_Caicos_Is dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Turks_Caicos_Is dbo:isPartOf dbr:Latin_America .
 dbr:Turks_Caicos_Is dbp:populationEstimate "21152"^^xsd:double .
 dbr:Turks_Caicos_Is dbp:areaTotalSqMi "430"^^xsd:double .
 dbr:Turks_Caicos_Is dbp:populationDensitySqMi "49,2"^^xsd:double .
@@ -4030,7 +4030,7 @@ dbr:Turks_Caicos_Is ex:mortalityRate "4,21"^^xsd:double .
 # dbr:Turks_Caicos_Is ex:percentOfAgricultureSector ""^^xsd:double .
 # dbr:Turks_Caicos_Is ex:percentOfIndustrySector ""^^xsd:double .
 # dbr:Turks_Caicos_Is ex:percentOfServiceSector ""^^xsd:double .
-dbr:Tuvalu dbo:isPartOf ex:OCEANIA .
+dbr:Tuvalu dbo:isPartOf dbr:Oceania .
 dbr:Tuvalu dbp:populationEstimate "11810"^^xsd:double .
 dbr:Tuvalu dbp:areaTotalSqMi "26"^^xsd:double .
 dbr:Tuvalu dbp:populationDensitySqMi "454,2"^^xsd:double .
@@ -4049,7 +4049,7 @@ dbr:Tuvalu ex:mortalityRate "7,111"^^xsd:double .
 dbr:Tuvalu ex:percentOfAgricultureSector "0,1661"^^xsd:double .
 dbr:Tuvalu ex:percentOfIndustrySector "0,2721"^^xsd:double .
 dbr:Tuvalu ex:percentOfServiceSector "0,5621"^^xsd:double .
-dbr:Uganda dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Uganda dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Uganda dbp:populationEstimate "28195754"^^xsd:double .
 dbr:Uganda dbp:areaTotalSqMi "236040"^^xsd:double .
 dbr:Uganda dbp:populationDensitySqMi "119,5"^^xsd:double .
@@ -4068,7 +4068,7 @@ dbr:Uganda ex:mortalityRate "12,24"^^xsd:double .
 dbr:Uganda ex:percentOfAgricultureSector "0,311"^^xsd:double .
 dbr:Uganda ex:percentOfIndustrySector "0,222"^^xsd:double .
 dbr:Uganda ex:percentOfServiceSector "0,469"^^xsd:double .
-dbr:Ukraine dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Ukraine dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Ukraine dbp:populationEstimate "46710816"^^xsd:double .
 dbr:Ukraine dbp:areaTotalSqMi "603700"^^xsd:double .
 dbr:Ukraine dbp:populationDensitySqMi "77,4"^^xsd:double .
@@ -4087,7 +4087,7 @@ dbr:Ukraine ex:mortalityRate "14,39"^^xsd:double .
 dbr:Ukraine ex:percentOfAgricultureSector "0,187"^^xsd:double .
 dbr:Ukraine ex:percentOfIndustrySector "0,452"^^xsd:double .
 dbr:Ukraine ex:percentOfServiceSector "0,361"^^xsd:double .
-dbr:United_Arab_Emirates dbo:isPartOf ex:NEAR_EAST .
+dbr:United_Arab_Emirates dbo:isPartOf dbr:Middle_East .
 dbr:United_Arab_Emirates dbp:populationEstimate "2602713"^^xsd:double .
 dbr:United_Arab_Emirates dbp:areaTotalSqMi "82880"^^xsd:double .
 dbr:United_Arab_Emirates dbp:populationDensitySqMi "31,4"^^xsd:double .
@@ -4106,7 +4106,7 @@ dbr:United_Arab_Emirates ex:mortalityRate "4,4"^^xsd:double .
 dbr:United_Arab_Emirates ex:percentOfAgricultureSector "0,04"^^xsd:double .
 dbr:United_Arab_Emirates ex:percentOfIndustrySector "0,585"^^xsd:double .
 dbr:United_Arab_Emirates ex:percentOfServiceSector "0,375"^^xsd:double .
-dbr:United_Kingdom dbo:isPartOf ex:WESTERN_EUROPE .
+dbr:United_Kingdom dbo:isPartOf dbr:Western_Europe .
 dbr:United_Kingdom dbp:populationEstimate "60609153"^^xsd:double .
 dbr:United_Kingdom dbp:areaTotalSqMi "244820"^^xsd:double .
 dbr:United_Kingdom dbp:populationDensitySqMi "247,6"^^xsd:double .
@@ -4125,7 +4125,7 @@ dbr:United_Kingdom ex:mortalityRate "10,13"^^xsd:double .
 dbr:United_Kingdom ex:percentOfAgricultureSector "0,005"^^xsd:double .
 dbr:United_Kingdom ex:percentOfIndustrySector "0,237"^^xsd:double .
 dbr:United_Kingdom ex:percentOfServiceSector "0,758"^^xsd:double .
-dbr:United_States dbo:isPartOf ex:NORTHERN_AMERICA .
+dbr:United_States dbo:isPartOf dbr:North_America .
 dbr:United_States dbp:populationEstimate "298444215"^^xsd:double .
 dbr:United_States dbp:areaTotalSqMi "9631420"^^xsd:double .
 dbr:United_States dbp:populationDensitySqMi "31,0"^^xsd:double .
@@ -4144,7 +4144,7 @@ dbr:United_States ex:mortalityRate "8,26"^^xsd:double .
 dbr:United_States ex:percentOfAgricultureSector "0,01"^^xsd:double .
 dbr:United_States ex:percentOfIndustrySector "0,204"^^xsd:double .
 dbr:United_States ex:percentOfServiceSector "0,787"^^xsd:double .
-dbr:Uruguay dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Uruguay dbo:isPartOf dbr:Latin_America .
 dbr:Uruguay dbp:populationEstimate "3431932"^^xsd:double .
 dbr:Uruguay dbp:areaTotalSqMi "176220"^^xsd:double .
 dbr:Uruguay dbp:populationDensitySqMi "19,5"^^xsd:double .
@@ -4163,7 +4163,7 @@ dbr:Uruguay ex:mortalityRate "9,05"^^xsd:double .
 dbr:Uruguay ex:percentOfAgricultureSector "0,093"^^xsd:double .
 dbr:Uruguay ex:percentOfIndustrySector "0,311"^^xsd:double .
 dbr:Uruguay ex:percentOfServiceSector "0,596"^^xsd:double .
-dbr:Uzbekistan dbo:isPartOf ex:C_W_OF_IND_STATES .
+dbr:Uzbekistan dbo:isPartOf dbr:Commonwealth_of_Independent_States .
 dbr:Uzbekistan dbp:populationEstimate "27307134"^^xsd:double .
 dbr:Uzbekistan dbp:areaTotalSqMi "447400"^^xsd:double .
 dbr:Uzbekistan dbp:populationDensitySqMi "61,0"^^xsd:double .
@@ -4182,7 +4182,7 @@ dbr:Uzbekistan ex:mortalityRate "7,84"^^xsd:double .
 dbr:Uzbekistan ex:percentOfAgricultureSector "0,342"^^xsd:double .
 dbr:Uzbekistan ex:percentOfIndustrySector "0,229"^^xsd:double .
 dbr:Uzbekistan ex:percentOfServiceSector "0,43"^^xsd:double .
-dbr:Vanuatu dbo:isPartOf ex:OCEANIA .
+dbr:Vanuatu dbo:isPartOf dbr:Oceania .
 dbr:Vanuatu dbp:populationEstimate "208869"^^xsd:double .
 dbr:Vanuatu dbp:areaTotalSqMi "12200"^^xsd:double .
 dbr:Vanuatu dbp:populationDensitySqMi "17,1"^^xsd:double .
@@ -4201,7 +4201,7 @@ dbr:Vanuatu ex:mortalityRate "7,822"^^xsd:double .
 dbr:Vanuatu ex:percentOfAgricultureSector "0,262"^^xsd:double .
 dbr:Vanuatu ex:percentOfIndustrySector "0,122"^^xsd:double .
 dbr:Vanuatu ex:percentOfServiceSector "0,622"^^xsd:double .
-dbr:Venezuela dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Venezuela dbo:isPartOf dbr:Latin_America .
 dbr:Venezuela dbp:populationEstimate "25730435"^^xsd:double .
 dbr:Venezuela dbp:areaTotalSqMi "912050"^^xsd:double .
 dbr:Venezuela dbp:populationDensitySqMi "28,2"^^xsd:double .
@@ -4220,7 +4220,7 @@ dbr:Venezuela ex:mortalityRate "4,92"^^xsd:double .
 dbr:Venezuela ex:percentOfAgricultureSector "0,04"^^xsd:double .
 dbr:Venezuela ex:percentOfIndustrySector "0,419"^^xsd:double .
 dbr:Venezuela ex:percentOfServiceSector "0,541"^^xsd:double .
-dbr:Vietnam dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
+dbr:Vietnam dbo:isPartOf dbr:Asia .
 dbr:Vietnam dbp:populationEstimate "84402966"^^xsd:double .
 dbr:Vietnam dbp:areaTotalSqMi "329560"^^xsd:double .
 dbr:Vietnam dbp:populationDensitySqMi "256,1"^^xsd:double .
@@ -4239,7 +4239,7 @@ dbr:Vietnam ex:mortalityRate "6,22"^^xsd:double .
 dbr:Vietnam ex:percentOfAgricultureSector "0,209"^^xsd:double .
 dbr:Vietnam ex:percentOfIndustrySector "0,41"^^xsd:double .
 dbr:Vietnam ex:percentOfServiceSector "0,381"^^xsd:double .
-dbr:Virgin_Islands dbo:isPartOf ex:LATIN_AMER_CARIB .
+dbr:Virgin_Islands dbo:isPartOf dbr:Latin_America .
 dbr:Virgin_Islands dbp:populationEstimate "108605"^^xsd:double .
 dbr:Virgin_Islands dbp:areaTotalSqMi "1910"^^xsd:double .
 dbr:Virgin_Islands dbp:populationDensitySqMi "56,9"^^xsd:double .
@@ -4258,7 +4258,7 @@ dbr:Virgin_Islands ex:mortalityRate "6,43"^^xsd:double .
 dbr:Virgin_Islands ex:percentOfAgricultureSector "0,01"^^xsd:double .
 dbr:Virgin_Islands ex:percentOfIndustrySector "0,19"^^xsd:double .
 dbr:Virgin_Islands ex:percentOfServiceSector "0,8"^^xsd:double .
-dbr:Wallis_and_Futuna dbo:isPartOf ex:OCEANIA .
+dbr:Wallis_and_Futuna dbo:isPartOf dbr:Oceania .
 dbr:Wallis_and_Futuna dbp:populationEstimate "16025"^^xsd:double .
 dbr:Wallis_and_Futuna dbp:areaTotalSqMi "274"^^xsd:double .
 dbr:Wallis_and_Futuna dbp:populationDensitySqMi "58,5"^^xsd:double .
@@ -4277,7 +4277,7 @@ dbr:Wallis_and_Futuna ex:mortalityRate "8"^^xsd:double .
 dbr:Wallis_and_Futuna ex:percentOfAgricultureSector "8"^^xsd:double .
 dbr:Wallis_and_Futuna ex:percentOfIndustrySector "8"^^xsd:double .
 dbr:Wallis_and_Futuna ex:percentOfServiceSector "8"^^xsd:double .
-dbr:West_Bank dbo:isPartOf ex:NEAR_EAST .
+dbr:West_Bank dbo:isPartOf dbr:Middle_East .
 dbr:West_Bank dbp:populationEstimate "2460492"^^xsd:double .
 dbr:West_Bank dbp:areaTotalSqMi "5860"^^xsd:double .
 dbr:West_Bank dbp:populationDensitySqMi "419,9"^^xsd:double .
@@ -4296,7 +4296,7 @@ dbr:West_Bank ex:mortalityRate "3,92"^^xsd:double .
 dbr:West_Bank ex:percentOfAgricultureSector "0,09"^^xsd:double .
 dbr:West_Bank ex:percentOfIndustrySector "0,28"^^xsd:double .
 dbr:West_Bank ex:percentOfServiceSector "0,63"^^xsd:double .
-dbr:Western_Sahara dbo:isPartOf ex:NORTHERN_AFRICA .
+dbr:Western_Sahara dbo:isPartOf dbr:North_Africa .
 dbr:Western_Sahara dbp:populationEstimate "273008"^^xsd:double .
 dbr:Western_Sahara dbp:areaTotalSqMi "266000"^^xsd:double .
 dbr:Western_Sahara dbp:populationDensitySqMi "1,0"^^xsd:double .
@@ -4315,7 +4315,7 @@ dbr:Western_Sahara ex:numberOfClimate "1"^^xsd:integer .
 # dbr:Western_Sahara ex:percentOfAgricultureSector ""^^xsd:double .
 # dbr:Western_Sahara ex:percentOfIndustrySector ""^^xsd:double .
 dbr:Western_Sahara ex:percentOfServiceSector "0,4"^^xsd:double .
-dbr:Yemen dbo:isPartOf ex:NEAR_EAST .
+dbr:Yemen dbo:isPartOf dbr:Middle_East .
 dbr:Yemen dbp:populationEstimate "21456188"^^xsd:double .
 dbr:Yemen dbp:areaTotalSqMi "527970"^^xsd:double .
 dbr:Yemen dbp:populationDensitySqMi "40,6"^^xsd:double .
@@ -4334,7 +4334,7 @@ dbr:Yemen ex:mortalityRate "8,3"^^xsd:double .
 dbr:Yemen ex:percentOfAgricultureSector "0,135"^^xsd:double .
 dbr:Yemen ex:percentOfIndustrySector "0,472"^^xsd:double .
 dbr:Yemen ex:percentOfServiceSector "0,393"^^xsd:double .
-dbr:Zambia dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Zambia dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Zambia dbp:populationEstimate "11502010"^^xsd:double .
 dbr:Zambia dbp:areaTotalSqMi "752614"^^xsd:double .
 dbr:Zambia dbp:populationDensitySqMi "15,3"^^xsd:double .
@@ -4353,7 +4353,7 @@ dbr:Zambia ex:mortalityRate "19,93"^^xsd:double .
 dbr:Zambia ex:percentOfAgricultureSector "0,22"^^xsd:double .
 dbr:Zambia ex:percentOfIndustrySector "0,29"^^xsd:double .
 dbr:Zambia ex:percentOfServiceSector "0,489"^^xsd:double .
-dbr:Zimbabwe dbo:isPartOf ex:SUB_SAHARAN_AFRICA .
+dbr:Zimbabwe dbo:isPartOf dbr:Sub_Saharan_Africa .
 dbr:Zimbabwe dbp:populationEstimate "12236805"^^xsd:double .
 dbr:Zimbabwe dbp:areaTotalSqMi "390580"^^xsd:double .
 dbr:Zimbabwe dbp:populationDensitySqMi "31,3"^^xsd:double .
