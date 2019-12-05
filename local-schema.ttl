@@ -11,6 +11,54 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dbc: <http://dbpedia.org/page/Category:> .
 
+ex:coastPerAreaRatio rdf:type rdf:Property  .
+ex:coastPerAreaRatio rdfs:domain dbo:Country .
+ex:coastPerAreaRatio rdfs:range xsd:double .
+
+ex:netMigration rdf:type rdf:Property .
+ex:netMigration rdfs:domain dbo:Country .
+ex:netMigration rdfs:range xsd:double .
+
+ex:phonesPer1000 rdf:type rdf:Property .
+ex:phonesPer1000 rdfs:domain dbo:Country .
+ex:phonesPer1000 rdfs:range xsd:double .
+
+ex:arableLandPercentage rdf:type rdf:Property .
+ex:arableLandPercentage rdfs:domain dbo:Country .
+ex:arableLandPercentage rdfs:range xsd:double .
+
+ex:cropsLandPercentage rdf:type rdf:Property .
+ex:cropsLandPercentage rdfs:domain dbo:Country .
+ex:cropsLandPercentage rdfs:range xsd:double .
+
+ex:nonArableOrCropsLandPercentage rdf:type rdf:Property .
+ex:nonArableOrCropsLandPercentage rdfs:domain dbo:Country .
+ex:nonArableOrCropsLandPercentage rdfs:range xsd:double .
+
+ex:numberOfClimate rdf:type rdf:Property .
+ex:numberOfClimate rdfs:domain dbo:Country .
+ex:numberOfClimate rdfs:range xsd:double .
+
+ex:birthRate rdf:type rdf:Property .
+ex:birthRate rdfs:domain dbo:Country .
+ex:birthRate rdfs:range xsd:double .
+
+ex:mortalityRate rdf:type rdf:Property .
+ex:mortalityRate rdfs:domain dbo:Country .
+ex:mortalityRate rdfs:range xsd:double .
+
+ex:percentOfAgricultureSector rdf:type rdf:Property .
+ex:percentOfAgricultureSector rdfs:domain dbo:Country .
+ex:percentOfAgricultureSector rdfs:range xsd:double .
+
+ex:percentOfIndustrySector rdf:type rdf:Property .
+ex:percentOfIndustrySector rdfs:domain dbo:Country .
+ex:percentOfIndustrySector rdfs:range xsd:double .
+
+ex:percentOfServiceSector rdf:type rdf:Property . 
+ex:percentOfServiceSector rdfs:domain dbo:Country .
+ex:percentOfServiceSector rdfs:range xsd:double .
+
 dbr:Afghanistan dbo:isPartOf ex:ASIA_EX_NEAR_EAST .
 dbr:Afghanistan dbp:populationEstimate "31056997"^^xsd:double .
 dbr:Afghanistan dbp:areaTotalSqMi "647500"^^xsd:double .
