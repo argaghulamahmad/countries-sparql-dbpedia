@@ -131,6 +131,9 @@ def information_of_a_country(keyword):
 
     local_tuples = list(new_local_dict.items())
 
+    local_url = sorted(local_url, key=lambda x: x.split("/")[-1], reverse=False)
+    local_tuples.sort()
+
     for i in range(len(local_tuples)):
         local_tuples[i] = [local_url[i], local_tuples[i][0], local_tuples[i][1]]
 

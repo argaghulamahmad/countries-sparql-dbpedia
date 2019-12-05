@@ -22,8 +22,12 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="card" style="width: 18rem; margin-top: 2rem;">
-                        <div class="card-body text-white bg-info">
-                            <h5 class="card-title">Languages</h5>
+                        <div class="card-body text-white bg-dark">
+                            <h5 class="card-title">
+                                <a href="http://dbpedia.org/ontology/language">
+                                    Languages
+                                </a>
+                            </h5>
                             <p class="card-text">Languages that use in this country.</p>
                         </div>
                         <ul class="list-group list-group-flush">
@@ -35,9 +39,13 @@
                 </div>
                 <div class="col-sm">
                     <div class="card" style="width: 18rem; margin-top: 2rem;">
-                        <div class="card-body text-white bg-info">
-                            <h5 class="card-title">Capitals</h5>
-                            <p class="card-text">Capitals of this country.</p>
+                        <div class="card-body text-white bg-dark">
+                            <h5 class="card-title">
+                                <a href="http://dbpedia.org/ontology/capital">
+                                    Capital(s)
+                                </a>
+                            </h5>
+                            <p class="card-text">Capital(s) of this country.</p>
                         </div>
                         <ul class="list-group list-group-flush">
                             {% for capital in country_info.1 %}
@@ -48,9 +56,13 @@
                 </div>
                 <div class="col-sm">
                     <div class="card" style="width: 18rem; margin-top: 2rem;">
-                        <div class="card-body text-white bg-info">
-                            <h5 class="card-title">Currencies</h5>
-                            <p class="card-text">Currencies that use in this country.</p>
+                        <div class="card-body text-white bg-dark">
+                            <h5 class="card-title">
+                                <a href="http://dbpedia.org/ontology/currency">
+                                    Currency(ies)
+                                </a>
+                            </h5>
+                            <p class="card-text">Currency(ies) that use in this country.</p>
                         </div>
                         <ul class="list-group list-group-flush">
                             {% for currency in country_info.4 %}
@@ -64,7 +76,9 @@
                         <div class="card" style="width: 18rem; margin-top: 2rem;">
                             <div class="card-body text-white bg-info">
                                 <h5 class="card-title">Statistics detail</h5>
-                                <p class="card-text">Additional details about this country.</p>
+                                <p class="card-text">
+                                    Additional details about this country, retrieved from local data source.
+                                </p>
                             </div>
                             <ul class="list-group list-group-flush">
                                 {% for local_country_info in country_info.5 %}
