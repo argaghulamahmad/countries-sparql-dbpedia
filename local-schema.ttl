@@ -37,7 +37,7 @@ ex:nonArableOrCropsLandPercentage rdfs:range xsd:double .
 
 ex:numberOfClimate rdf:type rdf:Property .
 ex:numberOfClimate rdfs:domain dbo:Country .
-ex:numberOfClimate rdfs:range xsd:double .
+ex:numberOfClimate rdfs:range xsd:integer .
 
 ex:birthRate rdf:type rdf:Property .
 ex:birthRate rdfs:domain dbo:Country .
@@ -72,7 +72,7 @@ dbr:Afghanistan ex:phonesPer1000 "3,2"^^xsd:double .
 dbr:Afghanistan ex:arableLandPercentage "12,13"^^xsd:double .
 dbr:Afghanistan ex:cropsLandPercentage "0,22"^^xsd:double .
 dbr:Afghanistan ex:nonArableOrCropsLandPercentage "87,65"^^xsd:double .
-dbr:Afghanistan ex:numberOfClimate "1"^^xsd:double .
+dbr:Afghanistan ex:numberOfClimate "1"^^xsd:integer .
 dbr:Afghanistan ex:birthRate "46,6"^^xsd:double .
 dbr:Afghanistan ex:mortalityRate "20,34"^^xsd:double .
 dbr:Afghanistan ex:percentOfAgricultureSector "0,38"^^xsd:double .
@@ -91,7 +91,7 @@ dbr:Albania ex:phonesPer1000 "71,2"^^xsd:double .
 dbr:Albania ex:arableLandPercentage "21,09"^^xsd:double .
 dbr:Albania ex:cropsLandPercentage "4,42"^^xsd:double .
 dbr:Albania ex:nonArableOrCropsLandPercentage "74,49"^^xsd:double .
-dbr:Albania ex:numberOfClimate "3"^^xsd:double .
+dbr:Albania ex:numberOfClimate "3"^^xsd:integer .
 dbr:Albania ex:birthRate "15,11"^^xsd:double .
 dbr:Albania ex:mortalityRate "5,22"^^xsd:double .
 dbr:Albania ex:percentOfAgricultureSector "0,232"^^xsd:double .
@@ -110,7 +110,7 @@ dbr:Algeria ex:phonesPer1000 "78,1"^^xsd:double .
 dbr:Algeria ex:arableLandPercentage "3,22"^^xsd:double .
 dbr:Algeria ex:cropsLandPercentage "0,25"^^xsd:double .
 dbr:Algeria ex:nonArableOrCropsLandPercentage "96,53"^^xsd:double .
-dbr:Algeria ex:numberOfClimate "1"^^xsd:double .
+dbr:Algeria ex:numberOfClimate "1"^^xsd:integer .
 dbr:Algeria ex:birthRate "17,14"^^xsd:double .
 dbr:Algeria ex:mortalityRate "4,61"^^xsd:double .
 dbr:Algeria ex:percentOfAgricultureSector "0,101"^^xsd:double .
@@ -129,7 +129,7 @@ dbr:American_Samoa ex:phonesPer1000 "259,59"^^xsd:double .
 dbr:American_Samoa ex:arableLandPercentage "109"^^xsd:double .
 dbr:American_Samoa ex:cropsLandPercentage "159"^^xsd:double .
 dbr:American_Samoa ex:nonArableOrCropsLandPercentage "759"^^xsd:double .
-dbr:American_Samoa ex:numberOfClimate "29"^^xsd:double .
+dbr:American_Samoa ex:numberOfClimate "29"^^xsd:integer .
 dbr:American_Samoa ex:birthRate "22,469"^^xsd:double .
 dbr:American_Samoa ex:mortalityRate "3,279"^^xsd:double .
 dbr:American_Samoa ex:percentOfAgricultureSector "9"^^xsd:double .
@@ -148,7 +148,7 @@ dbr:Andorra ex:phonesPer1000 "497,2"^^xsd:double .
 dbr:Andorra ex:arableLandPercentage "2,22"^^xsd:double .
 dbr:Andorra ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Andorra ex:nonArableOrCropsLandPercentage "97,78"^^xsd:double .
-dbr:Andorra ex:numberOfClimate "3"^^xsd:double .
+dbr:Andorra ex:numberOfClimate "3"^^xsd:integer .
 dbr:Andorra ex:birthRate "8,71"^^xsd:double .
 dbr:Andorra ex:mortalityRate "6,25"^^xsd:double .
 # dbr:Andorra ex:percentOfAgricultureSector ""^^xsd:double .
@@ -167,7 +167,7 @@ dbr:Angola ex:phonesPer1000 "7,8"^^xsd:double .
 dbr:Angola ex:arableLandPercentage "2,41"^^xsd:double .
 dbr:Angola ex:cropsLandPercentage "0,24"^^xsd:double .
 dbr:Angola ex:nonArableOrCropsLandPercentage "97,35"^^xsd:double .
-# dbr:Angola ex:numberOfClimate ""^^xsd:double .
+# dbr:Angola ex:numberOfClimate ""^^xsd:integer .
 dbr:Angola ex:birthRate "45,11"^^xsd:double .
 dbr:Angola ex:mortalityRate "24,2"^^xsd:double .
 dbr:Angola ex:percentOfAgricultureSector "0,096"^^xsd:double .
@@ -186,7 +186,7 @@ dbr:Anguilla ex:phonesPer1000 "460,00"^^xsd:double .
 dbr:Anguilla ex:arableLandPercentage "00"^^xsd:double .
 dbr:Anguilla ex:cropsLandPercentage "00"^^xsd:double .
 dbr:Anguilla ex:nonArableOrCropsLandPercentage "1000"^^xsd:double .
-dbr:Anguilla ex:numberOfClimate "20"^^xsd:double .
+dbr:Anguilla ex:numberOfClimate "20"^^xsd:integer .
 dbr:Anguilla ex:birthRate "14,170"^^xsd:double .
 dbr:Anguilla ex:mortalityRate "5,340"^^xsd:double .
 dbr:Anguilla ex:percentOfAgricultureSector "0,040"^^xsd:double .
@@ -205,7 +205,7 @@ dbr:Antigua_Barbuda ex:phonesPer1000 "549,9"^^xsd:double .
 dbr:Antigua_Barbuda ex:arableLandPercentage "18,18"^^xsd:double .
 dbr:Antigua_Barbuda ex:cropsLandPercentage "4,55"^^xsd:double .
 dbr:Antigua_Barbuda ex:nonArableOrCropsLandPercentage "77,27"^^xsd:double .
-dbr:Antigua_Barbuda ex:numberOfClimate "2"^^xsd:double .
+dbr:Antigua_Barbuda ex:numberOfClimate "2"^^xsd:integer .
 dbr:Antigua_Barbuda ex:birthRate "16,93"^^xsd:double .
 dbr:Antigua_Barbuda ex:mortalityRate "5,37"^^xsd:double .
 dbr:Antigua_Barbuda ex:percentOfAgricultureSector "0,038"^^xsd:double .
@@ -224,7 +224,7 @@ dbr:Argentina ex:phonesPer1000 "220,4"^^xsd:double .
 dbr:Argentina ex:arableLandPercentage "12,31"^^xsd:double .
 dbr:Argentina ex:cropsLandPercentage "0,48"^^xsd:double .
 dbr:Argentina ex:nonArableOrCropsLandPercentage "87,21"^^xsd:double .
-dbr:Argentina ex:numberOfClimate "3"^^xsd:double .
+dbr:Argentina ex:numberOfClimate "3"^^xsd:integer .
 dbr:Argentina ex:birthRate "16,73"^^xsd:double .
 dbr:Argentina ex:mortalityRate "7,55"^^xsd:double .
 dbr:Argentina ex:percentOfAgricultureSector "0,095"^^xsd:double .
@@ -243,7 +243,7 @@ dbr:Armenia ex:phonesPer1000 "195,7"^^xsd:double .
 dbr:Armenia ex:arableLandPercentage "17,55"^^xsd:double .
 dbr:Armenia ex:cropsLandPercentage "2,3"^^xsd:double .
 dbr:Armenia ex:nonArableOrCropsLandPercentage "80,15"^^xsd:double .
-dbr:Armenia ex:numberOfClimate "4"^^xsd:double .
+dbr:Armenia ex:numberOfClimate "4"^^xsd:integer .
 dbr:Armenia ex:birthRate "12,07"^^xsd:double .
 dbr:Armenia ex:mortalityRate "8,23"^^xsd:double .
 dbr:Armenia ex:percentOfAgricultureSector "0,239"^^xsd:double .
@@ -262,7 +262,7 @@ dbr:Aruba ex:phonesPer1000 "516,19"^^xsd:double .
 dbr:Aruba ex:arableLandPercentage "10,539"^^xsd:double .
 dbr:Aruba ex:cropsLandPercentage "09"^^xsd:double .
 dbr:Aruba ex:nonArableOrCropsLandPercentage "89,479"^^xsd:double .
-dbr:Aruba ex:numberOfClimate "29"^^xsd:double .
+dbr:Aruba ex:numberOfClimate "29"^^xsd:integer .
 dbr:Aruba ex:birthRate "11,039"^^xsd:double .
 dbr:Aruba ex:mortalityRate "6,689"^^xsd:double .
 dbr:Aruba ex:percentOfAgricultureSector "0,0049"^^xsd:double .
@@ -281,7 +281,7 @@ dbr:Australia ex:phonesPer1000 "565,5"^^xsd:double .
 dbr:Australia ex:arableLandPercentage "6,55"^^xsd:double .
 dbr:Australia ex:cropsLandPercentage "0,04"^^xsd:double .
 dbr:Australia ex:nonArableOrCropsLandPercentage "93,41"^^xsd:double .
-dbr:Australia ex:numberOfClimate "1"^^xsd:double .
+dbr:Australia ex:numberOfClimate "1"^^xsd:integer .
 dbr:Australia ex:birthRate "12,14"^^xsd:double .
 dbr:Australia ex:mortalityRate "7,51"^^xsd:double .
 dbr:Australia ex:percentOfAgricultureSector "0,038"^^xsd:double .
@@ -300,7 +300,7 @@ dbr:Austria ex:phonesPer1000 "452,2"^^xsd:double .
 dbr:Austria ex:arableLandPercentage "16,91"^^xsd:double .
 dbr:Austria ex:cropsLandPercentage "0,86"^^xsd:double .
 dbr:Austria ex:nonArableOrCropsLandPercentage "82,23"^^xsd:double .
-dbr:Austria ex:numberOfClimate "3"^^xsd:double .
+dbr:Austria ex:numberOfClimate "3"^^xsd:integer .
 dbr:Austria ex:birthRate "8,74"^^xsd:double .
 dbr:Austria ex:mortalityRate "9,76"^^xsd:double .
 dbr:Austria ex:percentOfAgricultureSector "0,018"^^xsd:double .
@@ -319,7 +319,7 @@ dbr:Azerbaijan ex:phonesPer1000 "137,1"^^xsd:double .
 dbr:Azerbaijan ex:arableLandPercentage "19,63"^^xsd:double .
 dbr:Azerbaijan ex:cropsLandPercentage "2,71"^^xsd:double .
 dbr:Azerbaijan ex:nonArableOrCropsLandPercentage "77,66"^^xsd:double .
-dbr:Azerbaijan ex:numberOfClimate "1"^^xsd:double .
+dbr:Azerbaijan ex:numberOfClimate "1"^^xsd:integer .
 dbr:Azerbaijan ex:birthRate "20,74"^^xsd:double .
 dbr:Azerbaijan ex:mortalityRate "9,75"^^xsd:double .
 dbr:Azerbaijan ex:percentOfAgricultureSector "0,141"^^xsd:double .
@@ -338,7 +338,7 @@ dbr:Bahamas_The ex:phonesPer1000 "460,6"^^xsd:double .
 dbr:Bahamas_The ex:arableLandPercentage "0,8"^^xsd:double .
 dbr:Bahamas_The ex:cropsLandPercentage "0,4"^^xsd:double .
 dbr:Bahamas_The ex:nonArableOrCropsLandPercentage "98,8"^^xsd:double .
-dbr:Bahamas_The ex:numberOfClimate "2"^^xsd:double .
+dbr:Bahamas_The ex:numberOfClimate "2"^^xsd:integer .
 dbr:Bahamas_The ex:birthRate "17,57"^^xsd:double .
 dbr:Bahamas_The ex:mortalityRate "9,05"^^xsd:double .
 dbr:Bahamas_The ex:percentOfAgricultureSector "0,03"^^xsd:double .
@@ -357,7 +357,7 @@ dbr:Bahrain ex:phonesPer1000 "281,31"^^xsd:double .
 dbr:Bahrain ex:arableLandPercentage "2,821"^^xsd:double .
 dbr:Bahrain ex:cropsLandPercentage "5,631"^^xsd:double .
 dbr:Bahrain ex:nonArableOrCropsLandPercentage "91,551"^^xsd:double .
-dbr:Bahrain ex:numberOfClimate "11"^^xsd:double .
+dbr:Bahrain ex:numberOfClimate "11"^^xsd:integer .
 dbr:Bahrain ex:birthRate "17,81"^^xsd:double .
 dbr:Bahrain ex:mortalityRate "4,141"^^xsd:double .
 dbr:Bahrain ex:percentOfAgricultureSector "0,0051"^^xsd:double .
@@ -376,7 +376,7 @@ dbr:Bangladesh ex:phonesPer1000 "7,3"^^xsd:double .
 dbr:Bangladesh ex:arableLandPercentage "62,11"^^xsd:double .
 dbr:Bangladesh ex:cropsLandPercentage "3,07"^^xsd:double .
 dbr:Bangladesh ex:nonArableOrCropsLandPercentage "34,82"^^xsd:double .
-dbr:Bangladesh ex:numberOfClimate "2"^^xsd:double .
+dbr:Bangladesh ex:numberOfClimate "2"^^xsd:integer .
 dbr:Bangladesh ex:birthRate "29,8"^^xsd:double .
 dbr:Bangladesh ex:mortalityRate "8,27"^^xsd:double .
 dbr:Bangladesh ex:percentOfAgricultureSector "0,199"^^xsd:double .
@@ -395,7 +395,7 @@ dbr:Barbados ex:phonesPer1000 "481,91"^^xsd:double .
 dbr:Barbados ex:arableLandPercentage "37,211"^^xsd:double .
 dbr:Barbados ex:cropsLandPercentage "2,331"^^xsd:double .
 dbr:Barbados ex:nonArableOrCropsLandPercentage "60,461"^^xsd:double .
-dbr:Barbados ex:numberOfClimate "21"^^xsd:double .
+dbr:Barbados ex:numberOfClimate "21"^^xsd:integer .
 dbr:Barbados ex:birthRate "12,711"^^xsd:double .
 dbr:Barbados ex:mortalityRate "8,671"^^xsd:double .
 dbr:Barbados ex:percentOfAgricultureSector "0,061"^^xsd:double .
@@ -414,7 +414,7 @@ dbr:Belarus ex:phonesPer1000 "319,1"^^xsd:double .
 dbr:Belarus ex:arableLandPercentage "29,55"^^xsd:double .
 dbr:Belarus ex:cropsLandPercentage "0,6"^^xsd:double .
 dbr:Belarus ex:nonArableOrCropsLandPercentage "69,85"^^xsd:double .
-dbr:Belarus ex:numberOfClimate "4"^^xsd:double .
+dbr:Belarus ex:numberOfClimate "4"^^xsd:integer .
 dbr:Belarus ex:birthRate "11,16"^^xsd:double .
 dbr:Belarus ex:mortalityRate "14,02"^^xsd:double .
 dbr:Belarus ex:percentOfAgricultureSector "0,093"^^xsd:double .
@@ -433,7 +433,7 @@ dbr:Belgium ex:phonesPer1000 "462,6"^^xsd:double .
 dbr:Belgium ex:arableLandPercentage "23,28"^^xsd:double .
 dbr:Belgium ex:cropsLandPercentage "0,4"^^xsd:double .
 dbr:Belgium ex:nonArableOrCropsLandPercentage "76,32"^^xsd:double .
-dbr:Belgium ex:numberOfClimate "3"^^xsd:double .
+dbr:Belgium ex:numberOfClimate "3"^^xsd:integer .
 dbr:Belgium ex:birthRate "10,38"^^xsd:double .
 dbr:Belgium ex:mortalityRate "10,27"^^xsd:double .
 dbr:Belgium ex:percentOfAgricultureSector "0,01"^^xsd:double .
@@ -452,7 +452,7 @@ dbr:Belize ex:phonesPer1000 "115,7"^^xsd:double .
 dbr:Belize ex:arableLandPercentage "2,85"^^xsd:double .
 dbr:Belize ex:cropsLandPercentage "1,71"^^xsd:double .
 dbr:Belize ex:nonArableOrCropsLandPercentage "95,44"^^xsd:double .
-dbr:Belize ex:numberOfClimate "2"^^xsd:double .
+dbr:Belize ex:numberOfClimate "2"^^xsd:integer .
 dbr:Belize ex:birthRate "28,84"^^xsd:double .
 dbr:Belize ex:mortalityRate "5,72"^^xsd:double .
 dbr:Belize ex:percentOfAgricultureSector "0,142"^^xsd:double .
@@ -471,7 +471,7 @@ dbr:Benin ex:phonesPer1000 "9,7"^^xsd:double .
 dbr:Benin ex:arableLandPercentage "18,08"^^xsd:double .
 dbr:Benin ex:cropsLandPercentage "2,4"^^xsd:double .
 dbr:Benin ex:nonArableOrCropsLandPercentage "79,52"^^xsd:double .
-dbr:Benin ex:numberOfClimate "2"^^xsd:double .
+dbr:Benin ex:numberOfClimate "2"^^xsd:integer .
 dbr:Benin ex:birthRate "38,85"^^xsd:double .
 dbr:Benin ex:mortalityRate "12,22"^^xsd:double .
 dbr:Benin ex:percentOfAgricultureSector "0,316"^^xsd:double .
@@ -490,7 +490,7 @@ dbr:Bermuda ex:phonesPer1000 "851,434"^^xsd:double .
 dbr:Bermuda ex:arableLandPercentage "2034"^^xsd:double .
 dbr:Bermuda ex:cropsLandPercentage "034"^^xsd:double .
 dbr:Bermuda ex:nonArableOrCropsLandPercentage "8034"^^xsd:double .
-dbr:Bermuda ex:numberOfClimate "234"^^xsd:double .
+dbr:Bermuda ex:numberOfClimate "234"^^xsd:integer .
 dbr:Bermuda ex:birthRate "11,434"^^xsd:double .
 dbr:Bermuda ex:mortalityRate "7,7434"^^xsd:double .
 dbr:Bermuda ex:percentOfAgricultureSector "0,0134"^^xsd:double .
@@ -509,7 +509,7 @@ dbr:Bhutan ex:phonesPer1000 "14,3"^^xsd:double .
 dbr:Bhutan ex:arableLandPercentage "3,09"^^xsd:double .
 dbr:Bhutan ex:cropsLandPercentage "0,43"^^xsd:double .
 dbr:Bhutan ex:nonArableOrCropsLandPercentage "96,48"^^xsd:double .
-dbr:Bhutan ex:numberOfClimate "2"^^xsd:double .
+dbr:Bhutan ex:numberOfClimate "2"^^xsd:integer .
 dbr:Bhutan ex:birthRate "33,65"^^xsd:double .
 dbr:Bhutan ex:mortalityRate "12,7"^^xsd:double .
 dbr:Bhutan ex:percentOfAgricultureSector "0,258"^^xsd:double .
@@ -528,7 +528,7 @@ dbr:Bolivia ex:phonesPer1000 "71,9"^^xsd:double .
 dbr:Bolivia ex:arableLandPercentage "2,67"^^xsd:double .
 dbr:Bolivia ex:cropsLandPercentage "0,19"^^xsd:double .
 dbr:Bolivia ex:nonArableOrCropsLandPercentage "97,14"^^xsd:double .
-dbr:Bolivia ex:numberOfClimate "1,5"^^xsd:double .
+dbr:Bolivia ex:numberOfClimate "1,5"^^xsd:integer .
 dbr:Bolivia ex:birthRate "23,3"^^xsd:double .
 dbr:Bolivia ex:mortalityRate "7,53"^^xsd:double .
 dbr:Bolivia ex:percentOfAgricultureSector "0,128"^^xsd:double .
@@ -547,7 +547,7 @@ dbr:Bosnia_Herzegovina ex:phonesPer1000 "215,4"^^xsd:double .
 dbr:Bosnia_Herzegovina ex:arableLandPercentage "13,6"^^xsd:double .
 dbr:Bosnia_Herzegovina ex:cropsLandPercentage "2,96"^^xsd:double .
 dbr:Bosnia_Herzegovina ex:nonArableOrCropsLandPercentage "83,44"^^xsd:double .
-dbr:Bosnia_Herzegovina ex:numberOfClimate "4"^^xsd:double .
+dbr:Bosnia_Herzegovina ex:numberOfClimate "4"^^xsd:integer .
 dbr:Bosnia_Herzegovina ex:birthRate "8,77"^^xsd:double .
 dbr:Bosnia_Herzegovina ex:mortalityRate "8,27"^^xsd:double .
 dbr:Bosnia_Herzegovina ex:percentOfAgricultureSector "0,142"^^xsd:double .
@@ -566,7 +566,7 @@ dbr:Botswana ex:phonesPer1000 "80,5"^^xsd:double .
 dbr:Botswana ex:arableLandPercentage "0,65"^^xsd:double .
 dbr:Botswana ex:cropsLandPercentage "0,01"^^xsd:double .
 dbr:Botswana ex:nonArableOrCropsLandPercentage "99,34"^^xsd:double .
-dbr:Botswana ex:numberOfClimate "1"^^xsd:double .
+dbr:Botswana ex:numberOfClimate "1"^^xsd:integer .
 dbr:Botswana ex:birthRate "23,08"^^xsd:double .
 dbr:Botswana ex:mortalityRate "29,5"^^xsd:double .
 dbr:Botswana ex:percentOfAgricultureSector "0,024"^^xsd:double .
@@ -585,7 +585,7 @@ dbr:Brazil ex:phonesPer1000 "225,3"^^xsd:double .
 dbr:Brazil ex:arableLandPercentage "6,96"^^xsd:double .
 dbr:Brazil ex:cropsLandPercentage "0,9"^^xsd:double .
 dbr:Brazil ex:nonArableOrCropsLandPercentage "92,15"^^xsd:double .
-dbr:Brazil ex:numberOfClimate "2"^^xsd:double .
+dbr:Brazil ex:numberOfClimate "2"^^xsd:integer .
 dbr:Brazil ex:birthRate "16,56"^^xsd:double .
 dbr:Brazil ex:mortalityRate "6,17"^^xsd:double .
 dbr:Brazil ex:percentOfAgricultureSector "0,084"^^xsd:double .
@@ -604,7 +604,7 @@ dbr:British_Virgin_Is ex:phonesPer1000 "506,5"^^xsd:double .
 dbr:British_Virgin_Is ex:arableLandPercentage "20"^^xsd:double .
 dbr:British_Virgin_Is ex:cropsLandPercentage "6,67"^^xsd:double .
 dbr:British_Virgin_Is ex:nonArableOrCropsLandPercentage "73,33"^^xsd:double .
-dbr:British_Virgin_Is ex:numberOfClimate "2"^^xsd:double .
+dbr:British_Virgin_Is ex:numberOfClimate "2"^^xsd:integer .
 dbr:British_Virgin_Is ex:birthRate "14,89"^^xsd:double .
 dbr:British_Virgin_Is ex:mortalityRate "4,42"^^xsd:double .
 dbr:British_Virgin_Is ex:percentOfAgricultureSector "0,018"^^xsd:double .
@@ -623,7 +623,7 @@ dbr:Brunei ex:phonesPer1000 "237,2"^^xsd:double .
 dbr:Brunei ex:arableLandPercentage "0,57"^^xsd:double .
 dbr:Brunei ex:cropsLandPercentage "0,76"^^xsd:double .
 dbr:Brunei ex:nonArableOrCropsLandPercentage "98,67"^^xsd:double .
-dbr:Brunei ex:numberOfClimate "2"^^xsd:double .
+dbr:Brunei ex:numberOfClimate "2"^^xsd:integer .
 dbr:Brunei ex:birthRate "18,79"^^xsd:double .
 dbr:Brunei ex:mortalityRate "3,45"^^xsd:double .
 dbr:Brunei ex:percentOfAgricultureSector "0,036"^^xsd:double .
@@ -642,7 +642,7 @@ dbr:Bulgaria ex:phonesPer1000 "336,3"^^xsd:double .
 dbr:Bulgaria ex:arableLandPercentage "40,02"^^xsd:double .
 dbr:Bulgaria ex:cropsLandPercentage "1,92"^^xsd:double .
 dbr:Bulgaria ex:nonArableOrCropsLandPercentage "58,06"^^xsd:double .
-dbr:Bulgaria ex:numberOfClimate "3"^^xsd:double .
+dbr:Bulgaria ex:numberOfClimate "3"^^xsd:integer .
 dbr:Bulgaria ex:birthRate "9,65"^^xsd:double .
 dbr:Bulgaria ex:mortalityRate "14,27"^^xsd:double .
 dbr:Bulgaria ex:percentOfAgricultureSector "0,093"^^xsd:double .
@@ -661,7 +661,7 @@ dbr:Burkina_Faso ex:phonesPer1000 "7,0"^^xsd:double .
 dbr:Burkina_Faso ex:arableLandPercentage "14,43"^^xsd:double .
 dbr:Burkina_Faso ex:cropsLandPercentage "0,19"^^xsd:double .
 dbr:Burkina_Faso ex:nonArableOrCropsLandPercentage "85,38"^^xsd:double .
-dbr:Burkina_Faso ex:numberOfClimate "2"^^xsd:double .
+dbr:Burkina_Faso ex:numberOfClimate "2"^^xsd:integer .
 dbr:Burkina_Faso ex:birthRate "45,62"^^xsd:double .
 dbr:Burkina_Faso ex:mortalityRate "15,6"^^xsd:double .
 dbr:Burkina_Faso ex:percentOfAgricultureSector "0,322"^^xsd:double .
@@ -680,7 +680,7 @@ dbr:Burma ex:phonesPer1000 "10,1"^^xsd:double .
 dbr:Burma ex:arableLandPercentage "15,19"^^xsd:double .
 dbr:Burma ex:cropsLandPercentage "0,97"^^xsd:double .
 dbr:Burma ex:nonArableOrCropsLandPercentage "83,84"^^xsd:double .
-dbr:Burma ex:numberOfClimate "2"^^xsd:double .
+dbr:Burma ex:numberOfClimate "2"^^xsd:integer .
 dbr:Burma ex:birthRate "17,91"^^xsd:double .
 dbr:Burma ex:mortalityRate "9,83"^^xsd:double .
 dbr:Burma ex:percentOfAgricultureSector "0,564"^^xsd:double .
@@ -699,7 +699,7 @@ dbr:Burundi ex:phonesPer1000 "3,4"^^xsd:double .
 dbr:Burundi ex:arableLandPercentage "35,05"^^xsd:double .
 dbr:Burundi ex:cropsLandPercentage "14,02"^^xsd:double .
 dbr:Burundi ex:nonArableOrCropsLandPercentage "50,93"^^xsd:double .
-dbr:Burundi ex:numberOfClimate "2"^^xsd:double .
+dbr:Burundi ex:numberOfClimate "2"^^xsd:integer .
 dbr:Burundi ex:birthRate "42,22"^^xsd:double .
 dbr:Burundi ex:mortalityRate "13,46"^^xsd:double .
 dbr:Burundi ex:percentOfAgricultureSector "0,463"^^xsd:double .
@@ -718,7 +718,7 @@ dbr:Cambodia ex:phonesPer1000 "2,6"^^xsd:double .
 dbr:Cambodia ex:arableLandPercentage "20,96"^^xsd:double .
 dbr:Cambodia ex:cropsLandPercentage "0,61"^^xsd:double .
 dbr:Cambodia ex:nonArableOrCropsLandPercentage "78,43"^^xsd:double .
-dbr:Cambodia ex:numberOfClimate "2"^^xsd:double .
+dbr:Cambodia ex:numberOfClimate "2"^^xsd:integer .
 dbr:Cambodia ex:birthRate "26,9"^^xsd:double .
 dbr:Cambodia ex:mortalityRate "9,06"^^xsd:double .
 dbr:Cambodia ex:percentOfAgricultureSector "0,35"^^xsd:double .
@@ -737,7 +737,7 @@ dbr:Cameroon ex:phonesPer1000 "5,7"^^xsd:double .
 dbr:Cameroon ex:arableLandPercentage "12,81"^^xsd:double .
 dbr:Cameroon ex:cropsLandPercentage "2,58"^^xsd:double .
 dbr:Cameroon ex:nonArableOrCropsLandPercentage "84,61"^^xsd:double .
-dbr:Cameroon ex:numberOfClimate "1,5"^^xsd:double .
+dbr:Cameroon ex:numberOfClimate "1,5"^^xsd:integer .
 dbr:Cameroon ex:birthRate "33,89"^^xsd:double .
 dbr:Cameroon ex:mortalityRate "13,47"^^xsd:double .
 dbr:Cameroon ex:percentOfAgricultureSector "0,448"^^xsd:double .
@@ -756,7 +756,7 @@ dbr:Canada ex:phonesPer1000 "552,2"^^xsd:double .
 dbr:Canada ex:arableLandPercentage "4,96"^^xsd:double .
 dbr:Canada ex:cropsLandPercentage "0,02"^^xsd:double .
 dbr:Canada ex:nonArableOrCropsLandPercentage "95,02"^^xsd:double .
-# dbr:Canada ex:numberOfClimate ""^^xsd:double .
+# dbr:Canada ex:numberOfClimate ""^^xsd:integer .
 dbr:Canada ex:birthRate "10,78"^^xsd:double .
 dbr:Canada ex:mortalityRate "7,8"^^xsd:double .
 dbr:Canada ex:percentOfAgricultureSector "0,022"^^xsd:double .
@@ -775,7 +775,7 @@ dbr:Cape_Verde ex:phonesPer1000 "169,63"^^xsd:double .
 dbr:Cape_Verde ex:arableLandPercentage "9,683"^^xsd:double .
 dbr:Cape_Verde ex:cropsLandPercentage "0,53"^^xsd:double .
 dbr:Cape_Verde ex:nonArableOrCropsLandPercentage "89,823"^^xsd:double .
-dbr:Cape_Verde ex:numberOfClimate "33"^^xsd:double .
+dbr:Cape_Verde ex:numberOfClimate "33"^^xsd:integer .
 dbr:Cape_Verde ex:birthRate "24,873"^^xsd:double .
 dbr:Cape_Verde ex:mortalityRate "6,553"^^xsd:double .
 dbr:Cape_Verde ex:percentOfAgricultureSector "0,1213"^^xsd:double .
@@ -794,7 +794,7 @@ dbr:Cayman_Islands ex:phonesPer1000 "836,37"^^xsd:double .
 dbr:Cayman_Islands ex:arableLandPercentage "3,857"^^xsd:double .
 dbr:Cayman_Islands ex:cropsLandPercentage "07"^^xsd:double .
 dbr:Cayman_Islands ex:nonArableOrCropsLandPercentage "96,157"^^xsd:double .
-dbr:Cayman_Islands ex:numberOfClimate "27"^^xsd:double .
+dbr:Cayman_Islands ex:numberOfClimate "27"^^xsd:integer .
 dbr:Cayman_Islands ex:birthRate "12,747"^^xsd:double .
 dbr:Cayman_Islands ex:mortalityRate "4,897"^^xsd:double .
 dbr:Cayman_Islands ex:percentOfAgricultureSector "0,0147"^^xsd:double .
@@ -813,7 +813,7 @@ dbr:Central_African_Rep ex:phonesPer1000 "2,3"^^xsd:double .
 dbr:Central_African_Rep ex:arableLandPercentage "3,1"^^xsd:double .
 dbr:Central_African_Rep ex:cropsLandPercentage "0,14"^^xsd:double .
 dbr:Central_African_Rep ex:nonArableOrCropsLandPercentage "96,76"^^xsd:double .
-dbr:Central_African_Rep ex:numberOfClimate "2"^^xsd:double .
+dbr:Central_African_Rep ex:numberOfClimate "2"^^xsd:integer .
 dbr:Central_African_Rep ex:birthRate "33,91"^^xsd:double .
 dbr:Central_African_Rep ex:mortalityRate "18,65"^^xsd:double .
 dbr:Central_African_Rep ex:percentOfAgricultureSector "0,55"^^xsd:double .
@@ -832,7 +832,7 @@ dbr:Chad ex:phonesPer1000 "1,3"^^xsd:double .
 dbr:Chad ex:arableLandPercentage "2,86"^^xsd:double .
 dbr:Chad ex:cropsLandPercentage "0,02"^^xsd:double .
 dbr:Chad ex:nonArableOrCropsLandPercentage "97,12"^^xsd:double .
-dbr:Chad ex:numberOfClimate "2"^^xsd:double .
+dbr:Chad ex:numberOfClimate "2"^^xsd:integer .
 dbr:Chad ex:birthRate "45,73"^^xsd:double .
 dbr:Chad ex:mortalityRate "16,38"^^xsd:double .
 dbr:Chad ex:percentOfAgricultureSector "0,335"^^xsd:double .
@@ -851,7 +851,7 @@ dbr:Chile ex:phonesPer1000 "213,0"^^xsd:double .
 dbr:Chile ex:arableLandPercentage "2,65"^^xsd:double .
 dbr:Chile ex:cropsLandPercentage "0,42"^^xsd:double .
 dbr:Chile ex:nonArableOrCropsLandPercentage "96,93"^^xsd:double .
-dbr:Chile ex:numberOfClimate "3"^^xsd:double .
+dbr:Chile ex:numberOfClimate "3"^^xsd:integer .
 dbr:Chile ex:birthRate "15,23"^^xsd:double .
 dbr:Chile ex:mortalityRate "5,81"^^xsd:double .
 dbr:Chile ex:percentOfAgricultureSector "0,06"^^xsd:double .
@@ -870,7 +870,7 @@ dbr:China ex:phonesPer1000 "266,7"^^xsd:double .
 dbr:China ex:arableLandPercentage "15,4"^^xsd:double .
 dbr:China ex:cropsLandPercentage "1,25"^^xsd:double .
 dbr:China ex:nonArableOrCropsLandPercentage "83,35"^^xsd:double .
-dbr:China ex:numberOfClimate "1,5"^^xsd:double .
+dbr:China ex:numberOfClimate "1,5"^^xsd:integer .
 dbr:China ex:birthRate "13,25"^^xsd:double .
 dbr:China ex:mortalityRate "6,97"^^xsd:double .
 dbr:China ex:percentOfAgricultureSector "0,125"^^xsd:double .
@@ -889,7 +889,7 @@ dbr:Colombia ex:phonesPer1000 "176,2"^^xsd:double .
 dbr:Colombia ex:arableLandPercentage "2,42"^^xsd:double .
 dbr:Colombia ex:cropsLandPercentage "1,67"^^xsd:double .
 dbr:Colombia ex:nonArableOrCropsLandPercentage "95,91"^^xsd:double .
-dbr:Colombia ex:numberOfClimate "2"^^xsd:double .
+dbr:Colombia ex:numberOfClimate "2"^^xsd:integer .
 dbr:Colombia ex:birthRate "20,48"^^xsd:double .
 dbr:Colombia ex:mortalityRate "5,58"^^xsd:double .
 dbr:Colombia ex:percentOfAgricultureSector "0,125"^^xsd:double .
@@ -908,7 +908,7 @@ dbr:Comoros ex:phonesPer1000 "24,57"^^xsd:double .
 dbr:Comoros ex:arableLandPercentage "35,877"^^xsd:double .
 dbr:Comoros ex:cropsLandPercentage "23,327"^^xsd:double .
 dbr:Comoros ex:nonArableOrCropsLandPercentage "40,817"^^xsd:double .
-dbr:Comoros ex:numberOfClimate "27"^^xsd:double .
+dbr:Comoros ex:numberOfClimate "27"^^xsd:integer .
 dbr:Comoros ex:birthRate "36,937"^^xsd:double .
 dbr:Comoros ex:mortalityRate "8,27"^^xsd:double .
 dbr:Comoros ex:percentOfAgricultureSector "0,47"^^xsd:double .
@@ -927,7 +927,7 @@ dbr:Congo_Dem_Rep ex:phonesPer1000 "0,2"^^xsd:double .
 dbr:Congo_Dem_Rep ex:arableLandPercentage "2,96"^^xsd:double .
 dbr:Congo_Dem_Rep ex:cropsLandPercentage "0,52"^^xsd:double .
 dbr:Congo_Dem_Rep ex:nonArableOrCropsLandPercentage "96,52"^^xsd:double .
-dbr:Congo_Dem_Rep ex:numberOfClimate "2"^^xsd:double .
+dbr:Congo_Dem_Rep ex:numberOfClimate "2"^^xsd:integer .
 dbr:Congo_Dem_Rep ex:birthRate "43,69"^^xsd:double .
 dbr:Congo_Dem_Rep ex:mortalityRate "13,27"^^xsd:double .
 dbr:Congo_Dem_Rep ex:percentOfAgricultureSector "0,55"^^xsd:double .
@@ -946,7 +946,7 @@ dbr:Congo_Repub_of_the ex:phonesPer1000 "3,7"^^xsd:double .
 dbr:Congo_Repub_of_the ex:arableLandPercentage "0,51"^^xsd:double .
 dbr:Congo_Repub_of_the ex:cropsLandPercentage "0,13"^^xsd:double .
 dbr:Congo_Repub_of_the ex:nonArableOrCropsLandPercentage "99,36"^^xsd:double .
-dbr:Congo_Repub_of_the ex:numberOfClimate "2"^^xsd:double .
+dbr:Congo_Repub_of_the ex:numberOfClimate "2"^^xsd:integer .
 dbr:Congo_Repub_of_the ex:birthRate "42,57"^^xsd:double .
 dbr:Congo_Repub_of_the ex:mortalityRate "12,93"^^xsd:double .
 dbr:Congo_Repub_of_the ex:percentOfAgricultureSector "0,062"^^xsd:double .
@@ -965,7 +965,7 @@ dbr:Cook_Islands ex:phonesPer1000 "289,90"^^xsd:double .
 dbr:Cook_Islands ex:arableLandPercentage "17,390"^^xsd:double .
 dbr:Cook_Islands ex:cropsLandPercentage "13,040"^^xsd:double .
 dbr:Cook_Islands ex:nonArableOrCropsLandPercentage "69,570"^^xsd:double .
-dbr:Cook_Islands ex:numberOfClimate "20"^^xsd:double .
+dbr:Cook_Islands ex:numberOfClimate "20"^^xsd:integer .
 dbr:Cook_Islands ex:birthRate "210"^^xsd:double .
 dbr:Cook_Islands ex:mortalityRate "0"^^xsd:double .
 dbr:Cook_Islands ex:percentOfAgricultureSector "0,1510"^^xsd:double .
@@ -984,7 +984,7 @@ dbr:Costa_Rica ex:phonesPer1000 "340,7"^^xsd:double .
 dbr:Costa_Rica ex:arableLandPercentage "4,41"^^xsd:double .
 dbr:Costa_Rica ex:cropsLandPercentage "5,88"^^xsd:double .
 dbr:Costa_Rica ex:nonArableOrCropsLandPercentage "89,71"^^xsd:double .
-dbr:Costa_Rica ex:numberOfClimate "2"^^xsd:double .
+dbr:Costa_Rica ex:numberOfClimate "2"^^xsd:integer .
 dbr:Costa_Rica ex:birthRate "18,32"^^xsd:double .
 dbr:Costa_Rica ex:mortalityRate "4,36"^^xsd:double .
 dbr:Costa_Rica ex:percentOfAgricultureSector "0,088"^^xsd:double .
@@ -1003,7 +1003,7 @@ dbr:Cote_dIvoire ex:phonesPer1000 "14,6"^^xsd:double .
 dbr:Cote_dIvoire ex:arableLandPercentage "9,75"^^xsd:double .
 dbr:Cote_dIvoire ex:cropsLandPercentage "13,84"^^xsd:double .
 dbr:Cote_dIvoire ex:nonArableOrCropsLandPercentage "76,41"^^xsd:double .
-dbr:Cote_dIvoire ex:numberOfClimate "2"^^xsd:double .
+dbr:Cote_dIvoire ex:numberOfClimate "2"^^xsd:integer .
 dbr:Cote_dIvoire ex:birthRate "35,11"^^xsd:double .
 dbr:Cote_dIvoire ex:mortalityRate "14,84"^^xsd:double .
 dbr:Cote_dIvoire ex:percentOfAgricultureSector "0,279"^^xsd:double .
@@ -1022,7 +1022,7 @@ dbr:Croatia ex:phonesPer1000 "420,42"^^xsd:double .
 dbr:Croatia ex:arableLandPercentage "26,092"^^xsd:double .
 dbr:Croatia ex:cropsLandPercentage "2,272"^^xsd:double .
 dbr:Croatia ex:nonArableOrCropsLandPercentage "71,652"^^xsd:double .
-dbr:Croatia ex:numberOfClimate "2"^^xsd:double .
+dbr:Croatia ex:numberOfClimate "2"^^xsd:integer .
 dbr:Croatia ex:birthRate "9,612"^^xsd:double .
 dbr:Croatia ex:mortalityRate "11,482"^^xsd:double .
 dbr:Croatia ex:percentOfAgricultureSector "0,072"^^xsd:double .
@@ -1041,7 +1041,7 @@ dbr:Cuba ex:phonesPer1000 "74,7"^^xsd:double .
 dbr:Cuba ex:arableLandPercentage "33,05"^^xsd:double .
 dbr:Cuba ex:cropsLandPercentage "7,6"^^xsd:double .
 dbr:Cuba ex:nonArableOrCropsLandPercentage "59,35"^^xsd:double .
-dbr:Cuba ex:numberOfClimate "2"^^xsd:double .
+dbr:Cuba ex:numberOfClimate "2"^^xsd:integer .
 dbr:Cuba ex:birthRate "11,89"^^xsd:double .
 dbr:Cuba ex:mortalityRate "7,22"^^xsd:double .
 dbr:Cuba ex:percentOfAgricultureSector "0,055"^^xsd:double .
@@ -1060,7 +1060,7 @@ dbr:Cyprus dbo:percentageLiterate "97,6"^^xsd:double .
 dbr:Cyprus ex:arableLandPercentage "7,79"^^xsd:double .
 dbr:Cyprus ex:cropsLandPercentage "4,44"^^xsd:double .
 dbr:Cyprus ex:nonArableOrCropsLandPercentage "87,77"^^xsd:double .
-dbr:Cyprus ex:numberOfClimate "3"^^xsd:double .
+dbr:Cyprus ex:numberOfClimate "3"^^xsd:integer .
 dbr:Cyprus ex:birthRate "12,56"^^xsd:double .
 dbr:Cyprus ex:mortalityRate "7,68"^^xsd:double .
 dbr:Cyprus ex:percentOfAgricultureSector "0,037"^^xsd:double .
@@ -1079,7 +1079,7 @@ dbr:Czech_Republic ex:phonesPer1000 "314,3"^^xsd:double .
 dbr:Czech_Republic ex:arableLandPercentage "39,8"^^xsd:double .
 dbr:Czech_Republic ex:cropsLandPercentage "3,05"^^xsd:double .
 dbr:Czech_Republic ex:nonArableOrCropsLandPercentage "57,15"^^xsd:double .
-dbr:Czech_Republic ex:numberOfClimate "3"^^xsd:double .
+dbr:Czech_Republic ex:numberOfClimate "3"^^xsd:integer .
 dbr:Czech_Republic ex:birthRate "9,02"^^xsd:double .
 dbr:Czech_Republic ex:mortalityRate "10,59"^^xsd:double .
 dbr:Czech_Republic ex:percentOfAgricultureSector "0,034"^^xsd:double .
@@ -1098,7 +1098,7 @@ dbr:Denmark ex:phonesPer1000 "614,67"^^xsd:double .
 dbr:Denmark ex:arableLandPercentage "54,027"^^xsd:double .
 dbr:Denmark ex:cropsLandPercentage "0,197"^^xsd:double .
 dbr:Denmark ex:nonArableOrCropsLandPercentage "45,797"^^xsd:double .
-dbr:Denmark ex:numberOfClimate "37"^^xsd:double .
+dbr:Denmark ex:numberOfClimate "37"^^xsd:integer .
 dbr:Denmark ex:birthRate "11,137"^^xsd:double .
 dbr:Denmark ex:mortalityRate "10,367"^^xsd:double .
 dbr:Denmark ex:percentOfAgricultureSector "0,0187"^^xsd:double .
@@ -1117,7 +1117,7 @@ dbr:Djibouti ex:phonesPer1000 "22,8"^^xsd:double .
 dbr:Djibouti ex:arableLandPercentage "0,04"^^xsd:double .
 dbr:Djibouti ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Djibouti ex:nonArableOrCropsLandPercentage "99,96"^^xsd:double .
-dbr:Djibouti ex:numberOfClimate "1"^^xsd:double .
+dbr:Djibouti ex:numberOfClimate "1"^^xsd:integer .
 dbr:Djibouti ex:birthRate "39,53"^^xsd:double .
 dbr:Djibouti ex:mortalityRate "19,31"^^xsd:double .
 dbr:Djibouti ex:percentOfAgricultureSector "0,179"^^xsd:double .
@@ -1136,7 +1136,7 @@ dbr:Dominica ex:phonesPer1000 "304,83"^^xsd:double .
 dbr:Dominica ex:arableLandPercentage "6,673"^^xsd:double .
 dbr:Dominica ex:cropsLandPercentage "203"^^xsd:double .
 dbr:Dominica ex:nonArableOrCropsLandPercentage "73,333"^^xsd:double .
-dbr:Dominica ex:numberOfClimate "23"^^xsd:double .
+dbr:Dominica ex:numberOfClimate "23"^^xsd:integer .
 dbr:Dominica ex:birthRate "15,273"^^xsd:double .
 dbr:Dominica ex:mortalityRate "6,733"^^xsd:double .
 dbr:Dominica ex:percentOfAgricultureSector "0,1773"^^xsd:double .
@@ -1155,7 +1155,7 @@ dbr:Dominican_Republic ex:phonesPer1000 "97,4"^^xsd:double .
 dbr:Dominican_Republic ex:arableLandPercentage "22,65"^^xsd:double .
 dbr:Dominican_Republic ex:cropsLandPercentage "10,33"^^xsd:double .
 dbr:Dominican_Republic ex:nonArableOrCropsLandPercentage "67,02"^^xsd:double .
-dbr:Dominican_Republic ex:numberOfClimate "2"^^xsd:double .
+dbr:Dominican_Republic ex:numberOfClimate "2"^^xsd:integer .
 dbr:Dominican_Republic ex:birthRate "23,22"^^xsd:double .
 dbr:Dominican_Republic ex:mortalityRate "5,73"^^xsd:double .
 dbr:Dominican_Republic ex:percentOfAgricultureSector "0,112"^^xsd:double .
@@ -1174,7 +1174,7 @@ dbr:East_Timor dbo:percentageLiterate "58,6"^^xsd:double .
 dbr:East_Timor ex:arableLandPercentage "4,71"^^xsd:double .
 dbr:East_Timor ex:cropsLandPercentage "0,67"^^xsd:double .
 dbr:East_Timor ex:nonArableOrCropsLandPercentage "94,62"^^xsd:double .
-dbr:East_Timor ex:numberOfClimate "2"^^xsd:double .
+dbr:East_Timor ex:numberOfClimate "2"^^xsd:integer .
 dbr:East_Timor ex:birthRate "26,99"^^xsd:double .
 dbr:East_Timor ex:mortalityRate "6,24"^^xsd:double .
 dbr:East_Timor ex:percentOfAgricultureSector "0,085"^^xsd:double .
@@ -1193,7 +1193,7 @@ dbr:Ecuador ex:phonesPer1000 "125,6"^^xsd:double .
 dbr:Ecuador ex:arableLandPercentage "5,85"^^xsd:double .
 dbr:Ecuador ex:cropsLandPercentage "4,93"^^xsd:double .
 dbr:Ecuador ex:nonArableOrCropsLandPercentage "89,22"^^xsd:double .
-dbr:Ecuador ex:numberOfClimate "2"^^xsd:double .
+dbr:Ecuador ex:numberOfClimate "2"^^xsd:integer .
 dbr:Ecuador ex:birthRate "22,29"^^xsd:double .
 dbr:Ecuador ex:mortalityRate "4,23"^^xsd:double .
 dbr:Ecuador ex:percentOfAgricultureSector "0,07"^^xsd:double .
@@ -1212,7 +1212,7 @@ dbr:Egypt ex:phonesPer1000 "131,8"^^xsd:double .
 dbr:Egypt ex:arableLandPercentage "2,87"^^xsd:double .
 dbr:Egypt ex:cropsLandPercentage "0,48"^^xsd:double .
 dbr:Egypt ex:nonArableOrCropsLandPercentage "96,65"^^xsd:double .
-dbr:Egypt ex:numberOfClimate "1"^^xsd:double .
+dbr:Egypt ex:numberOfClimate "1"^^xsd:integer .
 dbr:Egypt ex:birthRate "22,94"^^xsd:double .
 dbr:Egypt ex:mortalityRate "5,23"^^xsd:double .
 dbr:Egypt ex:percentOfAgricultureSector "0,149"^^xsd:double .
@@ -1231,7 +1231,7 @@ dbr:El_Salvador ex:phonesPer1000 "142,4"^^xsd:double .
 dbr:El_Salvador ex:arableLandPercentage "31,85"^^xsd:double .
 dbr:El_Salvador ex:cropsLandPercentage "12,07"^^xsd:double .
 dbr:El_Salvador ex:nonArableOrCropsLandPercentage "56,08"^^xsd:double .
-dbr:El_Salvador ex:numberOfClimate "2"^^xsd:double .
+dbr:El_Salvador ex:numberOfClimate "2"^^xsd:integer .
 dbr:El_Salvador ex:birthRate "26,61"^^xsd:double .
 dbr:El_Salvador ex:mortalityRate "5,78"^^xsd:double .
 dbr:El_Salvador ex:percentOfAgricultureSector "0,099"^^xsd:double .
@@ -1250,7 +1250,7 @@ dbr:Equatorial_Guinea ex:phonesPer1000 "18,5"^^xsd:double .
 dbr:Equatorial_Guinea ex:arableLandPercentage "4,63"^^xsd:double .
 dbr:Equatorial_Guinea ex:cropsLandPercentage "3,57"^^xsd:double .
 dbr:Equatorial_Guinea ex:nonArableOrCropsLandPercentage "91,8"^^xsd:double .
-dbr:Equatorial_Guinea ex:numberOfClimate "2"^^xsd:double .
+dbr:Equatorial_Guinea ex:numberOfClimate "2"^^xsd:integer .
 dbr:Equatorial_Guinea ex:birthRate "35,59"^^xsd:double .
 dbr:Equatorial_Guinea ex:mortalityRate "15,06"^^xsd:double .
 dbr:Equatorial_Guinea ex:percentOfAgricultureSector "0,03"^^xsd:double .
@@ -1269,7 +1269,7 @@ dbr:Eritrea ex:phonesPer1000 "7,9"^^xsd:double .
 dbr:Eritrea ex:arableLandPercentage "4,95"^^xsd:double .
 dbr:Eritrea ex:cropsLandPercentage "0,03"^^xsd:double .
 dbr:Eritrea ex:nonArableOrCropsLandPercentage "95,02"^^xsd:double .
-dbr:Eritrea ex:numberOfClimate "1,5"^^xsd:double .
+dbr:Eritrea ex:numberOfClimate "1,5"^^xsd:integer .
 dbr:Eritrea ex:birthRate "34,33"^^xsd:double .
 dbr:Eritrea ex:mortalityRate "9,6"^^xsd:double .
 dbr:Eritrea ex:percentOfAgricultureSector "0,102"^^xsd:double .
@@ -1288,7 +1288,7 @@ dbr:Estonia ex:phonesPer1000 "333,8"^^xsd:double .
 dbr:Estonia ex:arableLandPercentage "16,04"^^xsd:double .
 dbr:Estonia ex:cropsLandPercentage "0,45"^^xsd:double .
 dbr:Estonia ex:nonArableOrCropsLandPercentage "83,51"^^xsd:double .
-dbr:Estonia ex:numberOfClimate "3"^^xsd:double .
+dbr:Estonia ex:numberOfClimate "3"^^xsd:integer .
 dbr:Estonia ex:birthRate "10,04"^^xsd:double .
 dbr:Estonia ex:mortalityRate "13,25"^^xsd:double .
 dbr:Estonia ex:percentOfAgricultureSector "0,04"^^xsd:double .
@@ -1307,7 +1307,7 @@ dbr:Ethiopia ex:phonesPer1000 "8,2"^^xsd:double .
 dbr:Ethiopia ex:arableLandPercentage "10,71"^^xsd:double .
 dbr:Ethiopia ex:cropsLandPercentage "0,75"^^xsd:double .
 dbr:Ethiopia ex:nonArableOrCropsLandPercentage "88,54"^^xsd:double .
-dbr:Ethiopia ex:numberOfClimate "2"^^xsd:double .
+dbr:Ethiopia ex:numberOfClimate "2"^^xsd:integer .
 dbr:Ethiopia ex:birthRate "37,98"^^xsd:double .
 dbr:Ethiopia ex:mortalityRate "14,86"^^xsd:double .
 dbr:Ethiopia ex:percentOfAgricultureSector "0,475"^^xsd:double .
@@ -1326,7 +1326,7 @@ dbr:Faroe_Islands ex:phonesPer1000 "503,84"^^xsd:double .
 dbr:Faroe_Islands ex:arableLandPercentage "2,144"^^xsd:double .
 dbr:Faroe_Islands ex:cropsLandPercentage "04"^^xsd:double .
 dbr:Faroe_Islands ex:nonArableOrCropsLandPercentage "97,864"^^xsd:double .
-dbr:Faroe_Islands ex:numberOfClimate "4"^^xsd:double .
+dbr:Faroe_Islands ex:numberOfClimate "4"^^xsd:integer .
 dbr:Faroe_Islands ex:birthRate "14,054"^^xsd:double .
 dbr:Faroe_Islands ex:mortalityRate "8,74"^^xsd:double .
 dbr:Faroe_Islands ex:percentOfAgricultureSector "0,274"^^xsd:double .
@@ -1345,7 +1345,7 @@ dbr:Fiji ex:phonesPer1000 "112,6"^^xsd:double .
 dbr:Fiji ex:arableLandPercentage "10,95"^^xsd:double .
 dbr:Fiji ex:cropsLandPercentage "4,65"^^xsd:double .
 dbr:Fiji ex:nonArableOrCropsLandPercentage "84,4"^^xsd:double .
-dbr:Fiji ex:numberOfClimate "2"^^xsd:double .
+dbr:Fiji ex:numberOfClimate "2"^^xsd:integer .
 dbr:Fiji ex:birthRate "22,55"^^xsd:double .
 dbr:Fiji ex:mortalityRate "5,65"^^xsd:double .
 dbr:Fiji ex:percentOfAgricultureSector "0,089"^^xsd:double .
@@ -1364,7 +1364,7 @@ dbr:Finland ex:phonesPer1000 "405,3"^^xsd:double .
 dbr:Finland ex:arableLandPercentage "7,19"^^xsd:double .
 dbr:Finland ex:cropsLandPercentage "0,03"^^xsd:double .
 dbr:Finland ex:nonArableOrCropsLandPercentage "92,78"^^xsd:double .
-dbr:Finland ex:numberOfClimate "3"^^xsd:double .
+dbr:Finland ex:numberOfClimate "3"^^xsd:integer .
 dbr:Finland ex:birthRate "10,45"^^xsd:double .
 dbr:Finland ex:mortalityRate "9,86"^^xsd:double .
 dbr:Finland ex:percentOfAgricultureSector "0,028"^^xsd:double .
@@ -1383,7 +1383,7 @@ dbr:France ex:phonesPer1000 "586,4"^^xsd:double .
 dbr:France ex:arableLandPercentage "33,53"^^xsd:double .
 dbr:France ex:cropsLandPercentage "2,07"^^xsd:double .
 dbr:France ex:nonArableOrCropsLandPercentage "64,4"^^xsd:double .
-dbr:France ex:numberOfClimate "4"^^xsd:double .
+dbr:France ex:numberOfClimate "4"^^xsd:integer .
 dbr:France ex:birthRate "11,99"^^xsd:double .
 dbr:France ex:mortalityRate "9,14"^^xsd:double .
 dbr:France ex:percentOfAgricultureSector "0,022"^^xsd:double .
@@ -1402,7 +1402,7 @@ dbr:French_Guiana ex:phonesPer1000 "255,6"^^xsd:double .
 dbr:French_Guiana ex:arableLandPercentage "0,14"^^xsd:double .
 dbr:French_Guiana ex:cropsLandPercentage "0,05"^^xsd:double .
 dbr:French_Guiana ex:nonArableOrCropsLandPercentage "99,81"^^xsd:double .
-dbr:French_Guiana ex:numberOfClimate "2"^^xsd:double .
+dbr:French_Guiana ex:numberOfClimate "2"^^xsd:integer .
 dbr:French_Guiana ex:birthRate "20,46"^^xsd:double .
 dbr:French_Guiana ex:mortalityRate "4,88"^^xsd:double .
 dbr:French_Guiana ex:percentOfAgricultureSector "0,066"^^xsd:double .
@@ -1421,7 +1421,7 @@ dbr:French_Polynesia ex:phonesPer1000 "194,50"^^xsd:double .
 dbr:French_Polynesia ex:arableLandPercentage "0,820"^^xsd:double .
 dbr:French_Polynesia ex:cropsLandPercentage "5,460"^^xsd:double .
 dbr:French_Polynesia ex:nonArableOrCropsLandPercentage "93,720"^^xsd:double .
-dbr:French_Polynesia ex:numberOfClimate "20"^^xsd:double .
+dbr:French_Polynesia ex:numberOfClimate "20"^^xsd:integer .
 dbr:French_Polynesia ex:birthRate "16,680"^^xsd:double .
 dbr:French_Polynesia ex:mortalityRate "4,690"^^xsd:double .
 dbr:French_Polynesia ex:percentOfAgricultureSector "0,0310"^^xsd:double .
@@ -1440,7 +1440,7 @@ dbr:Gabon ex:phonesPer1000 "27,4"^^xsd:double .
 dbr:Gabon ex:arableLandPercentage "1,26"^^xsd:double .
 dbr:Gabon ex:cropsLandPercentage "0,66"^^xsd:double .
 dbr:Gabon ex:nonArableOrCropsLandPercentage "98,08"^^xsd:double .
-dbr:Gabon ex:numberOfClimate "2"^^xsd:double .
+dbr:Gabon ex:numberOfClimate "2"^^xsd:integer .
 dbr:Gabon ex:birthRate "36,16"^^xsd:double .
 dbr:Gabon ex:mortalityRate "12,25"^^xsd:double .
 dbr:Gabon ex:percentOfAgricultureSector "0,061"^^xsd:double .
@@ -1459,7 +1459,7 @@ dbr:Gambia_The ex:phonesPer1000 "26,8"^^xsd:double .
 dbr:Gambia_The ex:arableLandPercentage "25"^^xsd:double .
 dbr:Gambia_The ex:cropsLandPercentage "0,5"^^xsd:double .
 dbr:Gambia_The ex:nonArableOrCropsLandPercentage "74,5"^^xsd:double .
-dbr:Gambia_The ex:numberOfClimate "2"^^xsd:double .
+dbr:Gambia_The ex:numberOfClimate "2"^^xsd:integer .
 dbr:Gambia_The ex:birthRate "39,37"^^xsd:double .
 dbr:Gambia_The ex:mortalityRate "12,25"^^xsd:double .
 dbr:Gambia_The ex:percentOfAgricultureSector "0,308"^^xsd:double .
@@ -1478,7 +1478,7 @@ dbr:Gaza_Strip ex:phonesPer1000 "244,31"^^xsd:double .
 dbr:Gaza_Strip ex:arableLandPercentage "28,951"^^xsd:double .
 dbr:Gaza_Strip ex:cropsLandPercentage "21,051"^^xsd:double .
 dbr:Gaza_Strip ex:nonArableOrCropsLandPercentage "501"^^xsd:double .
-dbr:Gaza_Strip ex:numberOfClimate "31"^^xsd:double .
+dbr:Gaza_Strip ex:numberOfClimate "31"^^xsd:integer .
 dbr:Gaza_Strip ex:birthRate "39,451"^^xsd:double .
 dbr:Gaza_Strip ex:mortalityRate "3,81"^^xsd:double .
 dbr:Gaza_Strip ex:percentOfAgricultureSector "0,031"^^xsd:double .
@@ -1497,7 +1497,7 @@ dbr:Georgia ex:phonesPer1000 "146,6"^^xsd:double .
 dbr:Georgia ex:arableLandPercentage "11,44"^^xsd:double .
 dbr:Georgia ex:cropsLandPercentage "3,86"^^xsd:double .
 dbr:Georgia ex:nonArableOrCropsLandPercentage "84,7"^^xsd:double .
-dbr:Georgia ex:numberOfClimate "3"^^xsd:double .
+dbr:Georgia ex:numberOfClimate "3"^^xsd:integer .
 dbr:Georgia ex:birthRate "10,41"^^xsd:double .
 dbr:Georgia ex:mortalityRate "9,23"^^xsd:double .
 dbr:Georgia ex:percentOfAgricultureSector "0,172"^^xsd:double .
@@ -1516,7 +1516,7 @@ dbr:Germany ex:phonesPer1000 "667,9"^^xsd:double .
 dbr:Germany ex:arableLandPercentage "33,85"^^xsd:double .
 dbr:Germany ex:cropsLandPercentage "0,59"^^xsd:double .
 dbr:Germany ex:nonArableOrCropsLandPercentage "65,56"^^xsd:double .
-dbr:Germany ex:numberOfClimate "3"^^xsd:double .
+dbr:Germany ex:numberOfClimate "3"^^xsd:integer .
 dbr:Germany ex:birthRate "8,25"^^xsd:double .
 dbr:Germany ex:mortalityRate "10,62"^^xsd:double .
 dbr:Germany ex:percentOfAgricultureSector "0,009"^^xsd:double .
@@ -1535,7 +1535,7 @@ dbr:Ghana ex:phonesPer1000 "14,4"^^xsd:double .
 dbr:Ghana ex:arableLandPercentage "16,26"^^xsd:double .
 dbr:Ghana ex:cropsLandPercentage "9,67"^^xsd:double .
 dbr:Ghana ex:nonArableOrCropsLandPercentage "74,07"^^xsd:double .
-dbr:Ghana ex:numberOfClimate "2"^^xsd:double .
+dbr:Ghana ex:numberOfClimate "2"^^xsd:integer .
 dbr:Ghana ex:birthRate "30,52"^^xsd:double .
 dbr:Ghana ex:mortalityRate "9,72"^^xsd:double .
 dbr:Ghana ex:percentOfAgricultureSector "0,366"^^xsd:double .
@@ -1554,7 +1554,7 @@ dbr:Gibraltar ex:phonesPer1000 "877,743"^^xsd:double .
 dbr:Gibraltar ex:arableLandPercentage "043"^^xsd:double .
 dbr:Gibraltar ex:cropsLandPercentage "043"^^xsd:double .
 dbr:Gibraltar ex:nonArableOrCropsLandPercentage "10043"^^xsd:double .
-dbr:Gibraltar ex:numberOfClimate "43"^^xsd:double .
+dbr:Gibraltar ex:numberOfClimate "43"^^xsd:integer .
 dbr:Gibraltar ex:birthRate "10,7443"^^xsd:double .
 dbr:Gibraltar ex:mortalityRate "9,3143"^^xsd:double .
 dbr:Gibraltar ex:percentOfAgricultureSector "43"^^xsd:double .
@@ -1573,7 +1573,7 @@ dbr:Greece ex:phonesPer1000 "589,77"^^xsd:double .
 dbr:Greece ex:arableLandPercentage "21,17"^^xsd:double .
 dbr:Greece ex:cropsLandPercentage "8,787"^^xsd:double .
 dbr:Greece ex:nonArableOrCropsLandPercentage "70,127"^^xsd:double .
-dbr:Greece ex:numberOfClimate "37"^^xsd:double .
+dbr:Greece ex:numberOfClimate "37"^^xsd:integer .
 dbr:Greece ex:birthRate "9,687"^^xsd:double .
 dbr:Greece ex:mortalityRate "10,247"^^xsd:double .
 dbr:Greece ex:percentOfAgricultureSector "0,0547"^^xsd:double .
@@ -1592,7 +1592,7 @@ dbr:Greenland ex:phonesPer1000 "448,9"^^xsd:double .
 dbr:Greenland ex:arableLandPercentage "0"^^xsd:double .
 dbr:Greenland ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Greenland ex:nonArableOrCropsLandPercentage "100"^^xsd:double .
-dbr:Greenland ex:numberOfClimate "1"^^xsd:double .
+dbr:Greenland ex:numberOfClimate "1"^^xsd:integer .
 dbr:Greenland ex:birthRate "15,93"^^xsd:double .
 dbr:Greenland ex:mortalityRate "7,84"^^xsd:double .
 # dbr:Greenland ex:percentOfAgricultureSector ""^^xsd:double .
@@ -1611,7 +1611,7 @@ dbr:Grenada ex:phonesPer1000 "364,57"^^xsd:double .
 dbr:Grenada ex:arableLandPercentage "5,887"^^xsd:double .
 dbr:Grenada ex:cropsLandPercentage "29,417"^^xsd:double .
 dbr:Grenada ex:nonArableOrCropsLandPercentage "64,717"^^xsd:double .
-dbr:Grenada ex:numberOfClimate "27"^^xsd:double .
+dbr:Grenada ex:numberOfClimate "27"^^xsd:integer .
 dbr:Grenada ex:birthRate "22,087"^^xsd:double .
 dbr:Grenada ex:mortalityRate "6,887"^^xsd:double .
 dbr:Grenada ex:percentOfAgricultureSector "0,0547"^^xsd:double .
@@ -1630,7 +1630,7 @@ dbr:Guadeloupe ex:phonesPer1000 "463,89"^^xsd:double .
 dbr:Guadeloupe ex:arableLandPercentage "11,249"^^xsd:double .
 dbr:Guadeloupe ex:cropsLandPercentage "3,559"^^xsd:double .
 dbr:Guadeloupe ex:nonArableOrCropsLandPercentage "85,219"^^xsd:double .
-dbr:Guadeloupe ex:numberOfClimate "29"^^xsd:double .
+dbr:Guadeloupe ex:numberOfClimate "29"^^xsd:integer .
 dbr:Guadeloupe ex:birthRate "15,059"^^xsd:double .
 dbr:Guadeloupe ex:mortalityRate "6,099"^^xsd:double .
 dbr:Guadeloupe ex:percentOfAgricultureSector "0,159"^^xsd:double .
@@ -1649,7 +1649,7 @@ dbr:Guam ex:phonesPer1000 "492,00"^^xsd:double .
 dbr:Guam ex:arableLandPercentage "9,090"^^xsd:double .
 dbr:Guam ex:cropsLandPercentage "16,360"^^xsd:double .
 dbr:Guam ex:nonArableOrCropsLandPercentage "74,550"^^xsd:double .
-dbr:Guam ex:numberOfClimate "20"^^xsd:double .
+dbr:Guam ex:numberOfClimate "20"^^xsd:integer .
 dbr:Guam ex:birthRate "18,790"^^xsd:double .
 dbr:Guam ex:mortalityRate "4,480"^^xsd:double .
 dbr:Guam ex:percentOfAgricultureSector "0"^^xsd:double .
@@ -1668,7 +1668,7 @@ dbr:Guatemala ex:phonesPer1000 "92,1"^^xsd:double .
 dbr:Guatemala ex:arableLandPercentage "12,54"^^xsd:double .
 dbr:Guatemala ex:cropsLandPercentage "5,03"^^xsd:double .
 dbr:Guatemala ex:nonArableOrCropsLandPercentage "82,43"^^xsd:double .
-dbr:Guatemala ex:numberOfClimate "2"^^xsd:double .
+dbr:Guatemala ex:numberOfClimate "2"^^xsd:integer .
 dbr:Guatemala ex:birthRate "29,88"^^xsd:double .
 dbr:Guatemala ex:mortalityRate "5,2"^^xsd:double .
 dbr:Guatemala ex:percentOfAgricultureSector "0,227"^^xsd:double .
@@ -1687,7 +1687,7 @@ dbr:Guernsey ex:phonesPer1000 "842,40"^^xsd:double .
 dbr:Guernsey ex:arableLandPercentage "0"^^xsd:double .
 dbr:Guernsey ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Guernsey ex:nonArableOrCropsLandPercentage "0"^^xsd:double .
-dbr:Guernsey ex:numberOfClimate "30"^^xsd:double .
+dbr:Guernsey ex:numberOfClimate "30"^^xsd:integer .
 dbr:Guernsey ex:birthRate "8,810"^^xsd:double .
 dbr:Guernsey ex:mortalityRate "10,010"^^xsd:double .
 dbr:Guernsey ex:percentOfAgricultureSector "0,030"^^xsd:double .
@@ -1706,7 +1706,7 @@ dbr:Guinea ex:phonesPer1000 "2,7"^^xsd:double .
 dbr:Guinea ex:arableLandPercentage "3,63"^^xsd:double .
 dbr:Guinea ex:cropsLandPercentage "2,58"^^xsd:double .
 dbr:Guinea ex:nonArableOrCropsLandPercentage "93,79"^^xsd:double .
-dbr:Guinea ex:numberOfClimate "2"^^xsd:double .
+dbr:Guinea ex:numberOfClimate "2"^^xsd:integer .
 dbr:Guinea ex:birthRate "41,76"^^xsd:double .
 dbr:Guinea ex:mortalityRate "15,48"^^xsd:double .
 dbr:Guinea ex:percentOfAgricultureSector "0,237"^^xsd:double .
@@ -1725,7 +1725,7 @@ dbr:Guinea_Bissau ex:phonesPer1000 "7,4"^^xsd:double .
 dbr:Guinea_Bissau ex:arableLandPercentage "10,67"^^xsd:double .
 dbr:Guinea_Bissau ex:cropsLandPercentage "8,82"^^xsd:double .
 dbr:Guinea_Bissau ex:nonArableOrCropsLandPercentage "80,51"^^xsd:double .
-dbr:Guinea_Bissau ex:numberOfClimate "2"^^xsd:double .
+dbr:Guinea_Bissau ex:numberOfClimate "2"^^xsd:integer .
 dbr:Guinea_Bissau ex:birthRate "37,22"^^xsd:double .
 dbr:Guinea_Bissau ex:mortalityRate "16,53"^^xsd:double .
 dbr:Guinea_Bissau ex:percentOfAgricultureSector "0,62"^^xsd:double .
@@ -1744,7 +1744,7 @@ dbr:Guyana ex:phonesPer1000 "143,5"^^xsd:double .
 dbr:Guyana ex:arableLandPercentage "2,44"^^xsd:double .
 dbr:Guyana ex:cropsLandPercentage "0,15"^^xsd:double .
 dbr:Guyana ex:nonArableOrCropsLandPercentage "97,41"^^xsd:double .
-dbr:Guyana ex:numberOfClimate "2"^^xsd:double .
+dbr:Guyana ex:numberOfClimate "2"^^xsd:integer .
 dbr:Guyana ex:birthRate "18,28"^^xsd:double .
 dbr:Guyana ex:mortalityRate "8,28"^^xsd:double .
 dbr:Guyana ex:percentOfAgricultureSector "0,37"^^xsd:double .
@@ -1763,7 +1763,7 @@ dbr:Haiti ex:phonesPer1000 "16,9"^^xsd:double .
 dbr:Haiti ex:arableLandPercentage "28,3"^^xsd:double .
 dbr:Haiti ex:cropsLandPercentage "11,61"^^xsd:double .
 dbr:Haiti ex:nonArableOrCropsLandPercentage "60,09"^^xsd:double .
-dbr:Haiti ex:numberOfClimate "2"^^xsd:double .
+dbr:Haiti ex:numberOfClimate "2"^^xsd:integer .
 dbr:Haiti ex:birthRate "36,44"^^xsd:double .
 dbr:Haiti ex:mortalityRate "12,17"^^xsd:double .
 dbr:Haiti ex:percentOfAgricultureSector "0,28"^^xsd:double .
@@ -1782,7 +1782,7 @@ dbr:Honduras ex:phonesPer1000 "67,5"^^xsd:double .
 dbr:Honduras ex:arableLandPercentage "9,55"^^xsd:double .
 dbr:Honduras ex:cropsLandPercentage "3,22"^^xsd:double .
 dbr:Honduras ex:nonArableOrCropsLandPercentage "87,23"^^xsd:double .
-dbr:Honduras ex:numberOfClimate "2"^^xsd:double .
+dbr:Honduras ex:numberOfClimate "2"^^xsd:integer .
 dbr:Honduras ex:birthRate "28,24"^^xsd:double .
 dbr:Honduras ex:mortalityRate "5,28"^^xsd:double .
 dbr:Honduras ex:percentOfAgricultureSector "0,139"^^xsd:double .
@@ -1801,7 +1801,7 @@ dbr:Hong_Kong ex:phonesPer1000 "546,72"^^xsd:double .
 dbr:Hong_Kong ex:arableLandPercentage "5,052"^^xsd:double .
 dbr:Hong_Kong ex:cropsLandPercentage "1,012"^^xsd:double .
 dbr:Hong_Kong ex:nonArableOrCropsLandPercentage "93,942"^^xsd:double .
-dbr:Hong_Kong ex:numberOfClimate "22"^^xsd:double .
+dbr:Hong_Kong ex:numberOfClimate "22"^^xsd:integer .
 dbr:Hong_Kong ex:birthRate "7,292"^^xsd:double .
 dbr:Hong_Kong ex:mortalityRate "6,292"^^xsd:double .
 dbr:Hong_Kong ex:percentOfAgricultureSector "0,0012"^^xsd:double .
@@ -1820,7 +1820,7 @@ dbr:Hungary ex:phonesPer1000 "336,2"^^xsd:double .
 dbr:Hungary ex:arableLandPercentage "50,09"^^xsd:double .
 dbr:Hungary ex:cropsLandPercentage "2,06"^^xsd:double .
 dbr:Hungary ex:nonArableOrCropsLandPercentage "47,85"^^xsd:double .
-dbr:Hungary ex:numberOfClimate "3"^^xsd:double .
+dbr:Hungary ex:numberOfClimate "3"^^xsd:integer .
 dbr:Hungary ex:birthRate "9,72"^^xsd:double .
 dbr:Hungary ex:mortalityRate "13,11"^^xsd:double .
 dbr:Hungary ex:percentOfAgricultureSector "0,037"^^xsd:double .
@@ -1839,7 +1839,7 @@ dbr:Iceland ex:phonesPer1000 "647,7"^^xsd:double .
 dbr:Iceland ex:arableLandPercentage "0,07"^^xsd:double .
 dbr:Iceland ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Iceland ex:nonArableOrCropsLandPercentage "99,93"^^xsd:double .
-dbr:Iceland ex:numberOfClimate "3"^^xsd:double .
+dbr:Iceland ex:numberOfClimate "3"^^xsd:integer .
 dbr:Iceland ex:birthRate "13,64"^^xsd:double .
 dbr:Iceland ex:mortalityRate "6,72"^^xsd:double .
 dbr:Iceland ex:percentOfAgricultureSector "0,086"^^xsd:double .
@@ -1858,7 +1858,7 @@ dbr:India ex:phonesPer1000 "45,4"^^xsd:double .
 dbr:India ex:arableLandPercentage "54,4"^^xsd:double .
 dbr:India ex:cropsLandPercentage "2,74"^^xsd:double .
 dbr:India ex:nonArableOrCropsLandPercentage "42,86"^^xsd:double .
-dbr:India ex:numberOfClimate "2,5"^^xsd:double .
+dbr:India ex:numberOfClimate "2,5"^^xsd:integer .
 dbr:India ex:birthRate "22,01"^^xsd:double .
 dbr:India ex:mortalityRate "8,18"^^xsd:double .
 dbr:India ex:percentOfAgricultureSector "0,186"^^xsd:double .
@@ -1877,7 +1877,7 @@ dbr:Indonesia ex:phonesPer1000 "52,0"^^xsd:double .
 dbr:Indonesia ex:arableLandPercentage "11,32"^^xsd:double .
 dbr:Indonesia ex:cropsLandPercentage "7,23"^^xsd:double .
 dbr:Indonesia ex:nonArableOrCropsLandPercentage "81,45"^^xsd:double .
-dbr:Indonesia ex:numberOfClimate "2"^^xsd:double .
+dbr:Indonesia ex:numberOfClimate "2"^^xsd:integer .
 dbr:Indonesia ex:birthRate "20,34"^^xsd:double .
 dbr:Indonesia ex:mortalityRate "6,25"^^xsd:double .
 dbr:Indonesia ex:percentOfAgricultureSector "0,134"^^xsd:double .
@@ -1896,7 +1896,7 @@ dbr:Iran ex:phonesPer1000 "276,4"^^xsd:double .
 dbr:Iran ex:arableLandPercentage "8,72"^^xsd:double .
 dbr:Iran ex:cropsLandPercentage "1,39"^^xsd:double .
 dbr:Iran ex:nonArableOrCropsLandPercentage "89,89"^^xsd:double .
-dbr:Iran ex:numberOfClimate "1"^^xsd:double .
+dbr:Iran ex:numberOfClimate "1"^^xsd:integer .
 dbr:Iran ex:birthRate "17"^^xsd:double .
 dbr:Iran ex:mortalityRate "5,55"^^xsd:double .
 dbr:Iran ex:percentOfAgricultureSector "0,116"^^xsd:double .
@@ -1915,7 +1915,7 @@ dbr:Iraq ex:phonesPer1000 "38,6"^^xsd:double .
 dbr:Iraq ex:arableLandPercentage "13,15"^^xsd:double .
 dbr:Iraq ex:cropsLandPercentage "0,78"^^xsd:double .
 dbr:Iraq ex:nonArableOrCropsLandPercentage "86,07"^^xsd:double .
-dbr:Iraq ex:numberOfClimate "1"^^xsd:double .
+dbr:Iraq ex:numberOfClimate "1"^^xsd:integer .
 dbr:Iraq ex:birthRate "31,98"^^xsd:double .
 dbr:Iraq ex:mortalityRate "5,37"^^xsd:double .
 dbr:Iraq ex:percentOfAgricultureSector "0,073"^^xsd:double .
@@ -1934,7 +1934,7 @@ dbr:Ireland ex:phonesPer1000 "500,5"^^xsd:double .
 dbr:Ireland ex:arableLandPercentage "15,2"^^xsd:double .
 dbr:Ireland ex:cropsLandPercentage "0,03"^^xsd:double .
 dbr:Ireland ex:nonArableOrCropsLandPercentage "84,77"^^xsd:double .
-dbr:Ireland ex:numberOfClimate "3"^^xsd:double .
+dbr:Ireland ex:numberOfClimate "3"^^xsd:integer .
 dbr:Ireland ex:birthRate "14,45"^^xsd:double .
 dbr:Ireland ex:mortalityRate "7,82"^^xsd:double .
 dbr:Ireland ex:percentOfAgricultureSector "0,05"^^xsd:double .
@@ -1953,7 +1953,7 @@ dbr:Isle_of_Man ex:phonesPer1000 "676,07"^^xsd:double .
 dbr:Isle_of_Man ex:arableLandPercentage "97"^^xsd:double .
 dbr:Isle_of_Man ex:cropsLandPercentage "07"^^xsd:double .
 dbr:Isle_of_Man ex:nonArableOrCropsLandPercentage "917"^^xsd:double .
-dbr:Isle_of_Man ex:numberOfClimate "37"^^xsd:double .
+dbr:Isle_of_Man ex:numberOfClimate "37"^^xsd:integer .
 dbr:Isle_of_Man ex:birthRate "11,057"^^xsd:double .
 dbr:Isle_of_Man ex:mortalityRate "11,197"^^xsd:double .
 dbr:Isle_of_Man ex:percentOfAgricultureSector "0,017"^^xsd:double .
@@ -1972,7 +1972,7 @@ dbr:Israel ex:phonesPer1000 "462,3"^^xsd:double .
 dbr:Israel ex:arableLandPercentage "16,39"^^xsd:double .
 dbr:Israel ex:cropsLandPercentage "4,17"^^xsd:double .
 dbr:Israel ex:nonArableOrCropsLandPercentage "79,44"^^xsd:double .
-dbr:Israel ex:numberOfClimate "3"^^xsd:double .
+dbr:Israel ex:numberOfClimate "3"^^xsd:integer .
 dbr:Israel ex:birthRate "17,97"^^xsd:double .
 dbr:Israel ex:mortalityRate "6,18"^^xsd:double .
 dbr:Israel ex:percentOfAgricultureSector "0,026"^^xsd:double .
@@ -1991,7 +1991,7 @@ dbr:Italy ex:phonesPer1000 "430,9"^^xsd:double .
 dbr:Italy ex:arableLandPercentage "27,79"^^xsd:double .
 dbr:Italy ex:cropsLandPercentage "9,53"^^xsd:double .
 dbr:Italy ex:nonArableOrCropsLandPercentage "62,68"^^xsd:double .
-# dbr:Italy ex:numberOfClimate ""^^xsd:double .
+# dbr:Italy ex:numberOfClimate ""^^xsd:integer .
 dbr:Italy ex:birthRate "8,72"^^xsd:double .
 dbr:Italy ex:mortalityRate "10,4"^^xsd:double .
 dbr:Italy ex:percentOfAgricultureSector "0,021"^^xsd:double .
@@ -2010,7 +2010,7 @@ dbr:Jamaica ex:phonesPer1000 "124,0"^^xsd:double .
 dbr:Jamaica ex:arableLandPercentage "16,07"^^xsd:double .
 dbr:Jamaica ex:cropsLandPercentage "10,16"^^xsd:double .
 dbr:Jamaica ex:nonArableOrCropsLandPercentage "73,77"^^xsd:double .
-dbr:Jamaica ex:numberOfClimate "2"^^xsd:double .
+dbr:Jamaica ex:numberOfClimate "2"^^xsd:integer .
 dbr:Jamaica ex:birthRate "20,82"^^xsd:double .
 dbr:Jamaica ex:mortalityRate "6,52"^^xsd:double .
 dbr:Jamaica ex:percentOfAgricultureSector "0,049"^^xsd:double .
@@ -2029,7 +2029,7 @@ dbr:Japan ex:phonesPer1000 "461,2"^^xsd:double .
 dbr:Japan ex:arableLandPercentage "12,19"^^xsd:double .
 dbr:Japan ex:cropsLandPercentage "0,96"^^xsd:double .
 dbr:Japan ex:nonArableOrCropsLandPercentage "86,85"^^xsd:double .
-dbr:Japan ex:numberOfClimate "3"^^xsd:double .
+dbr:Japan ex:numberOfClimate "3"^^xsd:integer .
 dbr:Japan ex:birthRate "9,37"^^xsd:double .
 dbr:Japan ex:mortalityRate "9,16"^^xsd:double .
 dbr:Japan ex:percentOfAgricultureSector "0,017"^^xsd:double .
@@ -2048,7 +2048,7 @@ dbr:Jersey ex:phonesPer1000 "811,34"^^xsd:double .
 dbr:Jersey ex:arableLandPercentage "04"^^xsd:double .
 dbr:Jersey ex:cropsLandPercentage "04"^^xsd:double .
 dbr:Jersey ex:nonArableOrCropsLandPercentage "1004"^^xsd:double .
-dbr:Jersey ex:numberOfClimate "34"^^xsd:double .
+dbr:Jersey ex:numberOfClimate "34"^^xsd:integer .
 dbr:Jersey ex:birthRate "9,34"^^xsd:double .
 dbr:Jersey ex:mortalityRate "9,284"^^xsd:double .
 dbr:Jersey ex:percentOfAgricultureSector "0,054"^^xsd:double .
@@ -2067,7 +2067,7 @@ dbr:Jordan ex:phonesPer1000 "104,5"^^xsd:double .
 dbr:Jordan ex:arableLandPercentage "2,67"^^xsd:double .
 dbr:Jordan ex:cropsLandPercentage "1,83"^^xsd:double .
 dbr:Jordan ex:nonArableOrCropsLandPercentage "95,5"^^xsd:double .
-dbr:Jordan ex:numberOfClimate "1"^^xsd:double .
+dbr:Jordan ex:numberOfClimate "1"^^xsd:integer .
 dbr:Jordan ex:birthRate "21,25"^^xsd:double .
 dbr:Jordan ex:mortalityRate "2,65"^^xsd:double .
 dbr:Jordan ex:percentOfAgricultureSector "0,033"^^xsd:double .
@@ -2086,7 +2086,7 @@ dbr:Kazakhstan ex:phonesPer1000 "164,1"^^xsd:double .
 dbr:Kazakhstan ex:arableLandPercentage "7,98"^^xsd:double .
 dbr:Kazakhstan ex:cropsLandPercentage "0,05"^^xsd:double .
 dbr:Kazakhstan ex:nonArableOrCropsLandPercentage "91,97"^^xsd:double .
-dbr:Kazakhstan ex:numberOfClimate "4"^^xsd:double .
+dbr:Kazakhstan ex:numberOfClimate "4"^^xsd:integer .
 dbr:Kazakhstan ex:birthRate "16"^^xsd:double .
 dbr:Kazakhstan ex:mortalityRate "9,42"^^xsd:double .
 dbr:Kazakhstan ex:percentOfAgricultureSector "0,067"^^xsd:double .
@@ -2105,7 +2105,7 @@ dbr:Kenya ex:phonesPer1000 "8,1"^^xsd:double .
 dbr:Kenya ex:arableLandPercentage "8,08"^^xsd:double .
 dbr:Kenya ex:cropsLandPercentage "0,98"^^xsd:double .
 dbr:Kenya ex:nonArableOrCropsLandPercentage "90,94"^^xsd:double .
-dbr:Kenya ex:numberOfClimate "1,5"^^xsd:double .
+dbr:Kenya ex:numberOfClimate "1,5"^^xsd:integer .
 dbr:Kenya ex:birthRate "39,72"^^xsd:double .
 dbr:Kenya ex:mortalityRate "14,02"^^xsd:double .
 dbr:Kenya ex:percentOfAgricultureSector "0,163"^^xsd:double .
@@ -2124,7 +2124,7 @@ dbr:Kiribati ex:phonesPer1000 "42,794"^^xsd:double .
 dbr:Kiribati ex:arableLandPercentage "2,7494"^^xsd:double .
 dbr:Kiribati ex:cropsLandPercentage "50,6894"^^xsd:double .
 dbr:Kiribati ex:nonArableOrCropsLandPercentage "46,5894"^^xsd:double .
-dbr:Kiribati ex:numberOfClimate "294"^^xsd:double .
+dbr:Kiribati ex:numberOfClimate "294"^^xsd:integer .
 dbr:Kiribati ex:birthRate "30,6594"^^xsd:double .
 dbr:Kiribati ex:mortalityRate "8,2694"^^xsd:double .
 dbr:Kiribati ex:percentOfAgricultureSector "0,08994"^^xsd:double .
@@ -2143,7 +2143,7 @@ dbr:Korea_North ex:phonesPer1000 "42,4"^^xsd:double .
 dbr:Korea_North ex:arableLandPercentage "20,76"^^xsd:double .
 dbr:Korea_North ex:cropsLandPercentage "2,49"^^xsd:double .
 dbr:Korea_North ex:nonArableOrCropsLandPercentage "76,75"^^xsd:double .
-dbr:Korea_North ex:numberOfClimate "3"^^xsd:double .
+dbr:Korea_North ex:numberOfClimate "3"^^xsd:integer .
 dbr:Korea_North ex:birthRate "15,54"^^xsd:double .
 dbr:Korea_North ex:mortalityRate "7,13"^^xsd:double .
 dbr:Korea_North ex:percentOfAgricultureSector "0,3"^^xsd:double .
@@ -2162,7 +2162,7 @@ dbr:Korea_South ex:phonesPer1000 "486,1"^^xsd:double .
 dbr:Korea_South ex:arableLandPercentage "17,18"^^xsd:double .
 dbr:Korea_South ex:cropsLandPercentage "1,95"^^xsd:double .
 dbr:Korea_South ex:nonArableOrCropsLandPercentage "80,87"^^xsd:double .
-dbr:Korea_South ex:numberOfClimate "3"^^xsd:double .
+dbr:Korea_South ex:numberOfClimate "3"^^xsd:integer .
 dbr:Korea_South ex:birthRate "10"^^xsd:double .
 dbr:Korea_South ex:mortalityRate "5,85"^^xsd:double .
 dbr:Korea_South ex:percentOfAgricultureSector "0,033"^^xsd:double .
@@ -2181,7 +2181,7 @@ dbr:Kuwait ex:phonesPer1000 "211,0"^^xsd:double .
 dbr:Kuwait ex:arableLandPercentage "0,73"^^xsd:double .
 dbr:Kuwait ex:cropsLandPercentage "0,11"^^xsd:double .
 dbr:Kuwait ex:nonArableOrCropsLandPercentage "99,16"^^xsd:double .
-dbr:Kuwait ex:numberOfClimate "1"^^xsd:double .
+dbr:Kuwait ex:numberOfClimate "1"^^xsd:integer .
 dbr:Kuwait ex:birthRate "21,94"^^xsd:double .
 dbr:Kuwait ex:mortalityRate "2,41"^^xsd:double .
 dbr:Kuwait ex:percentOfAgricultureSector "0,004"^^xsd:double .
@@ -2200,7 +2200,7 @@ dbr:Kyrgyzstan ex:phonesPer1000 "84,0"^^xsd:double .
 dbr:Kyrgyzstan ex:arableLandPercentage "7,3"^^xsd:double .
 dbr:Kyrgyzstan ex:cropsLandPercentage "0,35"^^xsd:double .
 dbr:Kyrgyzstan ex:nonArableOrCropsLandPercentage "92,35"^^xsd:double .
-dbr:Kyrgyzstan ex:numberOfClimate "2,5"^^xsd:double .
+dbr:Kyrgyzstan ex:numberOfClimate "2,5"^^xsd:integer .
 dbr:Kyrgyzstan ex:birthRate "22,8"^^xsd:double .
 dbr:Kyrgyzstan ex:mortalityRate "7,08"^^xsd:double .
 dbr:Kyrgyzstan ex:percentOfAgricultureSector "0,353"^^xsd:double .
@@ -2219,7 +2219,7 @@ dbr:Laos ex:phonesPer1000 "14,1"^^xsd:double .
 dbr:Laos ex:arableLandPercentage "3,8"^^xsd:double .
 dbr:Laos ex:cropsLandPercentage "0,35"^^xsd:double .
 dbr:Laos ex:nonArableOrCropsLandPercentage "95,85"^^xsd:double .
-dbr:Laos ex:numberOfClimate "2"^^xsd:double .
+dbr:Laos ex:numberOfClimate "2"^^xsd:integer .
 dbr:Laos ex:birthRate "35,49"^^xsd:double .
 dbr:Laos ex:mortalityRate "11,55"^^xsd:double .
 dbr:Laos ex:percentOfAgricultureSector "0,455"^^xsd:double .
@@ -2238,7 +2238,7 @@ dbr:Latvia ex:phonesPer1000 "321,4"^^xsd:double .
 dbr:Latvia ex:arableLandPercentage "29,67"^^xsd:double .
 dbr:Latvia ex:cropsLandPercentage "0,47"^^xsd:double .
 dbr:Latvia ex:nonArableOrCropsLandPercentage "69,86"^^xsd:double .
-dbr:Latvia ex:numberOfClimate "3"^^xsd:double .
+dbr:Latvia ex:numberOfClimate "3"^^xsd:integer .
 dbr:Latvia ex:birthRate "9,24"^^xsd:double .
 dbr:Latvia ex:mortalityRate "13,66"^^xsd:double .
 dbr:Latvia ex:percentOfAgricultureSector "0,04"^^xsd:double .
@@ -2257,7 +2257,7 @@ dbr:Lebanon ex:phonesPer1000 "255,6"^^xsd:double .
 dbr:Lebanon ex:arableLandPercentage "16,62"^^xsd:double .
 dbr:Lebanon ex:cropsLandPercentage "13,98"^^xsd:double .
 dbr:Lebanon ex:nonArableOrCropsLandPercentage "69,4"^^xsd:double .
-# dbr:Lebanon ex:numberOfClimate ""^^xsd:double .
+# dbr:Lebanon ex:numberOfClimate ""^^xsd:integer .
 dbr:Lebanon ex:birthRate "18,52"^^xsd:double .
 dbr:Lebanon ex:mortalityRate "6,21"^^xsd:double .
 dbr:Lebanon ex:percentOfAgricultureSector "0,12"^^xsd:double .
@@ -2276,7 +2276,7 @@ dbr:Lesotho ex:phonesPer1000 "23,7"^^xsd:double .
 dbr:Lesotho ex:arableLandPercentage "10,87"^^xsd:double .
 dbr:Lesotho ex:cropsLandPercentage "0,13"^^xsd:double .
 dbr:Lesotho ex:nonArableOrCropsLandPercentage "89"^^xsd:double .
-dbr:Lesotho ex:numberOfClimate "3"^^xsd:double .
+dbr:Lesotho ex:numberOfClimate "3"^^xsd:integer .
 dbr:Lesotho ex:birthRate "24,75"^^xsd:double .
 dbr:Lesotho ex:mortalityRate "28,71"^^xsd:double .
 dbr:Lesotho ex:percentOfAgricultureSector "0,163"^^xsd:double .
@@ -2295,7 +2295,7 @@ dbr:Liberia ex:phonesPer1000 "2,3"^^xsd:double .
 dbr:Liberia ex:arableLandPercentage "3,95"^^xsd:double .
 dbr:Liberia ex:cropsLandPercentage "2,28"^^xsd:double .
 dbr:Liberia ex:nonArableOrCropsLandPercentage "93,77"^^xsd:double .
-dbr:Liberia ex:numberOfClimate "2"^^xsd:double .
+dbr:Liberia ex:numberOfClimate "2"^^xsd:integer .
 dbr:Liberia ex:birthRate "44,77"^^xsd:double .
 dbr:Liberia ex:mortalityRate "23,1"^^xsd:double .
 dbr:Liberia ex:percentOfAgricultureSector "0,769"^^xsd:double .
@@ -2314,7 +2314,7 @@ dbr:Libya ex:phonesPer1000 "127,1"^^xsd:double .
 dbr:Libya ex:arableLandPercentage "1,03"^^xsd:double .
 dbr:Libya ex:cropsLandPercentage "0,19"^^xsd:double .
 dbr:Libya ex:nonArableOrCropsLandPercentage "98,78"^^xsd:double .
-# dbr:Libya ex:numberOfClimate ""^^xsd:double .
+# dbr:Libya ex:numberOfClimate ""^^xsd:integer .
 dbr:Libya ex:birthRate "26,49"^^xsd:double .
 dbr:Libya ex:mortalityRate "3,48"^^xsd:double .
 dbr:Libya ex:percentOfAgricultureSector "0,076"^^xsd:double .
@@ -2333,7 +2333,7 @@ dbr:Liechtenstein ex:phonesPer1000 "585,5"^^xsd:double .
 dbr:Liechtenstein ex:arableLandPercentage "25"^^xsd:double .
 dbr:Liechtenstein ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Liechtenstein ex:nonArableOrCropsLandPercentage "75"^^xsd:double .
-dbr:Liechtenstein ex:numberOfClimate "4"^^xsd:double .
+dbr:Liechtenstein ex:numberOfClimate "4"^^xsd:integer .
 dbr:Liechtenstein ex:birthRate "10,21"^^xsd:double .
 dbr:Liechtenstein ex:mortalityRate "7,18"^^xsd:double .
 dbr:Liechtenstein ex:percentOfAgricultureSector "0,06"^^xsd:double .
@@ -2352,7 +2352,7 @@ dbr:Lithuania ex:phonesPer1000 "223,4"^^xsd:double .
 dbr:Lithuania ex:arableLandPercentage "45,22"^^xsd:double .
 dbr:Lithuania ex:cropsLandPercentage "0,91"^^xsd:double .
 dbr:Lithuania ex:nonArableOrCropsLandPercentage "53,87"^^xsd:double .
-# dbr:Lithuania ex:numberOfClimate ""^^xsd:double .
+# dbr:Lithuania ex:numberOfClimate ""^^xsd:integer .
 dbr:Lithuania ex:birthRate "8,75"^^xsd:double .
 dbr:Lithuania ex:mortalityRate "10,98"^^xsd:double .
 dbr:Lithuania ex:percentOfAgricultureSector "0,055"^^xsd:double .
@@ -2371,7 +2371,7 @@ dbr:Luxembourg ex:phonesPer1000 "515,4"^^xsd:double .
 dbr:Luxembourg ex:arableLandPercentage "23,28"^^xsd:double .
 dbr:Luxembourg ex:cropsLandPercentage "0,4"^^xsd:double .
 dbr:Luxembourg ex:nonArableOrCropsLandPercentage "76,32"^^xsd:double .
-# dbr:Luxembourg ex:numberOfClimate ""^^xsd:double .
+# dbr:Luxembourg ex:numberOfClimate ""^^xsd:integer .
 dbr:Luxembourg ex:birthRate "11,94"^^xsd:double .
 dbr:Luxembourg ex:mortalityRate "8,41"^^xsd:double .
 dbr:Luxembourg ex:percentOfAgricultureSector "0,01"^^xsd:double .
@@ -2390,7 +2390,7 @@ dbr:Macau ex:phonesPer1000 "384,943"^^xsd:double .
 dbr:Macau ex:arableLandPercentage "043"^^xsd:double .
 dbr:Macau ex:cropsLandPercentage "043"^^xsd:double .
 dbr:Macau ex:nonArableOrCropsLandPercentage "10043"^^xsd:double .
-dbr:Macau ex:numberOfClimate "243"^^xsd:double .
+dbr:Macau ex:numberOfClimate "243"^^xsd:integer .
 dbr:Macau ex:birthRate "8,4843"^^xsd:double .
 dbr:Macau ex:mortalityRate "4,4743"^^xsd:double .
 dbr:Macau ex:percentOfAgricultureSector "0,00143"^^xsd:double .
@@ -2409,7 +2409,7 @@ dbr:Macedonia ex:phonesPer1000 "260,0"^^xsd:double .
 dbr:Macedonia ex:arableLandPercentage "22,26"^^xsd:double .
 dbr:Macedonia ex:cropsLandPercentage "1,81"^^xsd:double .
 dbr:Macedonia ex:nonArableOrCropsLandPercentage "75,93"^^xsd:double .
-dbr:Macedonia ex:numberOfClimate "3"^^xsd:double .
+dbr:Macedonia ex:numberOfClimate "3"^^xsd:integer .
 dbr:Macedonia ex:birthRate "12,02"^^xsd:double .
 dbr:Macedonia ex:mortalityRate "8,77"^^xsd:double .
 dbr:Macedonia ex:percentOfAgricultureSector "0,118"^^xsd:double .
@@ -2428,7 +2428,7 @@ dbr:Madagascar ex:phonesPer1000 "3,6"^^xsd:double .
 dbr:Madagascar ex:arableLandPercentage "5,07"^^xsd:double .
 dbr:Madagascar ex:cropsLandPercentage "1,03"^^xsd:double .
 dbr:Madagascar ex:nonArableOrCropsLandPercentage "93,91"^^xsd:double .
-dbr:Madagascar ex:numberOfClimate "2"^^xsd:double .
+dbr:Madagascar ex:numberOfClimate "2"^^xsd:integer .
 dbr:Madagascar ex:birthRate "41,41"^^xsd:double .
 dbr:Madagascar ex:mortalityRate "11,11"^^xsd:double .
 dbr:Madagascar ex:percentOfAgricultureSector "0,276"^^xsd:double .
@@ -2447,7 +2447,7 @@ dbr:Malawi ex:phonesPer1000 "7,9"^^xsd:double .
 dbr:Malawi ex:arableLandPercentage "23,38"^^xsd:double .
 dbr:Malawi ex:cropsLandPercentage "1,49"^^xsd:double .
 dbr:Malawi ex:nonArableOrCropsLandPercentage "75,13"^^xsd:double .
-dbr:Malawi ex:numberOfClimate "2"^^xsd:double .
+dbr:Malawi ex:numberOfClimate "2"^^xsd:integer .
 dbr:Malawi ex:birthRate "43,13"^^xsd:double .
 dbr:Malawi ex:mortalityRate "19,33"^^xsd:double .
 dbr:Malawi ex:percentOfAgricultureSector "0,342"^^xsd:double .
@@ -2466,7 +2466,7 @@ dbr:Malaysia ex:phonesPer1000 "179,0"^^xsd:double .
 dbr:Malaysia ex:arableLandPercentage "5,48"^^xsd:double .
 dbr:Malaysia ex:cropsLandPercentage "17,61"^^xsd:double .
 dbr:Malaysia ex:nonArableOrCropsLandPercentage "76,91"^^xsd:double .
-dbr:Malaysia ex:numberOfClimate "2"^^xsd:double .
+dbr:Malaysia ex:numberOfClimate "2"^^xsd:integer .
 dbr:Malaysia ex:birthRate "22,86"^^xsd:double .
 dbr:Malaysia ex:mortalityRate "5,05"^^xsd:double .
 dbr:Malaysia ex:percentOfAgricultureSector "0,084"^^xsd:double .
@@ -2485,7 +2485,7 @@ dbr:Maldives ex:phonesPer1000 "90,067"^^xsd:double .
 dbr:Maldives ex:arableLandPercentage "13,3367"^^xsd:double .
 dbr:Maldives ex:cropsLandPercentage "16,6767"^^xsd:double .
 dbr:Maldives ex:nonArableOrCropsLandPercentage "7067"^^xsd:double .
-dbr:Maldives ex:numberOfClimate "267"^^xsd:double .
+dbr:Maldives ex:numberOfClimate "267"^^xsd:integer .
 dbr:Maldives ex:birthRate "34,8167"^^xsd:double .
 dbr:Maldives ex:mortalityRate "7,0667"^^xsd:double .
 dbr:Maldives ex:percentOfAgricultureSector "0,267"^^xsd:double .
@@ -2504,7 +2504,7 @@ dbr:Mali ex:phonesPer1000 "6,4"^^xsd:double .
 dbr:Mali ex:arableLandPercentage "3,82"^^xsd:double .
 dbr:Mali ex:cropsLandPercentage "0,03"^^xsd:double .
 dbr:Mali ex:nonArableOrCropsLandPercentage "96,15"^^xsd:double .
-dbr:Mali ex:numberOfClimate "2"^^xsd:double .
+dbr:Mali ex:numberOfClimate "2"^^xsd:integer .
 dbr:Mali ex:birthRate "49,82"^^xsd:double .
 dbr:Mali ex:mortalityRate "16,89"^^xsd:double .
 dbr:Mali ex:percentOfAgricultureSector "0,45"^^xsd:double .
@@ -2523,7 +2523,7 @@ dbr:Malta ex:phonesPer1000 "505,08"^^xsd:double .
 dbr:Malta ex:arableLandPercentage "28,138"^^xsd:double .
 dbr:Malta ex:cropsLandPercentage "3,138"^^xsd:double .
 dbr:Malta ex:nonArableOrCropsLandPercentage "68,748"^^xsd:double .
-dbr:Malta ex:numberOfClimate "8"^^xsd:double .
+dbr:Malta ex:numberOfClimate "8"^^xsd:integer .
 dbr:Malta ex:birthRate "10,228"^^xsd:double .
 dbr:Malta ex:mortalityRate "8,18"^^xsd:double .
 dbr:Malta ex:percentOfAgricultureSector "0,038"^^xsd:double .
@@ -2542,7 +2542,7 @@ dbr:Marshall_Islands ex:phonesPer1000 "91,2"^^xsd:double .
 dbr:Marshall_Islands ex:arableLandPercentage "16,67"^^xsd:double .
 dbr:Marshall_Islands ex:cropsLandPercentage "38,89"^^xsd:double .
 dbr:Marshall_Islands ex:nonArableOrCropsLandPercentage "44,44"^^xsd:double .
-dbr:Marshall_Islands ex:numberOfClimate "2"^^xsd:double .
+dbr:Marshall_Islands ex:numberOfClimate "2"^^xsd:integer .
 dbr:Marshall_Islands ex:birthRate "33,05"^^xsd:double .
 dbr:Marshall_Islands ex:mortalityRate "4,78"^^xsd:double .
 dbr:Marshall_Islands ex:percentOfAgricultureSector "0,317"^^xsd:double .
@@ -2561,7 +2561,7 @@ dbr:Martinique ex:phonesPer1000 "394,42"^^xsd:double .
 dbr:Martinique ex:arableLandPercentage "10,382"^^xsd:double .
 dbr:Martinique ex:cropsLandPercentage "9,432"^^xsd:double .
 dbr:Martinique ex:nonArableOrCropsLandPercentage "80,192"^^xsd:double .
-dbr:Martinique ex:numberOfClimate "22"^^xsd:double .
+dbr:Martinique ex:numberOfClimate "22"^^xsd:integer .
 dbr:Martinique ex:birthRate "13,742"^^xsd:double .
 dbr:Martinique ex:mortalityRate "6,482"^^xsd:double .
 dbr:Martinique ex:percentOfAgricultureSector "0,062"^^xsd:double .
@@ -2580,7 +2580,7 @@ dbr:Mauritania ex:phonesPer1000 "12,9"^^xsd:double .
 dbr:Mauritania ex:arableLandPercentage "0,48"^^xsd:double .
 dbr:Mauritania ex:cropsLandPercentage "0,01"^^xsd:double .
 dbr:Mauritania ex:nonArableOrCropsLandPercentage "99,51"^^xsd:double .
-dbr:Mauritania ex:numberOfClimate "1"^^xsd:double .
+dbr:Mauritania ex:numberOfClimate "1"^^xsd:integer .
 dbr:Mauritania ex:birthRate "40,99"^^xsd:double .
 dbr:Mauritania ex:mortalityRate "12,16"^^xsd:double .
 dbr:Mauritania ex:percentOfAgricultureSector "0,25"^^xsd:double .
@@ -2599,7 +2599,7 @@ dbr:Mauritius ex:phonesPer1000 "289,3"^^xsd:double .
 dbr:Mauritius ex:arableLandPercentage "49,26"^^xsd:double .
 dbr:Mauritius ex:cropsLandPercentage "2,96"^^xsd:double .
 dbr:Mauritius ex:nonArableOrCropsLandPercentage "47,78"^^xsd:double .
-dbr:Mauritius ex:numberOfClimate "2"^^xsd:double .
+dbr:Mauritius ex:numberOfClimate "2"^^xsd:integer .
 dbr:Mauritius ex:birthRate "15,43"^^xsd:double .
 dbr:Mauritius ex:mortalityRate "6,86"^^xsd:double .
 dbr:Mauritius ex:percentOfAgricultureSector "0,059"^^xsd:double .
@@ -2618,7 +2618,7 @@ dbr:Mayotte ex:phonesPer1000 "49,72"^^xsd:double .
 dbr:Mayotte ex:arableLandPercentage "2"^^xsd:double .
 dbr:Mayotte ex:cropsLandPercentage "2"^^xsd:double .
 dbr:Mayotte ex:nonArableOrCropsLandPercentage "2"^^xsd:double .
-dbr:Mayotte ex:numberOfClimate "22"^^xsd:double .
+dbr:Mayotte ex:numberOfClimate "22"^^xsd:integer .
 dbr:Mayotte ex:birthRate "40,952"^^xsd:double .
 dbr:Mayotte ex:mortalityRate "7,72"^^xsd:double .
 dbr:Mayotte ex:percentOfAgricultureSector "2"^^xsd:double .
@@ -2637,7 +2637,7 @@ dbr:Mexico ex:phonesPer1000 "181,6"^^xsd:double .
 dbr:Mexico ex:arableLandPercentage "12,99"^^xsd:double .
 dbr:Mexico ex:cropsLandPercentage "1,31"^^xsd:double .
 dbr:Mexico ex:nonArableOrCropsLandPercentage "85,7"^^xsd:double .
-dbr:Mexico ex:numberOfClimate "1,5"^^xsd:double .
+dbr:Mexico ex:numberOfClimate "1,5"^^xsd:integer .
 dbr:Mexico ex:birthRate "20,69"^^xsd:double .
 dbr:Mexico ex:mortalityRate "4,74"^^xsd:double .
 dbr:Mexico ex:percentOfAgricultureSector "0,038"^^xsd:double .
@@ -2656,7 +2656,7 @@ dbr:Micronesia_Fed_St ex:phonesPer1000 "114,8"^^xsd:double .
 dbr:Micronesia_Fed_St ex:arableLandPercentage "5,71"^^xsd:double .
 dbr:Micronesia_Fed_St ex:cropsLandPercentage "45,71"^^xsd:double .
 dbr:Micronesia_Fed_St ex:nonArableOrCropsLandPercentage "48,58"^^xsd:double .
-dbr:Micronesia_Fed_St ex:numberOfClimate "2"^^xsd:double .
+dbr:Micronesia_Fed_St ex:numberOfClimate "2"^^xsd:integer .
 dbr:Micronesia_Fed_St ex:birthRate "24,68"^^xsd:double .
 dbr:Micronesia_Fed_St ex:mortalityRate "4,75"^^xsd:double .
 dbr:Micronesia_Fed_St ex:percentOfAgricultureSector "0,289"^^xsd:double .
@@ -2675,7 +2675,7 @@ dbr:Moldova ex:phonesPer1000 "208,1"^^xsd:double .
 dbr:Moldova ex:arableLandPercentage "55,3"^^xsd:double .
 dbr:Moldova ex:cropsLandPercentage "10,79"^^xsd:double .
 dbr:Moldova ex:nonArableOrCropsLandPercentage "33,91"^^xsd:double .
-# dbr:Moldova ex:numberOfClimate ""^^xsd:double .
+# dbr:Moldova ex:numberOfClimate ""^^xsd:integer .
 dbr:Moldova ex:birthRate "15,7"^^xsd:double .
 dbr:Moldova ex:mortalityRate "12,64"^^xsd:double .
 dbr:Moldova ex:percentOfAgricultureSector "0,213"^^xsd:double .
@@ -2694,7 +2694,7 @@ dbr:Monaco ex:phonesPer1000 "1035,600"^^xsd:double .
 dbr:Monaco ex:arableLandPercentage "000"^^xsd:double .
 dbr:Monaco ex:cropsLandPercentage "000"^^xsd:double .
 dbr:Monaco ex:nonArableOrCropsLandPercentage "10000"^^xsd:double .
-dbr:Monaco ex:numberOfClimate "00"^^xsd:double .
+dbr:Monaco ex:numberOfClimate "00"^^xsd:integer .
 dbr:Monaco ex:birthRate "9,1900"^^xsd:double .
 dbr:Monaco ex:mortalityRate "12,9100"^^xsd:double .
 dbr:Monaco ex:percentOfAgricultureSector "0,1700"^^xsd:double .
@@ -2713,7 +2713,7 @@ dbr:Mongolia ex:phonesPer1000 "55,1"^^xsd:double .
 dbr:Mongolia ex:arableLandPercentage "0,77"^^xsd:double .
 dbr:Mongolia ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Mongolia ex:nonArableOrCropsLandPercentage "99,23"^^xsd:double .
-dbr:Mongolia ex:numberOfClimate "1"^^xsd:double .
+dbr:Mongolia ex:numberOfClimate "1"^^xsd:integer .
 dbr:Mongolia ex:birthRate "21,59"^^xsd:double .
 dbr:Mongolia ex:mortalityRate "6,95"^^xsd:double .
 dbr:Mongolia ex:percentOfAgricultureSector "0,206"^^xsd:double .
@@ -2732,7 +2732,7 @@ dbr:Montserrat ex:phonesPer1000 "2"^^xsd:double .
 dbr:Montserrat ex:arableLandPercentage "202"^^xsd:double .
 dbr:Montserrat ex:cropsLandPercentage "02"^^xsd:double .
 dbr:Montserrat ex:nonArableOrCropsLandPercentage "802"^^xsd:double .
-dbr:Montserrat ex:numberOfClimate "22"^^xsd:double .
+dbr:Montserrat ex:numberOfClimate "22"^^xsd:integer .
 dbr:Montserrat ex:birthRate "17,592"^^xsd:double .
 dbr:Montserrat ex:mortalityRate "7,12"^^xsd:double .
 dbr:Montserrat ex:percentOfAgricultureSector "2"^^xsd:double .
@@ -2751,7 +2751,7 @@ dbr:Morocco ex:phonesPer1000 "40,4"^^xsd:double .
 dbr:Morocco ex:arableLandPercentage "19,61"^^xsd:double .
 dbr:Morocco ex:cropsLandPercentage "2,17"^^xsd:double .
 dbr:Morocco ex:nonArableOrCropsLandPercentage "78,22"^^xsd:double .
-# dbr:Morocco ex:numberOfClimate ""^^xsd:double .
+# dbr:Morocco ex:numberOfClimate ""^^xsd:integer .
 dbr:Morocco ex:birthRate "21,98"^^xsd:double .
 dbr:Morocco ex:mortalityRate "5,58"^^xsd:double .
 dbr:Morocco ex:percentOfAgricultureSector "0,217"^^xsd:double .
@@ -2770,7 +2770,7 @@ dbr:Mozambique ex:phonesPer1000 "3,5"^^xsd:double .
 dbr:Mozambique ex:arableLandPercentage "5,1"^^xsd:double .
 dbr:Mozambique ex:cropsLandPercentage "0,3"^^xsd:double .
 dbr:Mozambique ex:nonArableOrCropsLandPercentage "94,6"^^xsd:double .
-dbr:Mozambique ex:numberOfClimate "2"^^xsd:double .
+dbr:Mozambique ex:numberOfClimate "2"^^xsd:integer .
 dbr:Mozambique ex:birthRate "35,18"^^xsd:double .
 dbr:Mozambique ex:mortalityRate "21,35"^^xsd:double .
 dbr:Mozambique ex:percentOfAgricultureSector "0,262"^^xsd:double .
@@ -2789,7 +2789,7 @@ dbr:Namibia ex:phonesPer1000 "62,6"^^xsd:double .
 dbr:Namibia ex:arableLandPercentage "0,99"^^xsd:double .
 dbr:Namibia ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Namibia ex:nonArableOrCropsLandPercentage "99,01"^^xsd:double .
-dbr:Namibia ex:numberOfClimate "1"^^xsd:double .
+dbr:Namibia ex:numberOfClimate "1"^^xsd:integer .
 dbr:Namibia ex:birthRate "24,32"^^xsd:double .
 dbr:Namibia ex:mortalityRate "18,86"^^xsd:double .
 dbr:Namibia ex:percentOfAgricultureSector "0,097"^^xsd:double .
@@ -2808,7 +2808,7 @@ dbr:Nauru ex:phonesPer1000 "143,086"^^xsd:double .
 dbr:Nauru ex:arableLandPercentage "086"^^xsd:double .
 dbr:Nauru ex:cropsLandPercentage "086"^^xsd:double .
 dbr:Nauru ex:nonArableOrCropsLandPercentage "10086"^^xsd:double .
-dbr:Nauru ex:numberOfClimate "286"^^xsd:double .
+dbr:Nauru ex:numberOfClimate "286"^^xsd:integer .
 dbr:Nauru ex:birthRate "24,7686"^^xsd:double .
 dbr:Nauru ex:mortalityRate "6,786"^^xsd:double .
 dbr:Nauru ex:percentOfAgricultureSector "86"^^xsd:double .
@@ -2827,7 +2827,7 @@ dbr:Nepal ex:phonesPer1000 "15,9"^^xsd:double .
 dbr:Nepal ex:arableLandPercentage "21,68"^^xsd:double .
 dbr:Nepal ex:cropsLandPercentage "0,64"^^xsd:double .
 dbr:Nepal ex:nonArableOrCropsLandPercentage "77,68"^^xsd:double .
-# dbr:Nepal ex:numberOfClimate ""^^xsd:double .
+# dbr:Nepal ex:numberOfClimate ""^^xsd:integer .
 dbr:Nepal ex:birthRate "30,98"^^xsd:double .
 dbr:Nepal ex:mortalityRate "9,31"^^xsd:double .
 dbr:Nepal ex:percentOfAgricultureSector "0,38"^^xsd:double .
@@ -2846,7 +2846,7 @@ dbr:Netherlands ex:phonesPer1000 "460,8"^^xsd:double .
 dbr:Netherlands ex:arableLandPercentage "26,71"^^xsd:double .
 dbr:Netherlands ex:cropsLandPercentage "0,97"^^xsd:double .
 dbr:Netherlands ex:nonArableOrCropsLandPercentage "72,32"^^xsd:double .
-dbr:Netherlands ex:numberOfClimate "3"^^xsd:double .
+dbr:Netherlands ex:numberOfClimate "3"^^xsd:integer .
 dbr:Netherlands ex:birthRate "10,9"^^xsd:double .
 dbr:Netherlands ex:mortalityRate "8,68"^^xsd:double .
 dbr:Netherlands ex:percentOfAgricultureSector "0,021"^^xsd:double .
@@ -2865,7 +2865,7 @@ dbr:Netherlands_Antilles ex:phonesPer1000 "365,32"^^xsd:double .
 dbr:Netherlands_Antilles ex:arableLandPercentage "102"^^xsd:double .
 dbr:Netherlands_Antilles ex:cropsLandPercentage "02"^^xsd:double .
 dbr:Netherlands_Antilles ex:nonArableOrCropsLandPercentage "902"^^xsd:double .
-dbr:Netherlands_Antilles ex:numberOfClimate "22"^^xsd:double .
+dbr:Netherlands_Antilles ex:numberOfClimate "22"^^xsd:integer .
 dbr:Netherlands_Antilles ex:birthRate "14,782"^^xsd:double .
 dbr:Netherlands_Antilles ex:mortalityRate "6,452"^^xsd:double .
 dbr:Netherlands_Antilles ex:percentOfAgricultureSector "0,012"^^xsd:double .
@@ -2884,7 +2884,7 @@ dbr:New_Caledonia ex:phonesPer1000 "252,23"^^xsd:double .
 dbr:New_Caledonia ex:arableLandPercentage "0,383"^^xsd:double .
 dbr:New_Caledonia ex:cropsLandPercentage "0,333"^^xsd:double .
 dbr:New_Caledonia ex:nonArableOrCropsLandPercentage "99,293"^^xsd:double .
-dbr:New_Caledonia ex:numberOfClimate "23"^^xsd:double .
+dbr:New_Caledonia ex:numberOfClimate "23"^^xsd:integer .
 dbr:New_Caledonia ex:birthRate "18,113"^^xsd:double .
 dbr:New_Caledonia ex:mortalityRate "5,693"^^xsd:double .
 dbr:New_Caledonia ex:percentOfAgricultureSector "0,153"^^xsd:double .
@@ -2903,7 +2903,7 @@ dbr:New_Zealand ex:phonesPer1000 "441,7"^^xsd:double .
 dbr:New_Zealand ex:arableLandPercentage "5,6"^^xsd:double .
 dbr:New_Zealand ex:cropsLandPercentage "6,99"^^xsd:double .
 dbr:New_Zealand ex:nonArableOrCropsLandPercentage "87,41"^^xsd:double .
-dbr:New_Zealand ex:numberOfClimate "3"^^xsd:double .
+dbr:New_Zealand ex:numberOfClimate "3"^^xsd:integer .
 dbr:New_Zealand ex:birthRate "13,76"^^xsd:double .
 dbr:New_Zealand ex:mortalityRate "7,53"^^xsd:double .
 dbr:New_Zealand ex:percentOfAgricultureSector "0,043"^^xsd:double .
@@ -2922,7 +2922,7 @@ dbr:Nicaragua ex:phonesPer1000 "39,7"^^xsd:double .
 dbr:Nicaragua ex:arableLandPercentage "15,94"^^xsd:double .
 dbr:Nicaragua ex:cropsLandPercentage "1,94"^^xsd:double .
 dbr:Nicaragua ex:nonArableOrCropsLandPercentage "82,12"^^xsd:double .
-dbr:Nicaragua ex:numberOfClimate "2"^^xsd:double .
+dbr:Nicaragua ex:numberOfClimate "2"^^xsd:integer .
 dbr:Nicaragua ex:birthRate "24,51"^^xsd:double .
 dbr:Nicaragua ex:mortalityRate "4,45"^^xsd:double .
 dbr:Nicaragua ex:percentOfAgricultureSector "0,165"^^xsd:double .
@@ -2941,7 +2941,7 @@ dbr:Niger ex:phonesPer1000 "1,9"^^xsd:double .
 dbr:Niger ex:arableLandPercentage "3,54"^^xsd:double .
 dbr:Niger ex:cropsLandPercentage "0,01"^^xsd:double .
 dbr:Niger ex:nonArableOrCropsLandPercentage "96,45"^^xsd:double .
-dbr:Niger ex:numberOfClimate "1"^^xsd:double .
+dbr:Niger ex:numberOfClimate "1"^^xsd:integer .
 dbr:Niger ex:birthRate "50,73"^^xsd:double .
 dbr:Niger ex:mortalityRate "20,91"^^xsd:double .
 dbr:Niger ex:percentOfAgricultureSector "0,39"^^xsd:double .
@@ -2960,7 +2960,7 @@ dbr:Nigeria ex:phonesPer1000 "9,3"^^xsd:double .
 dbr:Nigeria ex:arableLandPercentage "31,29"^^xsd:double .
 dbr:Nigeria ex:cropsLandPercentage "2,96"^^xsd:double .
 dbr:Nigeria ex:nonArableOrCropsLandPercentage "65,75"^^xsd:double .
-dbr:Nigeria ex:numberOfClimate "1,5"^^xsd:double .
+dbr:Nigeria ex:numberOfClimate "1,5"^^xsd:integer .
 dbr:Nigeria ex:birthRate "40,43"^^xsd:double .
 dbr:Nigeria ex:mortalityRate "16,94"^^xsd:double .
 dbr:Nigeria ex:percentOfAgricultureSector "0,269"^^xsd:double .
@@ -2979,7 +2979,7 @@ dbr:N_Mariana_Islands ex:phonesPer1000 "254,7"^^xsd:double .
 dbr:N_Mariana_Islands ex:arableLandPercentage "13,04"^^xsd:double .
 dbr:N_Mariana_Islands ex:cropsLandPercentage "4,35"^^xsd:double .
 dbr:N_Mariana_Islands ex:nonArableOrCropsLandPercentage "82,61"^^xsd:double .
-dbr:N_Mariana_Islands ex:numberOfClimate "2"^^xsd:double .
+dbr:N_Mariana_Islands ex:numberOfClimate "2"^^xsd:integer .
 dbr:N_Mariana_Islands ex:birthRate "19,43"^^xsd:double .
 dbr:N_Mariana_Islands ex:mortalityRate "2,29"^^xsd:double .
 # dbr:N_Mariana_Islands ex:percentOfAgricultureSector ""^^xsd:double .
@@ -2998,7 +2998,7 @@ dbr:Norway ex:phonesPer1000 "461,7"^^xsd:double .
 dbr:Norway ex:arableLandPercentage "2,87"^^xsd:double .
 dbr:Norway ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Norway ex:nonArableOrCropsLandPercentage "97,13"^^xsd:double .
-dbr:Norway ex:numberOfClimate "3"^^xsd:double .
+dbr:Norway ex:numberOfClimate "3"^^xsd:integer .
 dbr:Norway ex:birthRate "11,46"^^xsd:double .
 dbr:Norway ex:mortalityRate "9,4"^^xsd:double .
 dbr:Norway ex:percentOfAgricultureSector "0,021"^^xsd:double .
@@ -3017,7 +3017,7 @@ dbr:Oman ex:phonesPer1000 "85,5"^^xsd:double .
 dbr:Oman ex:arableLandPercentage "0"^^xsd:double .
 dbr:Oman ex:cropsLandPercentage "0,14"^^xsd:double .
 dbr:Oman ex:nonArableOrCropsLandPercentage "99,74"^^xsd:double .
-dbr:Oman ex:numberOfClimate "1"^^xsd:double .
+dbr:Oman ex:numberOfClimate "1"^^xsd:integer .
 dbr:Oman ex:birthRate "36,24"^^xsd:double .
 dbr:Oman ex:mortalityRate "3,81"^^xsd:double .
 dbr:Oman ex:percentOfAgricultureSector "0,027"^^xsd:double .
@@ -3036,7 +3036,7 @@ dbr:Pakistan ex:phonesPer1000 "31,8"^^xsd:double .
 dbr:Pakistan ex:arableLandPercentage "27,87"^^xsd:double .
 dbr:Pakistan ex:cropsLandPercentage "0,87"^^xsd:double .
 dbr:Pakistan ex:nonArableOrCropsLandPercentage "71,26"^^xsd:double .
-dbr:Pakistan ex:numberOfClimate "1"^^xsd:double .
+dbr:Pakistan ex:numberOfClimate "1"^^xsd:integer .
 dbr:Pakistan ex:birthRate "29,74"^^xsd:double .
 dbr:Pakistan ex:mortalityRate "8,23"^^xsd:double .
 dbr:Pakistan ex:percentOfAgricultureSector "0,216"^^xsd:double .
@@ -3055,7 +3055,7 @@ dbr:Palau ex:phonesPer1000 "325,666"^^xsd:double .
 dbr:Palau ex:arableLandPercentage "8,766"^^xsd:double .
 dbr:Palau ex:cropsLandPercentage "4,3566"^^xsd:double .
 dbr:Palau ex:nonArableOrCropsLandPercentage "86,9566"^^xsd:double .
-dbr:Palau ex:numberOfClimate "266"^^xsd:double .
+dbr:Palau ex:numberOfClimate "266"^^xsd:integer .
 dbr:Palau ex:birthRate "18,0366"^^xsd:double .
 dbr:Palau ex:mortalityRate "6,866"^^xsd:double .
 dbr:Palau ex:percentOfAgricultureSector "0,06266"^^xsd:double .
@@ -3074,7 +3074,7 @@ dbr:Panama ex:phonesPer1000 "137,9"^^xsd:double .
 dbr:Panama ex:arableLandPercentage "7,36"^^xsd:double .
 dbr:Panama ex:cropsLandPercentage "1,98"^^xsd:double .
 dbr:Panama ex:nonArableOrCropsLandPercentage "90,66"^^xsd:double .
-dbr:Panama ex:numberOfClimate "2"^^xsd:double .
+dbr:Panama ex:numberOfClimate "2"^^xsd:integer .
 dbr:Panama ex:birthRate "21,74"^^xsd:double .
 dbr:Panama ex:mortalityRate "5,36"^^xsd:double .
 dbr:Panama ex:percentOfAgricultureSector "0,068"^^xsd:double .
@@ -3093,7 +3093,7 @@ dbr:Papua_New_Guinea ex:phonesPer1000 "10,9"^^xsd:double .
 dbr:Papua_New_Guinea ex:arableLandPercentage "0,46"^^xsd:double .
 dbr:Papua_New_Guinea ex:cropsLandPercentage "1,44"^^xsd:double .
 dbr:Papua_New_Guinea ex:nonArableOrCropsLandPercentage "98,1"^^xsd:double .
-dbr:Papua_New_Guinea ex:numberOfClimate "2"^^xsd:double .
+dbr:Papua_New_Guinea ex:numberOfClimate "2"^^xsd:integer .
 dbr:Papua_New_Guinea ex:birthRate "29,36"^^xsd:double .
 dbr:Papua_New_Guinea ex:mortalityRate "7,25"^^xsd:double .
 dbr:Papua_New_Guinea ex:percentOfAgricultureSector "0,353"^^xsd:double .
@@ -3112,7 +3112,7 @@ dbr:Paraguay ex:phonesPer1000 "49,2"^^xsd:double .
 dbr:Paraguay ex:arableLandPercentage "7,6"^^xsd:double .
 dbr:Paraguay ex:cropsLandPercentage "0,23"^^xsd:double .
 dbr:Paraguay ex:nonArableOrCropsLandPercentage "92,17"^^xsd:double .
-dbr:Paraguay ex:numberOfClimate "2"^^xsd:double .
+dbr:Paraguay ex:numberOfClimate "2"^^xsd:integer .
 dbr:Paraguay ex:birthRate "29,1"^^xsd:double .
 dbr:Paraguay ex:mortalityRate "4,49"^^xsd:double .
 dbr:Paraguay ex:percentOfAgricultureSector "0,224"^^xsd:double .
@@ -3131,7 +3131,7 @@ dbr:Peru ex:phonesPer1000 "79,5"^^xsd:double .
 dbr:Peru ex:arableLandPercentage "2,89"^^xsd:double .
 dbr:Peru ex:cropsLandPercentage "0,4"^^xsd:double .
 dbr:Peru ex:nonArableOrCropsLandPercentage "96,71"^^xsd:double .
-dbr:Peru ex:numberOfClimate "1,5"^^xsd:double .
+dbr:Peru ex:numberOfClimate "1,5"^^xsd:integer .
 dbr:Peru ex:birthRate "20,48"^^xsd:double .
 dbr:Peru ex:mortalityRate "6,23"^^xsd:double .
 dbr:Peru ex:percentOfAgricultureSector "0,08"^^xsd:double .
@@ -3150,7 +3150,7 @@ dbr:Philippines ex:phonesPer1000 "38,40"^^xsd:double .
 dbr:Philippines ex:arableLandPercentage "18,950"^^xsd:double .
 dbr:Philippines ex:cropsLandPercentage "16,770"^^xsd:double .
 dbr:Philippines ex:nonArableOrCropsLandPercentage "64,280"^^xsd:double .
-dbr:Philippines ex:numberOfClimate "20"^^xsd:double .
+dbr:Philippines ex:numberOfClimate "20"^^xsd:integer .
 dbr:Philippines ex:birthRate "24,890"^^xsd:double .
 dbr:Philippines ex:mortalityRate "5,410"^^xsd:double .
 dbr:Philippines ex:percentOfAgricultureSector "0,1440"^^xsd:double .
@@ -3169,7 +3169,7 @@ dbr:Poland ex:phonesPer1000 "306,3"^^xsd:double .
 dbr:Poland ex:arableLandPercentage "45,91"^^xsd:double .
 dbr:Poland ex:cropsLandPercentage "1,12"^^xsd:double .
 dbr:Poland ex:nonArableOrCropsLandPercentage "52,97"^^xsd:double .
-dbr:Poland ex:numberOfClimate "3"^^xsd:double .
+dbr:Poland ex:numberOfClimate "3"^^xsd:integer .
 dbr:Poland ex:birthRate "9,85"^^xsd:double .
 dbr:Poland ex:mortalityRate "9,89"^^xsd:double .
 dbr:Poland ex:percentOfAgricultureSector "0,05"^^xsd:double .
@@ -3188,7 +3188,7 @@ dbr:Portugal ex:phonesPer1000 "399,2"^^xsd:double .
 dbr:Portugal ex:arableLandPercentage "21,75"^^xsd:double .
 dbr:Portugal ex:cropsLandPercentage "7,81"^^xsd:double .
 dbr:Portugal ex:nonArableOrCropsLandPercentage "70,44"^^xsd:double .
-dbr:Portugal ex:numberOfClimate "3"^^xsd:double .
+dbr:Portugal ex:numberOfClimate "3"^^xsd:integer .
 dbr:Portugal ex:birthRate "10,72"^^xsd:double .
 dbr:Portugal ex:mortalityRate "10,5"^^xsd:double .
 dbr:Portugal ex:percentOfAgricultureSector "0,053"^^xsd:double .
@@ -3207,7 +3207,7 @@ dbr:Puerto_Rico ex:phonesPer1000 "283,1"^^xsd:double .
 dbr:Puerto_Rico ex:arableLandPercentage "3,95"^^xsd:double .
 dbr:Puerto_Rico ex:cropsLandPercentage "5,52"^^xsd:double .
 dbr:Puerto_Rico ex:nonArableOrCropsLandPercentage "90,53"^^xsd:double .
-dbr:Puerto_Rico ex:numberOfClimate "2"^^xsd:double .
+dbr:Puerto_Rico ex:numberOfClimate "2"^^xsd:integer .
 dbr:Puerto_Rico ex:birthRate "12,77"^^xsd:double .
 dbr:Puerto_Rico ex:mortalityRate "7,65"^^xsd:double .
 dbr:Puerto_Rico ex:percentOfAgricultureSector "0,01"^^xsd:double .
@@ -3226,7 +3226,7 @@ dbr:Qatar ex:phonesPer1000 "232,0"^^xsd:double .
 dbr:Qatar ex:arableLandPercentage "1,64"^^xsd:double .
 dbr:Qatar ex:cropsLandPercentage "0,27"^^xsd:double .
 dbr:Qatar ex:nonArableOrCropsLandPercentage "98,09"^^xsd:double .
-dbr:Qatar ex:numberOfClimate "1"^^xsd:double .
+dbr:Qatar ex:numberOfClimate "1"^^xsd:integer .
 dbr:Qatar ex:birthRate "15,56"^^xsd:double .
 dbr:Qatar ex:mortalityRate "4,72"^^xsd:double .
 dbr:Qatar ex:percentOfAgricultureSector "0,002"^^xsd:double .
@@ -3245,7 +3245,7 @@ dbr:Reunion ex:phonesPer1000 "380,9"^^xsd:double .
 dbr:Reunion ex:arableLandPercentage "13,6"^^xsd:double .
 dbr:Reunion ex:cropsLandPercentage "1,2"^^xsd:double .
 dbr:Reunion ex:nonArableOrCropsLandPercentage "85,2"^^xsd:double .
-dbr:Reunion ex:numberOfClimate "2"^^xsd:double .
+dbr:Reunion ex:numberOfClimate "2"^^xsd:integer .
 dbr:Reunion ex:birthRate "18,9"^^xsd:double .
 dbr:Reunion ex:mortalityRate "5,49"^^xsd:double .
 dbr:Reunion ex:percentOfAgricultureSector "0,08"^^xsd:double .
@@ -3264,7 +3264,7 @@ dbr:Romania ex:phonesPer1000 "196,9"^^xsd:double .
 dbr:Romania ex:arableLandPercentage "40,82"^^xsd:double .
 dbr:Romania ex:cropsLandPercentage "2,25"^^xsd:double .
 dbr:Romania ex:nonArableOrCropsLandPercentage "56,93"^^xsd:double .
-dbr:Romania ex:numberOfClimate "3"^^xsd:double .
+dbr:Romania ex:numberOfClimate "3"^^xsd:integer .
 dbr:Romania ex:birthRate "10,7"^^xsd:double .
 dbr:Romania ex:mortalityRate "11,77"^^xsd:double .
 dbr:Romania ex:percentOfAgricultureSector "0,101"^^xsd:double .
@@ -3283,7 +3283,7 @@ dbr:Russia ex:phonesPer1000 "280,6"^^xsd:double .
 dbr:Russia ex:arableLandPercentage "7,33"^^xsd:double .
 dbr:Russia ex:cropsLandPercentage "0,11"^^xsd:double .
 dbr:Russia ex:nonArableOrCropsLandPercentage "92,56"^^xsd:double .
-# dbr:Russia ex:numberOfClimate ""^^xsd:double .
+# dbr:Russia ex:numberOfClimate ""^^xsd:integer .
 dbr:Russia ex:birthRate "9,95"^^xsd:double .
 dbr:Russia ex:mortalityRate "14,65"^^xsd:double .
 dbr:Russia ex:percentOfAgricultureSector "0,054"^^xsd:double .
@@ -3302,7 +3302,7 @@ dbr:Rwanda ex:phonesPer1000 "2,7"^^xsd:double .
 dbr:Rwanda ex:arableLandPercentage "40,54"^^xsd:double .
 dbr:Rwanda ex:cropsLandPercentage "12,16"^^xsd:double .
 dbr:Rwanda ex:nonArableOrCropsLandPercentage "47,3"^^xsd:double .
-dbr:Rwanda ex:numberOfClimate "3"^^xsd:double .
+dbr:Rwanda ex:numberOfClimate "3"^^xsd:integer .
 dbr:Rwanda ex:birthRate "40,37"^^xsd:double .
 dbr:Rwanda ex:mortalityRate "16,09"^^xsd:double .
 dbr:Rwanda ex:percentOfAgricultureSector "0,401"^^xsd:double .
@@ -3321,7 +3321,7 @@ dbr:Saint_Helena ex:phonesPer1000 "293,33"^^xsd:double .
 dbr:Saint_Helena ex:arableLandPercentage "12,93"^^xsd:double .
 dbr:Saint_Helena ex:cropsLandPercentage "03"^^xsd:double .
 dbr:Saint_Helena ex:nonArableOrCropsLandPercentage "87,13"^^xsd:double .
-dbr:Saint_Helena ex:numberOfClimate "3"^^xsd:double .
+dbr:Saint_Helena ex:numberOfClimate "3"^^xsd:integer .
 dbr:Saint_Helena ex:birthRate "12,133"^^xsd:double .
 dbr:Saint_Helena ex:mortalityRate "6,533"^^xsd:double .
 dbr:Saint_Helena ex:percentOfAgricultureSector "3"^^xsd:double .
@@ -3340,7 +3340,7 @@ dbr:Saint_Kitts_Nevis ex:phonesPer1000 "638,9"^^xsd:double .
 dbr:Saint_Kitts_Nevis ex:arableLandPercentage "19,44"^^xsd:double .
 dbr:Saint_Kitts_Nevis ex:cropsLandPercentage "2,78"^^xsd:double .
 dbr:Saint_Kitts_Nevis ex:nonArableOrCropsLandPercentage "77,78"^^xsd:double .
-dbr:Saint_Kitts_Nevis ex:numberOfClimate "2"^^xsd:double .
+dbr:Saint_Kitts_Nevis ex:numberOfClimate "2"^^xsd:integer .
 dbr:Saint_Kitts_Nevis ex:birthRate "18,02"^^xsd:double .
 dbr:Saint_Kitts_Nevis ex:mortalityRate "8,33"^^xsd:double .
 dbr:Saint_Kitts_Nevis ex:percentOfAgricultureSector "0,035"^^xsd:double .
@@ -3359,7 +3359,7 @@ dbr:Saint_Lucia ex:phonesPer1000 "303,35"^^xsd:double .
 dbr:Saint_Lucia ex:arableLandPercentage "6,565"^^xsd:double .
 dbr:Saint_Lucia ex:cropsLandPercentage "22,955"^^xsd:double .
 dbr:Saint_Lucia ex:nonArableOrCropsLandPercentage "70,495"^^xsd:double .
-dbr:Saint_Lucia ex:numberOfClimate "25"^^xsd:double .
+dbr:Saint_Lucia ex:numberOfClimate "25"^^xsd:integer .
 dbr:Saint_Lucia ex:birthRate "19,685"^^xsd:double .
 dbr:Saint_Lucia ex:mortalityRate "5,085"^^xsd:double .
 dbr:Saint_Lucia ex:percentOfAgricultureSector "0,075"^^xsd:double .
@@ -3378,7 +3378,7 @@ dbr:St_Pierre_Miquelon ex:phonesPer1000 "683,2"^^xsd:double .
 dbr:St_Pierre_Miquelon ex:arableLandPercentage "13,04"^^xsd:double .
 dbr:St_Pierre_Miquelon ex:cropsLandPercentage "0"^^xsd:double .
 dbr:St_Pierre_Miquelon ex:nonArableOrCropsLandPercentage "86,96"^^xsd:double .
-# dbr:St_Pierre_Miquelon ex:numberOfClimate ""^^xsd:double .
+# dbr:St_Pierre_Miquelon ex:numberOfClimate ""^^xsd:integer .
 dbr:St_Pierre_Miquelon ex:birthRate "13,52"^^xsd:double .
 dbr:St_Pierre_Miquelon ex:mortalityRate "6,83"^^xsd:double .
 # dbr:St_Pierre_Miquelon ex:percentOfAgricultureSector ""^^xsd:double .
@@ -3397,7 +3397,7 @@ dbr:Saint_Vincent_and_the_Grenadines ex:phonesPer1000 "190,99"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines ex:arableLandPercentage "17,959"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines ex:cropsLandPercentage "17,959"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines ex:nonArableOrCropsLandPercentage "64,19"^^xsd:double .
-dbr:Saint_Vincent_and_the_Grenadines ex:numberOfClimate "29"^^xsd:double .
+dbr:Saint_Vincent_and_the_Grenadines ex:numberOfClimate "29"^^xsd:integer .
 dbr:Saint_Vincent_and_the_Grenadines ex:birthRate "16,189"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines ex:mortalityRate "5,989"^^xsd:double .
 dbr:Saint_Vincent_and_the_Grenadines ex:percentOfAgricultureSector "0,19"^^xsd:double .
@@ -3416,7 +3416,7 @@ dbr:Samoa ex:phonesPer1000 "75,29"^^xsd:double .
 dbr:Samoa ex:arableLandPercentage "21,29"^^xsd:double .
 dbr:Samoa ex:cropsLandPercentage "24,389"^^xsd:double .
 dbr:Samoa ex:nonArableOrCropsLandPercentage "54,429"^^xsd:double .
-dbr:Samoa ex:numberOfClimate "29"^^xsd:double .
+dbr:Samoa ex:numberOfClimate "29"^^xsd:integer .
 dbr:Samoa ex:birthRate "16,439"^^xsd:double .
 dbr:Samoa ex:mortalityRate "6,629"^^xsd:double .
 dbr:Samoa ex:percentOfAgricultureSector "0,1149"^^xsd:double .
@@ -3435,7 +3435,7 @@ dbr:San_Marino ex:phonesPer1000 "704,3"^^xsd:double .
 dbr:San_Marino ex:arableLandPercentage "16,67"^^xsd:double .
 dbr:San_Marino ex:cropsLandPercentage "0"^^xsd:double .
 dbr:San_Marino ex:nonArableOrCropsLandPercentage "83,33"^^xsd:double .
-# dbr:San_Marino ex:numberOfClimate ""^^xsd:double .
+# dbr:San_Marino ex:numberOfClimate ""^^xsd:integer .
 dbr:San_Marino ex:birthRate "10,02"^^xsd:double .
 dbr:San_Marino ex:mortalityRate "8,17"^^xsd:double .
 # dbr:San_Marino ex:percentOfAgricultureSector ""^^xsd:double .
@@ -3454,7 +3454,7 @@ dbr:Sao_Tome_Principe ex:phonesPer1000 "36,2"^^xsd:double .
 dbr:Sao_Tome_Principe ex:arableLandPercentage "6,25"^^xsd:double .
 dbr:Sao_Tome_Principe ex:cropsLandPercentage "48,96"^^xsd:double .
 dbr:Sao_Tome_Principe ex:nonArableOrCropsLandPercentage "44,79"^^xsd:double .
-dbr:Sao_Tome_Principe ex:numberOfClimate "2"^^xsd:double .
+dbr:Sao_Tome_Principe ex:numberOfClimate "2"^^xsd:integer .
 dbr:Sao_Tome_Principe ex:birthRate "40,25"^^xsd:double .
 dbr:Sao_Tome_Principe ex:mortalityRate "6,47"^^xsd:double .
 dbr:Sao_Tome_Principe ex:percentOfAgricultureSector "0,167"^^xsd:double .
@@ -3473,7 +3473,7 @@ dbr:Saudi_Arabia ex:phonesPer1000 "140,6"^^xsd:double .
 dbr:Saudi_Arabia ex:arableLandPercentage "1,67"^^xsd:double .
 dbr:Saudi_Arabia ex:cropsLandPercentage "0,09"^^xsd:double .
 dbr:Saudi_Arabia ex:nonArableOrCropsLandPercentage "98,24"^^xsd:double .
-dbr:Saudi_Arabia ex:numberOfClimate "1"^^xsd:double .
+dbr:Saudi_Arabia ex:numberOfClimate "1"^^xsd:integer .
 dbr:Saudi_Arabia ex:birthRate "29,34"^^xsd:double .
 dbr:Saudi_Arabia ex:mortalityRate "2,58"^^xsd:double .
 dbr:Saudi_Arabia ex:percentOfAgricultureSector "0,033"^^xsd:double .
@@ -3492,7 +3492,7 @@ dbr:Senegal ex:phonesPer1000 "22,2"^^xsd:double .
 dbr:Senegal ex:arableLandPercentage "12,78"^^xsd:double .
 dbr:Senegal ex:cropsLandPercentage "0,21"^^xsd:double .
 dbr:Senegal ex:nonArableOrCropsLandPercentage "87,01"^^xsd:double .
-dbr:Senegal ex:numberOfClimate "2"^^xsd:double .
+dbr:Senegal ex:numberOfClimate "2"^^xsd:integer .
 dbr:Senegal ex:birthRate "32,78"^^xsd:double .
 dbr:Senegal ex:mortalityRate "9,42"^^xsd:double .
 dbr:Senegal ex:percentOfAgricultureSector "0,172"^^xsd:double .
@@ -3511,7 +3511,7 @@ dbr:Serbia ex:phonesPer1000 "285,8"^^xsd:double .
 dbr:Serbia ex:arableLandPercentage "33,35"^^xsd:double .
 dbr:Serbia ex:cropsLandPercentage "3,2"^^xsd:double .
 dbr:Serbia ex:nonArableOrCropsLandPercentage "63,45"^^xsd:double .
-# dbr:Serbia ex:numberOfClimate ""^^xsd:double .
+# dbr:Serbia ex:numberOfClimate ""^^xsd:integer .
 # dbr:Serbia ex:birthRate ""^^xsd:double .
 # dbr:Serbia ex:mortalityRate ""^^xsd:double .
 dbr:Serbia ex:percentOfAgricultureSector "0,166"^^xsd:double .
@@ -3530,7 +3530,7 @@ dbr:Seychelles ex:phonesPer1000 "262,491"^^xsd:double .
 dbr:Seychelles ex:arableLandPercentage "2,2291"^^xsd:double .
 dbr:Seychelles ex:cropsLandPercentage "13,3391"^^xsd:double .
 dbr:Seychelles ex:nonArableOrCropsLandPercentage "84,4591"^^xsd:double .
-dbr:Seychelles ex:numberOfClimate "291"^^xsd:double .
+dbr:Seychelles ex:numberOfClimate "291"^^xsd:integer .
 dbr:Seychelles ex:birthRate "16,0391"^^xsd:double .
 dbr:Seychelles ex:mortalityRate "6,2991"^^xsd:double .
 dbr:Seychelles ex:percentOfAgricultureSector "0,03291"^^xsd:double .
@@ -3549,7 +3549,7 @@ dbr:Sierra_Leone ex:phonesPer1000 "4,0"^^xsd:double .
 dbr:Sierra_Leone ex:arableLandPercentage "6,98"^^xsd:double .
 dbr:Sierra_Leone ex:cropsLandPercentage "0,89"^^xsd:double .
 dbr:Sierra_Leone ex:nonArableOrCropsLandPercentage "92,13"^^xsd:double .
-dbr:Sierra_Leone ex:numberOfClimate "2"^^xsd:double .
+dbr:Sierra_Leone ex:numberOfClimate "2"^^xsd:integer .
 dbr:Sierra_Leone ex:birthRate "45,76"^^xsd:double .
 dbr:Sierra_Leone ex:mortalityRate "23,03"^^xsd:double .
 dbr:Sierra_Leone ex:percentOfAgricultureSector "0,49"^^xsd:double .
@@ -3568,7 +3568,7 @@ dbr:Singapore ex:phonesPer1000 "411,45"^^xsd:double .
 dbr:Singapore ex:arableLandPercentage "1,645"^^xsd:double .
 dbr:Singapore ex:cropsLandPercentage "05"^^xsd:double .
 dbr:Singapore ex:nonArableOrCropsLandPercentage "98,365"^^xsd:double .
-dbr:Singapore ex:numberOfClimate "25"^^xsd:double .
+dbr:Singapore ex:numberOfClimate "25"^^xsd:integer .
 dbr:Singapore ex:birthRate "9,345"^^xsd:double .
 dbr:Singapore ex:mortalityRate "4,285"^^xsd:double .
 dbr:Singapore ex:percentOfAgricultureSector "05"^^xsd:double .
@@ -3587,7 +3587,7 @@ dbr:Slovakia ex:phonesPer1000 "220,1"^^xsd:double .
 dbr:Slovakia ex:arableLandPercentage "30,16"^^xsd:double .
 dbr:Slovakia ex:cropsLandPercentage "2,62"^^xsd:double .
 dbr:Slovakia ex:nonArableOrCropsLandPercentage "67,22"^^xsd:double .
-dbr:Slovakia ex:numberOfClimate "3"^^xsd:double .
+dbr:Slovakia ex:numberOfClimate "3"^^xsd:integer .
 dbr:Slovakia ex:birthRate "10,65"^^xsd:double .
 dbr:Slovakia ex:mortalityRate "9,45"^^xsd:double .
 dbr:Slovakia ex:percentOfAgricultureSector "0,035"^^xsd:double .
@@ -3606,7 +3606,7 @@ dbr:Slovenia ex:phonesPer1000 "406,1"^^xsd:double .
 dbr:Slovenia ex:arableLandPercentage "8,6"^^xsd:double .
 dbr:Slovenia ex:cropsLandPercentage "1,49"^^xsd:double .
 dbr:Slovenia ex:nonArableOrCropsLandPercentage "89,91"^^xsd:double .
-# dbr:Slovenia ex:numberOfClimate ""^^xsd:double .
+# dbr:Slovenia ex:numberOfClimate ""^^xsd:integer .
 dbr:Slovenia ex:birthRate "8,98"^^xsd:double .
 dbr:Slovenia ex:mortalityRate "10,31"^^xsd:double .
 dbr:Slovenia ex:percentOfAgricultureSector "0,028"^^xsd:double .
@@ -3625,7 +3625,7 @@ dbr:Solomon_Islands ex:phonesPer1000 "13,47"^^xsd:double .
 dbr:Solomon_Islands ex:arableLandPercentage "0,647"^^xsd:double .
 dbr:Solomon_Islands ex:cropsLandPercentage "27"^^xsd:double .
 dbr:Solomon_Islands ex:nonArableOrCropsLandPercentage "97,367"^^xsd:double .
-dbr:Solomon_Islands ex:numberOfClimate "27"^^xsd:double .
+dbr:Solomon_Islands ex:numberOfClimate "27"^^xsd:integer .
 dbr:Solomon_Islands ex:birthRate "30,017"^^xsd:double .
 dbr:Solomon_Islands ex:mortalityRate "3,927"^^xsd:double .
 dbr:Solomon_Islands ex:percentOfAgricultureSector "0,427"^^xsd:double .
@@ -3644,7 +3644,7 @@ dbr:Somalia ex:phonesPer1000 "11,3"^^xsd:double .
 dbr:Somalia ex:arableLandPercentage "1,67"^^xsd:double .
 dbr:Somalia ex:cropsLandPercentage "0,04"^^xsd:double .
 dbr:Somalia ex:nonArableOrCropsLandPercentage "98,29"^^xsd:double .
-dbr:Somalia ex:numberOfClimate "1"^^xsd:double .
+dbr:Somalia ex:numberOfClimate "1"^^xsd:integer .
 dbr:Somalia ex:birthRate "45,13"^^xsd:double .
 dbr:Somalia ex:mortalityRate "16,63"^^xsd:double .
 dbr:Somalia ex:percentOfAgricultureSector "0,65"^^xsd:double .
@@ -3663,7 +3663,7 @@ dbr:South_Africa ex:phonesPer1000 "107,0"^^xsd:double .
 dbr:South_Africa ex:arableLandPercentage "12,08"^^xsd:double .
 dbr:South_Africa ex:cropsLandPercentage "0,79"^^xsd:double .
 dbr:South_Africa ex:nonArableOrCropsLandPercentage "87,13"^^xsd:double .
-dbr:South_Africa ex:numberOfClimate "1"^^xsd:double .
+dbr:South_Africa ex:numberOfClimate "1"^^xsd:integer .
 dbr:South_Africa ex:birthRate "18,2"^^xsd:double .
 dbr:South_Africa ex:mortalityRate "22"^^xsd:double .
 dbr:South_Africa ex:percentOfAgricultureSector "0,025"^^xsd:double .
@@ -3682,7 +3682,7 @@ dbr:Spain ex:phonesPer1000 "453,5"^^xsd:double .
 dbr:Spain ex:arableLandPercentage "26,07"^^xsd:double .
 dbr:Spain ex:cropsLandPercentage "9,87"^^xsd:double .
 dbr:Spain ex:nonArableOrCropsLandPercentage "64,06"^^xsd:double .
-dbr:Spain ex:numberOfClimate "3"^^xsd:double .
+dbr:Spain ex:numberOfClimate "3"^^xsd:integer .
 dbr:Spain ex:birthRate "10,06"^^xsd:double .
 dbr:Spain ex:mortalityRate "9,72"^^xsd:double .
 dbr:Spain ex:percentOfAgricultureSector "0,04"^^xsd:double .
@@ -3701,7 +3701,7 @@ dbr:Sri_Lanka ex:phonesPer1000 "61,5"^^xsd:double .
 dbr:Sri_Lanka ex:arableLandPercentage "13,86"^^xsd:double .
 dbr:Sri_Lanka ex:cropsLandPercentage "15,7"^^xsd:double .
 dbr:Sri_Lanka ex:nonArableOrCropsLandPercentage "70,44"^^xsd:double .
-dbr:Sri_Lanka ex:numberOfClimate "2"^^xsd:double .
+dbr:Sri_Lanka ex:numberOfClimate "2"^^xsd:integer .
 dbr:Sri_Lanka ex:birthRate "15,51"^^xsd:double .
 dbr:Sri_Lanka ex:mortalityRate "6,52"^^xsd:double .
 dbr:Sri_Lanka ex:percentOfAgricultureSector "0,178"^^xsd:double .
@@ -3720,7 +3720,7 @@ dbr:Sudan ex:phonesPer1000 "16,3"^^xsd:double .
 dbr:Sudan ex:arableLandPercentage "6,83"^^xsd:double .
 dbr:Sudan ex:cropsLandPercentage "0,18"^^xsd:double .
 dbr:Sudan ex:nonArableOrCropsLandPercentage "92,99"^^xsd:double .
-dbr:Sudan ex:numberOfClimate "2"^^xsd:double .
+dbr:Sudan ex:numberOfClimate "2"^^xsd:integer .
 dbr:Sudan ex:birthRate "34,53"^^xsd:double .
 dbr:Sudan ex:mortalityRate "8,97"^^xsd:double .
 dbr:Sudan ex:percentOfAgricultureSector "0,387"^^xsd:double .
@@ -3739,7 +3739,7 @@ dbr:Suriname ex:phonesPer1000 "184,7"^^xsd:double .
 dbr:Suriname ex:arableLandPercentage "0,37"^^xsd:double .
 dbr:Suriname ex:cropsLandPercentage "0,06"^^xsd:double .
 dbr:Suriname ex:nonArableOrCropsLandPercentage "99,57"^^xsd:double .
-dbr:Suriname ex:numberOfClimate "2"^^xsd:double .
+dbr:Suriname ex:numberOfClimate "2"^^xsd:integer .
 dbr:Suriname ex:birthRate "18,02"^^xsd:double .
 dbr:Suriname ex:mortalityRate "7,27"^^xsd:double .
 dbr:Suriname ex:percentOfAgricultureSector "0,13"^^xsd:double .
@@ -3758,7 +3758,7 @@ dbr:Swaziland ex:phonesPer1000 "30,8"^^xsd:double .
 dbr:Swaziland ex:arableLandPercentage "10,35"^^xsd:double .
 dbr:Swaziland ex:cropsLandPercentage "0,7"^^xsd:double .
 dbr:Swaziland ex:nonArableOrCropsLandPercentage "88,95"^^xsd:double .
-dbr:Swaziland ex:numberOfClimate "2,5"^^xsd:double .
+dbr:Swaziland ex:numberOfClimate "2,5"^^xsd:integer .
 dbr:Swaziland ex:birthRate "27,41"^^xsd:double .
 dbr:Swaziland ex:mortalityRate "29,74"^^xsd:double .
 dbr:Swaziland ex:percentOfAgricultureSector "0,119"^^xsd:double .
@@ -3777,7 +3777,7 @@ dbr:Sweden ex:phonesPer1000 "715,0"^^xsd:double .
 dbr:Sweden ex:arableLandPercentage "6,54"^^xsd:double .
 dbr:Sweden ex:cropsLandPercentage "0,01"^^xsd:double .
 dbr:Sweden ex:nonArableOrCropsLandPercentage "93,45"^^xsd:double .
-dbr:Sweden ex:numberOfClimate "3"^^xsd:double .
+dbr:Sweden ex:numberOfClimate "3"^^xsd:integer .
 dbr:Sweden ex:birthRate "10,27"^^xsd:double .
 dbr:Sweden ex:mortalityRate "10,31"^^xsd:double .
 dbr:Sweden ex:percentOfAgricultureSector "0,011"^^xsd:double .
@@ -3796,7 +3796,7 @@ dbr:Switzerland ex:phonesPer1000 "680,9"^^xsd:double .
 dbr:Switzerland ex:arableLandPercentage "10,42"^^xsd:double .
 dbr:Switzerland ex:cropsLandPercentage "0,61"^^xsd:double .
 dbr:Switzerland ex:nonArableOrCropsLandPercentage "88,97"^^xsd:double .
-dbr:Switzerland ex:numberOfClimate "3"^^xsd:double .
+dbr:Switzerland ex:numberOfClimate "3"^^xsd:integer .
 dbr:Switzerland ex:birthRate "9,71"^^xsd:double .
 dbr:Switzerland ex:mortalityRate "8,49"^^xsd:double .
 dbr:Switzerland ex:percentOfAgricultureSector "0,015"^^xsd:double .
@@ -3815,7 +3815,7 @@ dbr:Syria ex:phonesPer1000 "153,8"^^xsd:double .
 dbr:Syria ex:arableLandPercentage "25,22"^^xsd:double .
 dbr:Syria ex:cropsLandPercentage "4,43"^^xsd:double .
 dbr:Syria ex:nonArableOrCropsLandPercentage "70,35"^^xsd:double .
-dbr:Syria ex:numberOfClimate "1"^^xsd:double .
+dbr:Syria ex:numberOfClimate "1"^^xsd:integer .
 dbr:Syria ex:birthRate "27,76"^^xsd:double .
 dbr:Syria ex:mortalityRate "4,81"^^xsd:double .
 dbr:Syria ex:percentOfAgricultureSector "0,249"^^xsd:double .
@@ -3834,7 +3834,7 @@ dbr:Taiwan ex:phonesPer1000 "591,0"^^xsd:double .
 dbr:Taiwan ex:arableLandPercentage "24"^^xsd:double .
 dbr:Taiwan ex:cropsLandPercentage "1"^^xsd:double .
 dbr:Taiwan ex:nonArableOrCropsLandPercentage "75"^^xsd:double .
-dbr:Taiwan ex:numberOfClimate "2"^^xsd:double .
+dbr:Taiwan ex:numberOfClimate "2"^^xsd:integer .
 dbr:Taiwan ex:birthRate "12,56"^^xsd:double .
 dbr:Taiwan ex:mortalityRate "6,48"^^xsd:double .
 dbr:Taiwan ex:percentOfAgricultureSector "0,018"^^xsd:double .
@@ -3853,7 +3853,7 @@ dbr:Tajikistan ex:phonesPer1000 "33,5"^^xsd:double .
 dbr:Tajikistan ex:arableLandPercentage "6,61"^^xsd:double .
 dbr:Tajikistan ex:cropsLandPercentage "0,92"^^xsd:double .
 dbr:Tajikistan ex:nonArableOrCropsLandPercentage "92,47"^^xsd:double .
-dbr:Tajikistan ex:numberOfClimate "2"^^xsd:double .
+dbr:Tajikistan ex:numberOfClimate "2"^^xsd:integer .
 dbr:Tajikistan ex:birthRate "32,65"^^xsd:double .
 dbr:Tajikistan ex:mortalityRate "8,25"^^xsd:double .
 dbr:Tajikistan ex:percentOfAgricultureSector "0,234"^^xsd:double .
@@ -3872,7 +3872,7 @@ dbr:Tanzania ex:phonesPer1000 "4,0"^^xsd:double .
 dbr:Tanzania ex:arableLandPercentage "4,52"^^xsd:double .
 dbr:Tanzania ex:cropsLandPercentage "1,08"^^xsd:double .
 dbr:Tanzania ex:nonArableOrCropsLandPercentage "94,4"^^xsd:double .
-# dbr:Tanzania ex:numberOfClimate ""^^xsd:double .
+# dbr:Tanzania ex:numberOfClimate ""^^xsd:integer .
 dbr:Tanzania ex:birthRate "37,71"^^xsd:double .
 dbr:Tanzania ex:mortalityRate "16,39"^^xsd:double .
 dbr:Tanzania ex:percentOfAgricultureSector "0,432"^^xsd:double .
@@ -3891,7 +3891,7 @@ dbr:Thailand ex:phonesPer1000 "108,9"^^xsd:double .
 dbr:Thailand ex:arableLandPercentage "29,36"^^xsd:double .
 dbr:Thailand ex:cropsLandPercentage "6,46"^^xsd:double .
 dbr:Thailand ex:nonArableOrCropsLandPercentage "64,18"^^xsd:double .
-dbr:Thailand ex:numberOfClimate "2"^^xsd:double .
+dbr:Thailand ex:numberOfClimate "2"^^xsd:integer .
 dbr:Thailand ex:birthRate "13,87"^^xsd:double .
 dbr:Thailand ex:mortalityRate "7,04"^^xsd:double .
 dbr:Thailand ex:percentOfAgricultureSector "0,099"^^xsd:double .
@@ -3910,7 +3910,7 @@ dbr:Togo ex:phonesPer1000 "10,6"^^xsd:double .
 dbr:Togo ex:arableLandPercentage "46,15"^^xsd:double .
 dbr:Togo ex:cropsLandPercentage "2,21"^^xsd:double .
 dbr:Togo ex:nonArableOrCropsLandPercentage "51,64"^^xsd:double .
-dbr:Togo ex:numberOfClimate "2"^^xsd:double .
+dbr:Togo ex:numberOfClimate "2"^^xsd:integer .
 dbr:Togo ex:birthRate "37,01"^^xsd:double .
 dbr:Togo ex:mortalityRate "9,83"^^xsd:double .
 dbr:Togo ex:percentOfAgricultureSector "0,395"^^xsd:double .
@@ -3929,7 +3929,7 @@ dbr:Tonga ex:phonesPer1000 "97,72"^^xsd:double .
 dbr:Tonga ex:arableLandPercentage "23,612"^^xsd:double .
 dbr:Tonga ex:cropsLandPercentage "43,062"^^xsd:double .
 dbr:Tonga ex:nonArableOrCropsLandPercentage "33,332"^^xsd:double .
-dbr:Tonga ex:numberOfClimate "22"^^xsd:double .
+dbr:Tonga ex:numberOfClimate "22"^^xsd:integer .
 dbr:Tonga ex:birthRate "25,372"^^xsd:double .
 dbr:Tonga ex:mortalityRate "5,282"^^xsd:double .
 dbr:Tonga ex:percentOfAgricultureSector "0,232"^^xsd:double .
@@ -3948,7 +3948,7 @@ dbr:Trinidad_Tobago ex:phonesPer1000 "303,5"^^xsd:double .
 dbr:Trinidad_Tobago ex:arableLandPercentage "14,62"^^xsd:double .
 dbr:Trinidad_Tobago ex:cropsLandPercentage "9,16"^^xsd:double .
 dbr:Trinidad_Tobago ex:nonArableOrCropsLandPercentage "76,22"^^xsd:double .
-dbr:Trinidad_Tobago ex:numberOfClimate "2"^^xsd:double .
+dbr:Trinidad_Tobago ex:numberOfClimate "2"^^xsd:integer .
 dbr:Trinidad_Tobago ex:birthRate "12,9"^^xsd:double .
 dbr:Trinidad_Tobago ex:mortalityRate "10,57"^^xsd:double .
 dbr:Trinidad_Tobago ex:percentOfAgricultureSector "0,007"^^xsd:double .
@@ -3967,7 +3967,7 @@ dbr:Tunisia ex:phonesPer1000 "123,6"^^xsd:double .
 dbr:Tunisia ex:arableLandPercentage "17,86"^^xsd:double .
 dbr:Tunisia ex:cropsLandPercentage "13,74"^^xsd:double .
 dbr:Tunisia ex:nonArableOrCropsLandPercentage "68,4"^^xsd:double .
-dbr:Tunisia ex:numberOfClimate "3"^^xsd:double .
+dbr:Tunisia ex:numberOfClimate "3"^^xsd:integer .
 dbr:Tunisia ex:birthRate "15,52"^^xsd:double .
 dbr:Tunisia ex:mortalityRate "5,13"^^xsd:double .
 dbr:Tunisia ex:percentOfAgricultureSector "0,132"^^xsd:double .
@@ -3986,7 +3986,7 @@ dbr:Turkey ex:phonesPer1000 "269,5"^^xsd:double .
 dbr:Turkey ex:arableLandPercentage "30,93"^^xsd:double .
 dbr:Turkey ex:cropsLandPercentage "3,31"^^xsd:double .
 dbr:Turkey ex:nonArableOrCropsLandPercentage "65,76"^^xsd:double .
-dbr:Turkey ex:numberOfClimate "3"^^xsd:double .
+dbr:Turkey ex:numberOfClimate "3"^^xsd:integer .
 dbr:Turkey ex:birthRate "16,62"^^xsd:double .
 dbr:Turkey ex:mortalityRate "5,97"^^xsd:double .
 dbr:Turkey ex:percentOfAgricultureSector "0,117"^^xsd:double .
@@ -4005,7 +4005,7 @@ dbr:Turkmenistan ex:phonesPer1000 "74,6"^^xsd:double .
 dbr:Turkmenistan ex:arableLandPercentage "3,72"^^xsd:double .
 dbr:Turkmenistan ex:cropsLandPercentage "0,14"^^xsd:double .
 dbr:Turkmenistan ex:nonArableOrCropsLandPercentage "96,14"^^xsd:double .
-dbr:Turkmenistan ex:numberOfClimate "1"^^xsd:double .
+dbr:Turkmenistan ex:numberOfClimate "1"^^xsd:integer .
 dbr:Turkmenistan ex:birthRate "27,61"^^xsd:double .
 dbr:Turkmenistan ex:mortalityRate "8,6"^^xsd:double .
 dbr:Turkmenistan ex:percentOfAgricultureSector "0,209"^^xsd:double .
@@ -4024,7 +4024,7 @@ dbr:Turks_Caicos_Is ex:phonesPer1000 "269,5"^^xsd:double .
 dbr:Turks_Caicos_Is ex:arableLandPercentage "2,33"^^xsd:double .
 dbr:Turks_Caicos_Is ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Turks_Caicos_Is ex:nonArableOrCropsLandPercentage "97,67"^^xsd:double .
-dbr:Turks_Caicos_Is ex:numberOfClimate "2"^^xsd:double .
+dbr:Turks_Caicos_Is ex:numberOfClimate "2"^^xsd:integer .
 dbr:Turks_Caicos_Is ex:birthRate "21,84"^^xsd:double .
 dbr:Turks_Caicos_Is ex:mortalityRate "4,21"^^xsd:double .
 # dbr:Turks_Caicos_Is ex:percentOfAgricultureSector ""^^xsd:double .
@@ -4043,7 +4043,7 @@ dbr:Tuvalu ex:phonesPer1000 "59,31"^^xsd:double .
 dbr:Tuvalu ex:arableLandPercentage "01"^^xsd:double .
 dbr:Tuvalu ex:cropsLandPercentage "01"^^xsd:double .
 dbr:Tuvalu ex:nonArableOrCropsLandPercentage "1001"^^xsd:double .
-dbr:Tuvalu ex:numberOfClimate "21"^^xsd:double .
+dbr:Tuvalu ex:numberOfClimate "21"^^xsd:integer .
 dbr:Tuvalu ex:birthRate "22,181"^^xsd:double .
 dbr:Tuvalu ex:mortalityRate "7,111"^^xsd:double .
 dbr:Tuvalu ex:percentOfAgricultureSector "0,1661"^^xsd:double .
@@ -4062,7 +4062,7 @@ dbr:Uganda ex:phonesPer1000 "3,6"^^xsd:double .
 dbr:Uganda ex:arableLandPercentage "25,88"^^xsd:double .
 dbr:Uganda ex:cropsLandPercentage "10,65"^^xsd:double .
 dbr:Uganda ex:nonArableOrCropsLandPercentage "63,47"^^xsd:double .
-dbr:Uganda ex:numberOfClimate "2"^^xsd:double .
+dbr:Uganda ex:numberOfClimate "2"^^xsd:integer .
 dbr:Uganda ex:birthRate "47,35"^^xsd:double .
 dbr:Uganda ex:mortalityRate "12,24"^^xsd:double .
 dbr:Uganda ex:percentOfAgricultureSector "0,311"^^xsd:double .
@@ -4081,7 +4081,7 @@ dbr:Ukraine ex:phonesPer1000 "259,9"^^xsd:double .
 dbr:Ukraine ex:arableLandPercentage "56,21"^^xsd:double .
 dbr:Ukraine ex:cropsLandPercentage "1,61"^^xsd:double .
 dbr:Ukraine ex:nonArableOrCropsLandPercentage "42,18"^^xsd:double .
-dbr:Ukraine ex:numberOfClimate "3"^^xsd:double .
+dbr:Ukraine ex:numberOfClimate "3"^^xsd:integer .
 dbr:Ukraine ex:birthRate "8,82"^^xsd:double .
 dbr:Ukraine ex:mortalityRate "14,39"^^xsd:double .
 dbr:Ukraine ex:percentOfAgricultureSector "0,187"^^xsd:double .
@@ -4100,7 +4100,7 @@ dbr:United_Arab_Emirates ex:phonesPer1000 "475,3"^^xsd:double .
 dbr:United_Arab_Emirates ex:arableLandPercentage "0,6"^^xsd:double .
 dbr:United_Arab_Emirates ex:cropsLandPercentage "2,25"^^xsd:double .
 dbr:United_Arab_Emirates ex:nonArableOrCropsLandPercentage "97,15"^^xsd:double .
-dbr:United_Arab_Emirates ex:numberOfClimate "1"^^xsd:double .
+dbr:United_Arab_Emirates ex:numberOfClimate "1"^^xsd:integer .
 dbr:United_Arab_Emirates ex:birthRate "18,96"^^xsd:double .
 dbr:United_Arab_Emirates ex:mortalityRate "4,4"^^xsd:double .
 dbr:United_Arab_Emirates ex:percentOfAgricultureSector "0,04"^^xsd:double .
@@ -4119,7 +4119,7 @@ dbr:United_Kingdom ex:phonesPer1000 "543,5"^^xsd:double .
 dbr:United_Kingdom ex:arableLandPercentage "23,46"^^xsd:double .
 dbr:United_Kingdom ex:cropsLandPercentage "0,21"^^xsd:double .
 dbr:United_Kingdom ex:nonArableOrCropsLandPercentage "76,33"^^xsd:double .
-dbr:United_Kingdom ex:numberOfClimate "3"^^xsd:double .
+dbr:United_Kingdom ex:numberOfClimate "3"^^xsd:integer .
 dbr:United_Kingdom ex:birthRate "10,71"^^xsd:double .
 dbr:United_Kingdom ex:mortalityRate "10,13"^^xsd:double .
 dbr:United_Kingdom ex:percentOfAgricultureSector "0,005"^^xsd:double .
@@ -4138,7 +4138,7 @@ dbr:United_States ex:phonesPer1000 "898,0"^^xsd:double .
 dbr:United_States ex:arableLandPercentage "19,13"^^xsd:double .
 dbr:United_States ex:cropsLandPercentage "0,22"^^xsd:double .
 dbr:United_States ex:nonArableOrCropsLandPercentage "80,65"^^xsd:double .
-dbr:United_States ex:numberOfClimate "3"^^xsd:double .
+dbr:United_States ex:numberOfClimate "3"^^xsd:integer .
 dbr:United_States ex:birthRate "14,14"^^xsd:double .
 dbr:United_States ex:mortalityRate "8,26"^^xsd:double .
 dbr:United_States ex:percentOfAgricultureSector "0,01"^^xsd:double .
@@ -4157,7 +4157,7 @@ dbr:Uruguay ex:phonesPer1000 "291,4"^^xsd:double .
 dbr:Uruguay ex:arableLandPercentage "7,43"^^xsd:double .
 dbr:Uruguay ex:cropsLandPercentage "0,23"^^xsd:double .
 dbr:Uruguay ex:nonArableOrCropsLandPercentage "92,34"^^xsd:double .
-dbr:Uruguay ex:numberOfClimate "3"^^xsd:double .
+dbr:Uruguay ex:numberOfClimate "3"^^xsd:integer .
 dbr:Uruguay ex:birthRate "13,91"^^xsd:double .
 dbr:Uruguay ex:mortalityRate "9,05"^^xsd:double .
 dbr:Uruguay ex:percentOfAgricultureSector "0,093"^^xsd:double .
@@ -4176,7 +4176,7 @@ dbr:Uzbekistan ex:phonesPer1000 "62,9"^^xsd:double .
 dbr:Uzbekistan ex:arableLandPercentage "10,83"^^xsd:double .
 dbr:Uzbekistan ex:cropsLandPercentage "0,83"^^xsd:double .
 dbr:Uzbekistan ex:nonArableOrCropsLandPercentage "88,34"^^xsd:double .
-dbr:Uzbekistan ex:numberOfClimate "1"^^xsd:double .
+dbr:Uzbekistan ex:numberOfClimate "1"^^xsd:integer .
 dbr:Uzbekistan ex:birthRate "26,36"^^xsd:double .
 dbr:Uzbekistan ex:mortalityRate "7,84"^^xsd:double .
 dbr:Uzbekistan ex:percentOfAgricultureSector "0,342"^^xsd:double .
@@ -4195,7 +4195,7 @@ dbr:Vanuatu ex:phonesPer1000 "32,62"^^xsd:double .
 dbr:Vanuatu ex:arableLandPercentage "2,462"^^xsd:double .
 dbr:Vanuatu ex:cropsLandPercentage "7,382"^^xsd:double .
 dbr:Vanuatu ex:nonArableOrCropsLandPercentage "90,162"^^xsd:double .
-dbr:Vanuatu ex:numberOfClimate "22"^^xsd:double .
+dbr:Vanuatu ex:numberOfClimate "22"^^xsd:integer .
 dbr:Vanuatu ex:birthRate "22,722"^^xsd:double .
 dbr:Vanuatu ex:mortalityRate "7,822"^^xsd:double .
 dbr:Vanuatu ex:percentOfAgricultureSector "0,262"^^xsd:double .
@@ -4214,7 +4214,7 @@ dbr:Venezuela ex:phonesPer1000 "140,1"^^xsd:double .
 dbr:Venezuela ex:arableLandPercentage "2,95"^^xsd:double .
 dbr:Venezuela ex:cropsLandPercentage "0,92"^^xsd:double .
 dbr:Venezuela ex:nonArableOrCropsLandPercentage "96,13"^^xsd:double .
-dbr:Venezuela ex:numberOfClimate "2"^^xsd:double .
+dbr:Venezuela ex:numberOfClimate "2"^^xsd:integer .
 dbr:Venezuela ex:birthRate "18,71"^^xsd:double .
 dbr:Venezuela ex:mortalityRate "4,92"^^xsd:double .
 dbr:Venezuela ex:percentOfAgricultureSector "0,04"^^xsd:double .
@@ -4233,7 +4233,7 @@ dbr:Vietnam ex:phonesPer1000 "187,7"^^xsd:double .
 dbr:Vietnam ex:arableLandPercentage "19,97"^^xsd:double .
 dbr:Vietnam ex:cropsLandPercentage "5,95"^^xsd:double .
 dbr:Vietnam ex:nonArableOrCropsLandPercentage "74,08"^^xsd:double .
-dbr:Vietnam ex:numberOfClimate "2"^^xsd:double .
+dbr:Vietnam ex:numberOfClimate "2"^^xsd:integer .
 dbr:Vietnam ex:birthRate "16,86"^^xsd:double .
 dbr:Vietnam ex:mortalityRate "6,22"^^xsd:double .
 dbr:Vietnam ex:percentOfAgricultureSector "0,209"^^xsd:double .
@@ -4252,7 +4252,7 @@ dbr:Virgin_Islands ex:phonesPer1000 "652,8"^^xsd:double .
 dbr:Virgin_Islands ex:arableLandPercentage "11,76"^^xsd:double .
 dbr:Virgin_Islands ex:cropsLandPercentage "2,94"^^xsd:double .
 dbr:Virgin_Islands ex:nonArableOrCropsLandPercentage "85,3"^^xsd:double .
-dbr:Virgin_Islands ex:numberOfClimate "2"^^xsd:double .
+dbr:Virgin_Islands ex:numberOfClimate "2"^^xsd:integer .
 dbr:Virgin_Islands ex:birthRate "13,96"^^xsd:double .
 dbr:Virgin_Islands ex:mortalityRate "6,43"^^xsd:double .
 dbr:Virgin_Islands ex:percentOfAgricultureSector "0,01"^^xsd:double .
@@ -4271,7 +4271,7 @@ dbr:Wallis_and_Futuna ex:phonesPer1000 "118,68"^^xsd:double .
 dbr:Wallis_and_Futuna ex:arableLandPercentage "58"^^xsd:double .
 dbr:Wallis_and_Futuna ex:cropsLandPercentage "258"^^xsd:double .
 dbr:Wallis_and_Futuna ex:nonArableOrCropsLandPercentage "708"^^xsd:double .
-dbr:Wallis_and_Futuna ex:numberOfClimate "28"^^xsd:double .
+dbr:Wallis_and_Futuna ex:numberOfClimate "28"^^xsd:integer .
 dbr:Wallis_and_Futuna ex:birthRate "8"^^xsd:double .
 dbr:Wallis_and_Futuna ex:mortalityRate "8"^^xsd:double .
 dbr:Wallis_and_Futuna ex:percentOfAgricultureSector "8"^^xsd:double .
@@ -4290,7 +4290,7 @@ dbr:West_Bank ex:phonesPer1000 "145,2"^^xsd:double .
 dbr:West_Bank ex:arableLandPercentage "16,9"^^xsd:double .
 dbr:West_Bank ex:cropsLandPercentage "18,97"^^xsd:double .
 dbr:West_Bank ex:nonArableOrCropsLandPercentage "64,13"^^xsd:double .
-dbr:West_Bank ex:numberOfClimate "3"^^xsd:double .
+dbr:West_Bank ex:numberOfClimate "3"^^xsd:integer .
 dbr:West_Bank ex:birthRate "31,67"^^xsd:double .
 dbr:West_Bank ex:mortalityRate "3,92"^^xsd:double .
 dbr:West_Bank ex:percentOfAgricultureSector "0,09"^^xsd:double .
@@ -4309,7 +4309,7 @@ dbr:Western_Sahara ex:coastPerAreaRatio "0,42"^^xsd:double .
 dbr:Western_Sahara ex:arableLandPercentage "0,02"^^xsd:double .
 dbr:Western_Sahara ex:cropsLandPercentage "0"^^xsd:double .
 dbr:Western_Sahara ex:nonArableOrCropsLandPercentage "99,98"^^xsd:double .
-dbr:Western_Sahara ex:numberOfClimate "1"^^xsd:double .
+dbr:Western_Sahara ex:numberOfClimate "1"^^xsd:integer .
 # dbr:Western_Sahara ex:birthRate ""^^xsd:double .
 # dbr:Western_Sahara ex:mortalityRate ""^^xsd:double .
 # dbr:Western_Sahara ex:percentOfAgricultureSector ""^^xsd:double .
@@ -4328,7 +4328,7 @@ dbr:Yemen ex:phonesPer1000 "37,2"^^xsd:double .
 dbr:Yemen ex:arableLandPercentage "2,78"^^xsd:double .
 dbr:Yemen ex:cropsLandPercentage "0,24"^^xsd:double .
 dbr:Yemen ex:nonArableOrCropsLandPercentage "96,98"^^xsd:double .
-dbr:Yemen ex:numberOfClimate "1"^^xsd:double .
+dbr:Yemen ex:numberOfClimate "1"^^xsd:integer .
 dbr:Yemen ex:birthRate "42,89"^^xsd:double .
 dbr:Yemen ex:mortalityRate "8,3"^^xsd:double .
 dbr:Yemen ex:percentOfAgricultureSector "0,135"^^xsd:double .
@@ -4347,7 +4347,7 @@ dbr:Zambia ex:phonesPer1000 "8,2"^^xsd:double .
 dbr:Zambia ex:arableLandPercentage "7,08"^^xsd:double .
 dbr:Zambia ex:cropsLandPercentage "0,03"^^xsd:double .
 dbr:Zambia ex:nonArableOrCropsLandPercentage "92,9"^^xsd:double .
-dbr:Zambia ex:numberOfClimate "2"^^xsd:double .
+dbr:Zambia ex:numberOfClimate "2"^^xsd:integer .
 dbr:Zambia ex:birthRate "41"^^xsd:double .
 dbr:Zambia ex:mortalityRate "19,93"^^xsd:double .
 dbr:Zambia ex:percentOfAgricultureSector "0,22"^^xsd:double .
@@ -4366,7 +4366,7 @@ dbr:Zimbabwe ex:phonesPer1000 "26,8"^^xsd:double .
 dbr:Zimbabwe ex:arableLandPercentage "8,32"^^xsd:double .
 dbr:Zimbabwe ex:cropsLandPercentage "0,34"^^xsd:double .
 dbr:Zimbabwe ex:nonArableOrCropsLandPercentage "91,34"^^xsd:double .
-dbr:Zimbabwe ex:numberOfClimate "2"^^xsd:double .
+dbr:Zimbabwe ex:numberOfClimate "2"^^xsd:integer .
 dbr:Zimbabwe ex:birthRate "28,01"^^xsd:double .
 dbr:Zimbabwe ex:mortalityRate "21,84"^^xsd:double .
 dbr:Zimbabwe ex:percentOfAgricultureSector "0,179"^^xsd:double .

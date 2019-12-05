@@ -133,5 +133,9 @@ def check_local_store(keyword):
         """ % keyword2)
 
     # How to get results data
-    local_dict = {str(k[len('http://example.org/data/'):]):str(v) for k,v in results}
+    local_dict = {}
+    for key, value in results:
+        key_split = key.split("/")
+        local_dict[key_split[-1]] = value
+
     return local_dict
