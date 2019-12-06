@@ -1,51 +1,157 @@
-{% extends "partials/base.html" %}
+{% load staticfiles %}
+{% load static %}
 
-{% block title %}
-    Search - Countries by Web4BetterWorld
-{% endblock %}
-
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {# variabel title custom untuk setiap app, usahakan return dari fungsi index #}
+    <title>
+        Homepage - Countries by Web4BetterWorld
+    </title>
+    {# meta tags #}
+    <meta name="Description" content="Countries - Tugas Akhir Semantic Web Kelompok Web4BetterWorld">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {# stylesheets #}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    {# import required links #}
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Karla|Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<header>
+    {% include "partials/navbar.html" %}
+</header>
+<body>
     <div class="container">
-        <div id="searchbox">
             <h1 id="brand">Countries</h1>
-            <form onsubmit="window.location = '/' + search.value; return false;">
-                <input id="search" class="form-control" type="search" name="search" placeholder="Name of Country">
-            </form>
-        </div>
+                <form onsubmit="window.location = '/' + search.value; return false;">
+                    <input id="search" class="form-control" type="search" name="search" placeholder="Name of Country">
+                </form>
         <div id="resultbox">
-            <div>
-                <table class="table">
-                    <tbody>
-                    {% for country in countries %}
-                        <tr>
-                            <td><a href="/detail/{{ country }}">{{ country }}</td>
-                        </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
-            </div>
+            <ul>
+            {% for country in countries %}
+                <li>
+                    <a href="/detail/{{ country }}">{{ country }}</a>
+                </li>
+            {% endfor %}
+            </ul>
         </div>
     </div>
+</body>
+{% block footer %}
+    {% include "partials/footer.html" %}
+{% endblock %}   
+<style>
+    h1#brand {
+        margin: auto;
+        font-family: 'Roboto Condensed';
+        font-weight: bolder;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #555;
+    }
 
-    <style>
-        h1#brand {
-            margin: 10% 10% 5% 10%;
-            text-align: center;
-            font-size: 72px;
+    a:link, a {
+            color:#fff;
+            font-style: italic;
         }
+    
+    a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    input#search {
+        font-size: 1.5rem;
+        font-family: 'Karla';
+    }
 
-        input#search {
-            font-size: 1.5rem;
-        }
+    .container {
+        margin-top: 5%;
+        width: 90%;
+        background-color: #f2efef;
+        border-radius: .5em;
+        padding: 1.5em;
+        margin-bottom: 5%;
+    }
 
-        div#resultbox {
-            padding: 4% 1% 2% 1%;
-        }
+    div#resultbox {
+        padding-top: 1em;
+        padding-left: 1.5em;
+        border-radius: 10px;
+        width: 100%;
+    }
 
-        td > a {
-            font-weight:bold;
-            font-style: normal;
-            text-transform: uppercase;
-        }
-    </style>
-{% endblock %}
+    td > a {
+        font-weight:bold;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+    body {
+        background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url({% static "images/landing_page.jpg" %});
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+    }
+
+    h1, h3, h5, .navbar-brand {
+        font-family: 'Roboto Condensed';
+        font-weight: bolder;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    li {
+        border-bottom: .5px solid #ddd;
+        color: #888;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1em;
+        padding: .2em;
+    }
+
+    li:last-child {
+    border: none;
+    }
+
+    li a, li a:link {
+    text-decoration: none;
+    color: #555;
+    font-style: normal;
+
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 200px;
+    }
+
+    li a:hover {
+    font-size: 20px;
+    }
+</style> 

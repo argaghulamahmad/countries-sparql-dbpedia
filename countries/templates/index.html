@@ -57,7 +57,7 @@
             font-weight: bolder;
             text-transform: uppercase;
             letter-spacing: 3px;
-            color: #555;
+            color: #fff;
         }
     
         h1, h3, h5, .navbar-brand {
@@ -83,7 +83,10 @@
         }
     
         body {
-            background-image: url('static/images/landing_page.jpg');
+            background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url({% static "images/landing_page.jpg" %});
             background-repeat: no-repeat;
             background-attachment: fixed;  
             background-size: cover;
