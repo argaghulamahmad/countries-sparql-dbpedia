@@ -1,10 +1,40 @@
-{% extends "partials/base.html" %}
+{% load staticfiles %}
+{% load static %}
 
-{% block title %}
-    Homepage - Countries by Web4BetterWorld
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {# variabel title custom untuk setiap app, usahakan return dari fungsi index #}
+    <title>
+        Homepage - Countries by Web4BetterWorld
+    </title>
+    {# meta tags #}
+    <meta name="Description" content="Countries - Tugas Akhir Semantic Web Kelompok Web4BetterWorld">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {# stylesheets #}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    {# import required links #}
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Karla|Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<header>
+    {% include "partials/navbar.html" %}
+</header>
 
-{% block content %}
+<body>
     <div class="container">
         <h1 id="brand">Countries</h1>
         <div id="searchbox">
@@ -13,17 +43,49 @@
             </form>
         </div>
     </div>
-
-    <style>
+</body> 
+{% block footer %}
+    {% include "partials/footer.html" %}
+{% endblock %}   
+<style>
         h1#brand {
-            margin: 10% 10% 5% 10%;
+            margin: auto;
+            margin-top: 10%;
             text-align: center;
-            font-size: 72px;
+            font-size: 6em;
+            font-family: 'Roboto Condensed';
+            font-weight: bolder;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #555;
         }
-
+    
+        h1, h3, h5, .navbar-brand {
+            font-family: 'Roboto Condensed';
+            font-weight: bolder;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    
+        a:link, a {
+            color:#cccccc;
+            font-style: italic;
+        }
+    
+        a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    
         input#search {
             font-size: 1.5rem;
             font-family: 'Karla';
         }
+    
+        body {
+            background-image: url('static/images/landing_page.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+        }
     </style>
-{% endblock %}
