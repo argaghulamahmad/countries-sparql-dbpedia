@@ -18,3 +18,5 @@
     - Remote and Local Data Integration
     - Develop Information Box for Local Data
     - Create query for integrated data
+### Documentation
+https://docs.google.com/document/d/1C5Z7lNwwxsWA9NbNt68hwHitHowdefUjuLIUu02NVzw
