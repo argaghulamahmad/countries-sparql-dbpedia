@@ -1,5 +1,5 @@
 Click==7.0
-Django==2.2.6
+Django==2.2.20
 gunicorn==19.9.0
 isodate==0.6.0
 itsdangerous==1.1.0
