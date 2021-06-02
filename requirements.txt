@@ -11,6 +11,6 @@ rdflib==4.2.2
 six==1.12.0
 SPARQLWrapper==1.8.4
 sqlparse==0.3.0
-urllib3==1.25.6
+urllib3==1.26.5
 Werkzeug==0.16.0
 whitenoise==4.1.4
